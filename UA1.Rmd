@@ -12,11 +12,11 @@ La investigación se define como un proceso sistemático de realizar afirmacione
 
 > **Ejemplo en Psicología:** Un estudio sobre si la terapia de exposición reduce los niveles de cortisol (medido numéricamente) en pacientes con fobia social, en lugar de solo analizar sus relatos subjetivos.
 
-::: {.rmdnote}
-### Actividad Grupal: "El Desafío Reduccionista"
-**Elementos:** Tarjetas con constructos (ej. "felicidad laboral", "apego emocional") y escalas de medición.
-**Dinámica:** Los grupos deben seleccionar un constructo y proponer tres formas de reducirlo a variables numéricas específicas, justificando cómo esto permite una observación empírica objetiva.
-:::
+
+> Actividad Grupal: "El Desafío Reduccionista"
+
+* **Elementos:** Tarjetas con constructos (ej. "felicidad laboral", "apego emocional") y escalas de medición.
+* **Dinámica:** Los grupos deben seleccionar un constructo y proponer tres formas de reducirlo a variables numéricas específicas, justificando cómo esto permite una observación empírica objetiva.
 
 ## Aproximaciones según la Pregunta de Investigación
 
@@ -26,10 +26,11 @@ El diseño cuantitativo varía su estrategia según la naturaleza del objetivo b
 2. **Aproximación Relacional (Correlacional):** Investiga si existe una asociación entre dos o más variables sin manipularlas.
 3. **Aproximación Causal (Experimental):** Diseñada para determinar si un tratamiento influye directamente en un resultado (requiere aleatorización).
 
-::: {.rmdimportant}
-### Actividad Grupal: "La Matriz de Intencionalidad"
-**Dinámica:** Sobre un tema central (ej. "Uso de redes sociales"), los estudiantes deben redactar tres preguntas de investigación diferentes (una descriptiva, una relacional y una causal) y describir qué datos recolectarían en cada caso.
-:::
+
+> Actividad Grupal: "La Matriz de Intencionalidad"
+
+- **Dinámica:** Sobre un tema central (ej. "Uso de redes sociales"), los estudiantes deben redactar tres preguntas de investigación diferentes (una descriptiva, una relacional y una causal) y describir qué datos recolectarían en cada caso.
+
 
 ## Las Cuatro Clases de Variables (Leslie Kish)
 
@@ -61,12 +62,14 @@ Todo diseño estadístico debe balancear tres criterios que a menudo entran en c
 ## Flujo de Trabajo y Validez (Creswell)
 
 Creswell propone una estructura secuencial:
+
 1. **Planteamiento:** Deficiencia en la literatura.
 2. **Teoría Deductiva:** El "arcoíris" que conecta X e Y.
 3. **Hipótesis:** Predicciones específicas.
 4. **Métodos:** Estrategia de indagación y muestreo.
 
 ### Validez: El Eje de la Inferencia
+
 * **Interna:** ¿El tratamiento causó el efecto? (Amenazas: historia, maduración).
 * **Externa:** ¿Se puede generalizar?
 * **Estadística:** Inferencia precisa sobre la co-variación.
@@ -79,6 +82,7 @@ Creswell propone una estructura secuencial:
 ## Sesgo: La Taxonomía de las Desviaciones (Kish)
 
 Kish identifica 22 fuentes de sesgo agrupadas en 6 tipos principales:
+
 * **Tipo T (Tiempo):** Historia y maduración.
 * **Tipo M (Selección):** Selección diferencial y regresión (el más grave).
 * **Tipo R (Respuesta):** Efecto Hawthorne (cambio de conducta al ser observado).

@@ -33,3 +33,6 @@ Este libro esta destinado a la materia de Investigación Cuantitativa de la carr
 
 El libro incluye los capítulos:
 
+- Diseño Estadístico de la Investigación
+- Modelos de Regresión y Causalidad
+- Análisis Multivariado y Psicometría
