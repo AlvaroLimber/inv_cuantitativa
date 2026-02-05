@@ -1,0 +1,90 @@
+# Diseño Estadístico de la Investigación {#diseno-estadistico}
+
+Este capítulo presenta la síntesis de los fundamentos de la investigación cuantitativa, integrando las perspectivas de **John W. Creswell** y **Leslie Kish**. Se centra en la transición de la teoría abstracta a la medición empírica y la arquitectura del diseño.
+
+## Definición y Filosofía de la Investigación
+
+La investigación se define como un proceso sistemático de realizar afirmaciones para luego refinarlas o abandonarlas en favor de otras con mayor sustento empírico. Bajo el enfoque cuantitativo, este proceso se asienta en el **postpositivismo**:
+
+* **Determinismo:** Las causas probablemente determinan los efectos o resultados.
+* **Reduccionismo:** Busca convertir ideas complejas en variables discretas y medibles para probar hipótesis.
+* **Objetividad:** El investigador evita sesgos mediante estándares de validez y confiabilidad.
+
+> **Ejemplo en Psicología:** Un estudio sobre si la terapia de exposición reduce los niveles de cortisol (medido numéricamente) en pacientes con fobia social, en lugar de solo analizar sus relatos subjetivos.
+
+::: {.rmdnote}
+### Actividad Grupal: "El Desafío Reduccionista"
+**Elementos:** Tarjetas con constructos (ej. "felicidad laboral", "apego emocional") y escalas de medición.
+**Dinámica:** Los grupos deben seleccionar un constructo y proponer tres formas de reducirlo a variables numéricas específicas, justificando cómo esto permite una observación empírica objetiva.
+:::
+
+## Aproximaciones según la Pregunta de Investigación
+
+El diseño cuantitativo varía su estrategia según la naturaleza del objetivo buscado:
+
+1. **Aproximación Descriptiva:** Busca proporcionar una descripción numérica de tendencias o actitudes de una población (estimar medias y proporciones).
+2. **Aproximación Relacional (Correlacional):** Investiga si existe una asociación entre dos o más variables sin manipularlas.
+3. **Aproximación Causal (Experimental):** Diseñada para determinar si un tratamiento influye directamente en un resultado (requiere aleatorización).
+
+::: {.rmdimportant}
+### Actividad Grupal: "La Matriz de Intencionalidad"
+**Dinámica:** Sobre un tema central (ej. "Uso de redes sociales"), los estudiantes deben redactar tres preguntas de investigación diferentes (una descriptiva, una relacional y una causal) y describir qué datos recolectarían en cada caso.
+:::
+
+## Las Cuatro Clases de Variables (Leslie Kish)
+
+Para Kish, el diseño consiste en decidir qué controlar y qué aceptar como error. Clasifica las fuentes de variación en:
+
+* **Variables Explicativas (E):** El objeto central (Predictores **X** y Predictandos **Y**).
+* **Variables Controladas (C):** Factores manejados mediante el diseño (bloques, estratos) o análisis estadístico.
+* **Variables Aleatorizadas (R):** Variables extrañas tratadas como errores aleatorios mediante la aleatorización técnica.
+* **Variables Perturbadoras (D):** Variables no controladas que pueden confundirse con las explicativas (la mayor amenaza).
+
+::: {.rmdtip}
+### Actividad Grupal: "Auditoría de Variables"
+**Dinámica:** Los grupos analizan un caso de estudio (ej. "Efecto de la cafeína en la memoria") e identifican variables X, Y, C, R y D. Deben proponer técnicamente cómo mover una variable "D" a la categoría "C".
+:::
+
+## El Triángulo de Kish: Los Tres Criterios del Diseño
+
+Todo diseño estadístico debe balancear tres criterios que a menudo entran en conflicto:
+
+1. **Representación:** Asegurar que la muestra pueda inferirse a la población (Muestreo).
+2. **Aleatorización:** Capacidad de asignar tratamientos al azar para eliminar sesgos de selección (Control).
+3. **Realismo:** Realizar mediciones en entornos naturales, evitando la artificialidad (Contexto).
+
+::: {.rmdcaution}
+### Actividad Grupal: "La Subasta de Kish"
+**Dinámica:** Se asigna un presupuesto ficticio ("Kish-pesos"). Los grupos deben "comprar" niveles de Representación, Aleatorización o Realismo para un estudio específico, justificando qué criterio sacrifican y por qué.
+:::
+
+## Flujo de Trabajo y Validez (Creswell)
+
+Creswell propone una estructura secuencial:
+1. **Planteamiento:** Deficiencia en la literatura.
+2. **Teoría Deductiva:** El "arcoíris" que conecta X e Y.
+3. **Hipótesis:** Predicciones específicas.
+4. **Métodos:** Estrategia de indagación y muestreo.
+
+### Validez: El Eje de la Inferencia
+* **Interna:** ¿El tratamiento causó el efecto? (Amenazas: historia, maduración).
+* **Externa:** ¿Se puede generalizar?
+* **Estadística:** Inferencia precisa sobre la co-variación.
+
+::: {.rmdnote}
+### Actividad Grupal: "El Escudo de la Validez"
+**Dinámica:** Se presentan escenarios con fallas críticas (ej. un estudio de un año donde no se consideró el crecimiento biológico de los niños). Los grupos deben identificar la amenaza a la validez y proponer una mejora técnica.
+:::
+
+## Sesgo: La Taxonomía de las Desviaciones (Kish)
+
+Kish identifica 22 fuentes de sesgo agrupadas en 6 tipos principales:
+* **Tipo T (Tiempo):** Historia y maduración.
+* **Tipo M (Selección):** Selección diferencial y regresión (el más grave).
+* **Tipo R (Respuesta):** Efecto Hawthorne (cambio de conducta al ser observado).
+* **Tipo U (Representación):** Divergencia entre el marco de muestreo y el universo real.
+
+::: {.rmdimportant}
+### Actividad Grupal: "Cazadores de Sesgos"
+**Dinámica:** Analizar un reporte de investigación ficticio. Los grupos deben actuar como auditores, localizando al menos cuatro sesgos específicos de la tabla de Kish y explicando cómo afectan la precisión del estudio.
+:::
