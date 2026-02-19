@@ -171,18 +171,21 @@ Consiste en seleccionar a los participantes que están más próximos o disponib
 #### Muestreo por Cuotas
 
 El investigador asegura que la muestra incluya proporciones específicas de subgrupos (ej. 50% hombres, 50% mujeres), pero la selección de los individuos dentro de cada grupo no es aleatoria.
+
 * **Pros:** Garantiza que las minorías o grupos de interés estén representados en la muestra final. Es más barato que el muestreo estratificado aleatorio.
 * **Contras:** Existe un "sesgo de selección del entrevistador"; el investigador tiende a elegir a las personas que parecen más amigables o accesibles dentro de la cuota, ignorando a los sujetos más difíciles de alcanzar que podrían tener opiniones distintas.
 
-### Muestreo de Bola de Nieve (Snowball)
+#### Muestreo de Bola de Nieve (Snowball)
 
 Se selecciona un grupo inicial de participantes ("semillas") que luego refieren a otros que conocen con las mismas características.
+
 * **Pros:** Es la técnica reina para poblaciones "ocultas" o estigmatizadas (ej. personas con adicciones, víctimas de abuso o diagnósticos raros). Permite entrar en redes sociales cerradas.
-* **Contras:** La muestra carece de variabilidad. "Dios los cría y ellos se juntan": los referidos suelen compartir opiniones y rasgos con quienes los refirieron (clanes), lo que crea una muestra muy homogénea y sesgada.
+* **Contras:** La muestra carece de variabilidad, los referidos suelen compartir opiniones y rasgos con quienes los refirieron (clanes), lo que crea una muestra muy homogénea y sesgada.
 
 #### Muestreo Intencional o por Juicio (Purposive)
 
 El investigador utiliza su pericia profesional para seleccionar casos que considera "típicos" o especialmente informativos para el fenómeno en estudio.
+
 * **Pros:** Muy útil en fases exploratorias donde se necesitan casos extremos o expertos para definir variables. Permite optimizar recursos si se sabe exactamente a quién se quiere estudiar.
 * **Contras:** Es altamente subjetivo. El "juicio" del investigador puede estar nublado por sus propias teorías previas, lo que genera un sesgo de confirmación difícil de medir estadísticamente.
 
@@ -190,10 +193,12 @@ El investigador utiliza su pericia profesional para seleccionar casos que consid
 
 En estudios observacionales, el cálculo del $n$ no busca solo "significancia", sino **estabilidad en la estimación**. Kish y Creswell sugieren considerar:
 
-- **Recomendación:** El tamaño de muestra debe basarse en el **Margen de Error** deseado. Un $n \approx 384$ es el estándar para poblaciones grandes con un 5% de error.
-- **Recomendación:** Si el muestreo es por cuotas o conveniencia, se recomienda aumentar el $n$ teórico multiplicándolo por un factor (generalmente 1.5 a 2) para compensar la falta de eficiencia del diseño.
-- **Recomendación:** Sigue la regla de **15 a 20 sujetos por cada variable predictora**. Si mides 5 factores de riesgo, tu $n$ mínimo debería ser de 100 sujetos válidos.
-- **Recomendación:** Siempre sobre-muestrea. Creswell advierte que en psicología clínica la pérdida de sujetos puede ser del 20-30%. Si necesitas 200 casos finales, contacta al menos a 300.
+- El tamaño de muestra debe basarse en el **Margen de Error** deseado. Un $n \approx 385$ es el estándar para poblaciones grandes con un 5% de error.
+- Si el muestreo es por cuotas o conveniencia, se recomienda aumentar el $n$ teórico multiplicándolo por un factor (generalmente 1.5 a 2) para compensar la falta de eficiencia del diseño.
+- Sigue la regla de **15 a 20 sujetos por cada variable predictora**. Si mides 5 factores de riesgo, tu $n$ mínimo debería ser de 100 sujetos válidos.
+- Siempre sobre-muestrea. Creswell advierte que en psicología clínica la pérdida de sujetos puede ser del 20-30%. Si necesitas 200 casos finales, contacta al menos a 260.
+
+Puede consultar: https://wnarifin.github.io/ssc_web.html
 
 ::: {.rmdtip}
 > Actividad Grupal 2: "Cazadores de Sesgos"
