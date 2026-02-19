@@ -74,21 +74,141 @@ Creswell propone una estructura secuencial:
 * **Externa:** ¿Se puede generalizar?
 * **Estadística:** Inferencia precisa sobre la co-variación.
 
+### Estrategias de Investigación y su Balance Técnico
+
+El investigador debe elegir la estrategia que mejor responda a su pregunta, asumiendo los compromisos de validez que cada una implica.
+
+1. **Diseño Transversal (Cross-sectional):** Captura una "instantánea" de la población en un momento único. Es ideal para estudios de prevalencia.
+2. **Diseño Longitudinal (Cohortes):** Sigue a los mismos sujetos en múltiples puntos temporales. Permite observar trayectorias de cambio.
+3. **Diseño de Casos y Controles:** Compara a personas que ya tienen una condición (casos) con quienes no la tienen (controles), rastreando antecedentes.
+
+#### Cuadro Comparativo de Estrategias
+
+| Estrategia | Ventajas (Pros) | Limitaciones (Contras) |
+| :--- | :--- | :--- |
+| **Transversal** | Bajo costo, rapidez, alta **Representación**. | No establece precedencia temporal (Causalidad débil). |
+| **Longitudinal** | Identifica cambios individuales y desarrollo. | Alto costo y riesgo de **Atrición** (pérdida de sujetos). |
+| **Casos y Controles** | Eficiente para enfermedades o conductas raras. | Muy vulnerable al sesgo de memoria. |
+
+
 ::: {.rmdnote}
-### Actividad Grupal: "El Escudo de la Validez"
-**Dinámica:** Se presentan escenarios con fallas críticas (ej. un estudio de un año donde no se consideró el crecimiento biológico de los niños). Los grupos deben identificar la amenaza a la validez y proponer una mejora técnica.
+> Actividad Grupal 1: "El Mapa de Causalidad"
+**Instrucciones:** Elijan un fenómeno (ej. "Uso de redes sociales y depresión"). Los grupos deben dibujar cómo se investigaría este tema usando las tres estrategias anteriores y discutir en cuál es más probable que una **Variable Perturbadora (D)** (como el aislamiento previo) confunda los resultados.
 :::
 
-## Sesgo: La Taxonomía de las Desviaciones (Kish)
+## Sesgo: Las Trampas del Diseño (Taxonomía de Kish) {#sesgo-kish}
 
-Kish identifica 22 fuentes de sesgo agrupadas en 6 tipos principales:
+Para **Leslie Kish**, el sesgo es un **error sistemático**. A diferencia del error por azar (que se reduce simplemente aumentando el tamaño de la muestra), el sesgo es una falla en la estructura del estudio que inclina los resultados hacia una conclusión falsa.
 
-* **Tipo T (Tiempo):** Historia y maduración.
-* **Tipo M (Selección):** Selección diferencial y regresión (el más grave).
-* **Tipo R (Respuesta):** Efecto Hawthorne (cambio de conducta al ser observado).
-* **Tipo U (Representación):** Divergencia entre el marco de muestreo y el universo real.
+### Taxonomía de Kish
+
+Aunque la taxonomía de Kish es extensa, nos enfocaremos en las cuatro familias de sesgos que aparecen con más frecuencia en los proyectos de psicología:
+
+#### Sesgos de Tiempo (Tipo T)
+
+Ocurren cuando factores temporales "ensucian" los datos independientemente de nuestra intervención.
+
+* **Historia:** Un evento externo cambia la respuesta de los sujetos (ej. evaluar optimismo justo antes y después de una noticia de crisis económica).
+* **Maduración:** El sujeto cambia naturalmente por cansancio, hambre o crecimiento (ej. un niño mejora su lectura porque su cerebro maduró, no necesariamente por el método de enseñanza).
+
+#### Sesgos de Selección (Tipo M) - **El más crítico**
+
+Ocurre cuando los grupos que comparas no son equivalentes desde el inicio.
+
+* **Selección Diferencial:** Si comparas a voluntarios motivados contra personas que fueron obligadas a asistir, los resultados reflejarán la motivación previa, no el tratamiento.
+* **Regresión a la Media:** Si seleccionas a personas con puntajes "extremos" (los más tristes o los más ansiosos), es muy probable que en la segunda prueba sus puntajes vuelvan a la normalidad por puro azar.
+
+#### Sesgos de Respuesta (Tipo R)
+
+Se derivan de la interacción entre el participante y el proceso de medición.
+
+* **Efecto Hawthorne:** Las personas alteran su conducta simplemente porque saben que están siendo observadas por un investigador.
+* **Deseabilidad Social:** El participante miente o matiza sus respuestas para no quedar mal o para dar la respuesta que cree se espera.
+
+#### Sesgos de Representación (Tipo U)
+
+Ocurren cuando la muestra no refleja realmente a la población objetivo.
+
+* **Falla de Cobertura:** Usar una encuesta online excluye automáticamente a quienes no tienen acceso a internet. Tu muestra ya no representa a toda la sociedad.
+* **No Respuesta:** Si muchas personas se niegan a participar, el grupo que "huyó" del estudio podría tener opiniones muy diferentes a los que sí aceptaron.
+
+### Exactitud vs. Precisión
+
+Kish nos enseña que un buen diseño debe equilibrar dos conceptos:
+
+1.  **Varianza (Precisión):** Qué tan dispersos están los datos (se mejora con más sujetos, $n$).
+2.  **Sesgo (Exactitud):** Qué tan cerca estamos de la "verdad" (se mejora con un mejor diseño y aleatorización).
+
+> "Es preferible una muestra pequeña y bien seleccionada (sin sesgo), que una muestra gigante pero mal elegida (con sesgo)"
 
 ::: {.rmdimportant}
-### Actividad Grupal: "Cazadores de Sesgos"
-**Dinámica:** Analizar un reporte de investigación ficticio. Los grupos deben actuar como auditores, localizando al menos cuatro sesgos específicos de la tabla de Kish y explicando cómo afectan la precisión del estudio.
+> Actividad Grupal: "Cazadores de Sesgos"
+
+**Instrucciones:** Analicen este caso rápido en grupos : 
+*"Un psicólogo quiere saber si un taller de autoestima funciona. Invita a voluntarios por Instagram. Al final de 6 meses, los que terminaron el taller dicen sentirse mucho mejor."*
+
+**Reto:**
+1.  Identifiquen el **Sesgo de Selección (M)**: ¿En qué se diferencian los que se ofrecieron como voluntarios de los que no?
+2.  Identifiquen el **Sesgo de Respuesta (R)**: ¿Qué tan honestos son los participantes si el taller fue gratuito y el psicólogo fue amable?
+3.  Identifiquen el **Sesgo de Tiempo (T)**: Si el taller duró 6 meses, ¿qué otros factores pudieron hacer que se sintieran mejor?
+:::
+
+## Estudios de Observación (No Aleatorios) {#estudios-observacion}
+
+En la investigación psicológica, a menudo nos enfrentamos a variables que no pueden ser manipuladas (ej. trauma, personalidad, nivel socioeconómico). En estos casos, recurrimos a los **diseños observacionales**. Según la arquitectura de **Leslie Kish**, en estos estudios priorizamos el **Realismo (R3)** y la "**Representación (R1)**" sobre la **Aleatorización (R2)**, lo que nos obliga a ser estrictos en el control de las **Variables Perturbadoras (D)**.
+
+### Criterios de Selección: Muestreos No Probabilísticos
+
+Cuando no existe un marco muestral completo, el investigador debe decidir cómo seleccionar a sus participantes. Aquí, el **Sesgo de Selección (Tipo M)** de Kish es el riesgo principal. A continuación, se detallan los criterios más utilizados:
+
+#### Muestreo por Conveniencia
+
+Consiste en seleccionar a los participantes que están más próximos o disponibles para el investigador.
+
+* **Pros:** Es la forma más económica y rápida de recolectar datos. Ideal para estudios piloto o cuando se busca probar la viabilidad de un instrumento.
+* **Contras:** El sesgo es máximo. La muestra suele estar compuesta por personas con características similares (ej. estudiantes universitarios), lo que anula la **Representación (R1)**. No permite generalizar resultados a la población general.
+
+#### Muestreo por Cuotas
+
+El investigador asegura que la muestra incluya proporciones específicas de subgrupos (ej. 50% hombres, 50% mujeres), pero la selección de los individuos dentro de cada grupo no es aleatoria.
+* **Pros:** Garantiza que las minorías o grupos de interés estén representados en la muestra final. Es más barato que el muestreo estratificado aleatorio.
+* **Contras:** Existe un "sesgo de selección del entrevistador"; el investigador tiende a elegir a las personas que parecen más amigables o accesibles dentro de la cuota, ignorando a los sujetos más difíciles de alcanzar que podrían tener opiniones distintas.
+
+### Muestreo de Bola de Nieve (Snowball)
+
+Se selecciona un grupo inicial de participantes ("semillas") que luego refieren a otros que conocen con las mismas características.
+* **Pros:** Es la técnica reina para poblaciones "ocultas" o estigmatizadas (ej. personas con adicciones, víctimas de abuso o diagnósticos raros). Permite entrar en redes sociales cerradas.
+* **Contras:** La muestra carece de variabilidad. "Dios los cría y ellos se juntan": los referidos suelen compartir opiniones y rasgos con quienes los refirieron (clanes), lo que crea una muestra muy homogénea y sesgada.
+
+#### Muestreo Intencional o por Juicio (Purposive)
+
+El investigador utiliza su pericia profesional para seleccionar casos que considera "típicos" o especialmente informativos para el fenómeno en estudio.
+* **Pros:** Muy útil en fases exploratorias donde se necesitan casos extremos o expertos para definir variables. Permite optimizar recursos si se sabe exactamente a quién se quiere estudiar.
+* **Contras:** Es altamente subjetivo. El "juicio" del investigador puede estar nublado por sus propias teorías previas, lo que genera un sesgo de confirmación difícil de medir estadísticamente.
+
+### Recomendaciones para el Tamaño de la Muestra ($n$)
+
+En estudios observacionales, el cálculo del $n$ no busca solo "significancia", sino **estabilidad en la estimación**. Kish y Creswell sugieren considerar:
+
+- **Recomendación:** El tamaño de muestra debe basarse en el **Margen de Error** deseado. Un $n \approx 384$ es el estándar para poblaciones grandes con un 5% de error.
+- **Recomendación:** Si el muestreo es por cuotas o conveniencia, se recomienda aumentar el $n$ teórico multiplicándolo por un factor (generalmente 1.5 a 2) para compensar la falta de eficiencia del diseño.
+- **Recomendación:** Sigue la regla de **15 a 20 sujetos por cada variable predictora**. Si mides 5 factores de riesgo, tu $n$ mínimo debería ser de 100 sujetos válidos.
+- **Recomendación:** Siempre sobre-muestrea. Creswell advierte que en psicología clínica la pérdida de sujetos puede ser del 20-30%. Si necesitas 200 casos finales, contacta al menos a 300.
+
+::: {.rmdtip}
+> Actividad Grupal 2: "Cazadores de Sesgos"
+**Escenario:** Se publica un estudio que dice: *"El 80% de los jóvenes prefiere el teletrabajo"*. Al leer la metodología, descubren que se hizo por **conveniencia** en una cafetería de una facultad de Ingeniería.
+**Dinámica:** 
+
+1. Identifiquen por qué este resultado no es representativo. 
+2. Rediseñen el estudio usando **Muestreo por Cuotas** (considerando carrera y nivel socioeconómico). 
+3. ¿Cómo cambiaría el tamaño de la muestra si quisiéramos comparar Ingeniería vs. Psicología?
+:::
+
+::: {.rmdimportant}
+> Actividad Grupal 3: "La Subasta del $n$"
+**Desafío:** Tienen 1000 USD. 
+- Opción A: $n=50$ aleatorio (caro pero puro).
+- Opción B: $n=500$ por bola de nieve (barato pero sesgado). 
+**Debate:** Usando el **Triángulo de Kish**, ¿cuál estudio preferirían para presentar ante un comité de salud pública? Defiendan su postura analizando el compromiso entre volumen de datos y calidad de la inferencia.
 :::
