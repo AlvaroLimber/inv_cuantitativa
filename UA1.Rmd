@@ -215,7 +215,8 @@ Puede consultar:
 - https://www.calculator.net/sample-size-calculator.html
 
 ::: {.rmdtip}
-> Actividad Grupal: "Cazadores de Sesgos"
+**Actividad Grupal:** "Cazadores de Sesgos"
+
 **Escenario:** Se publica un estudio que dice: *"El 80% de los jóvenes prefiere clases virtuales"*. Al leer la metodología, descubren que se hizo por **conveniencia** en una cafetería de una facultad de Ingeniería.
 **Dinámica:** 
 
@@ -225,7 +226,7 @@ Puede consultar:
 :::
 
 ::: {.rmdtip}
-> **Actividad Grupal: "La Subasta del $n$ en Psicología Pública"**
+ **Actividad Grupal:** "La Subasta del $n$ en Psicología Pública"
 
 **Escenario:** Un Comité de Salud Pública les ha otorgado **1,000 USD** para investigar el nivel de ideación suicida en adolescentes que han sufrido *cyberbullying* en la ciudad. El comité usará sus datos para decidir si financia una línea de atención telefónica de emergencia.
 
