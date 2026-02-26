@@ -22,4 +22,5 @@ muestreo-por-conveniencia
 muestreo-por-cuotas
 muestreo-de-bola-de-nieve-snowball
 muestreo-intencional-o-por-juicio-purposive
+muestreo-de-expertos
 recomendaciones-para-el-tamaño-de-la-muestra-n

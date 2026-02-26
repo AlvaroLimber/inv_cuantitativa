@@ -23,7 +23,7 @@
 <meta name="author" content="MSc. Alvaro Chirino Gutierrez" />
 
 
-<meta name="date" content="2026-02-19" />
+<meta name="date" content="2026-02-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -125,7 +125,8 @@ div.csl-indent {
 <li class="chapter" data-level="1.7" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#estudios-observacion"><i class="fa fa-check"></i><b>1.7</b> Estudios de Observación (No Aleatorios)</a>
 <ul>
 <li class="chapter" data-level="1.7.1" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#criterios-de-selecci%C3%B3n-muestreos-no-probabil%C3%ADsticos"><i class="fa fa-check"></i><b>1.7.1</b> Criterios de Selección: Muestreos No Probabilísticos</a></li>
-<li class="chapter" data-level="1.7.2" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#recomendaciones-para-el-tama%C3%B1o-de-la-muestra-n"><i class="fa fa-check"></i><b>1.7.2</b> Recomendaciones para el Tamaño de la Muestra (<span class="math inline">\(n\)</span>)</a></li>
+<li class="chapter" data-level="1.7.2" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#muestreo-de-expertos"><i class="fa fa-check"></i><b>1.7.2</b> Muestreo de Expertos</a></li>
+<li class="chapter" data-level="1.7.3" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#recomendaciones-para-el-tama%C3%B1o-de-la-muestra-n"><i class="fa fa-check"></i><b>1.7.3</b> Recomendaciones para el Tamaño de la Muestra (<span class="math inline">\(n\)</span>)</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -375,10 +376,22 @@ div.csl-indent {
 <li><strong>Pros:</strong> Muy útil en fases exploratorias donde se necesitan casos extremos o expertos para definir variables. Permite optimizar recursos si se sabe exactamente a quién se quiere estudiar.</li>
 <li><strong>Contras:</strong> Es altamente subjetivo. El “juicio” del investigador puede estar nublado por sus propias teorías previas, lo que genera un sesgo de confirmación difícil de medir estadísticamente.</li>
 </ul>
+<p>Una variante del muestreo intencional, es el <strong>juicio de expertos</strong> donde la muestra se selecciona a partir de la recomendación de un conocedor del área (como un “gatekeeper”)</p>
 </div>
 </div>
-<div id="recomendaciones-para-el-tamaño-de-la-muestra-n" class="section level3 hasAnchor" number="1.7.2">
-<h3><span class="header-section-number">1.7.2</span> Recomendaciones para el Tamaño de la Muestra (<span class="math inline">\(n\)</span>)<a href="diseno-estadistico.html#recomendaciones-para-el-tama%C3%B1o-de-la-muestra-n" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="muestreo-de-expertos" class="section level3 hasAnchor" number="1.7.2">
+<h3><span class="header-section-number">1.7.2</span> Muestreo de Expertos<a href="diseno-estadistico.html#muestreo-de-expertos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Es una técnica de muestreo no probabilístico (un tipo de muestreo intencional o de juicio) en la que el investigador selecciona a los participantes basándose exclusivamente en su pericia, autoridad o experiencia técnica sobre el problema de investigación. Aquí se busca que cada individuo aporte información de alta calidad que el ciudadano común no posee.</p>
+<ul>
+<li>Pros: Permite obtener un alto contenido informativo sobre temas complejos, técnicos o fenómenos poco frecuentes que requieren un bagaje previo para ser comprendidos. Es ideal para estudios donde se busca validar teorías emergentes o explorar problemas donde no existen marcos de referencia previos.</li>
+<li>Contras: Carece de generalizabilidad estadística a la población general, ya que los resultados solo son aplicables al grupo específico de especialistas consultados. Además, presenta un alto riesgo de sesgo del investigador, ya que la validez del estudio depende totalmente de su criterio subjetivo para definir quién es realmente un “experto”</li>
+</ul>
+<blockquote>
+<p>Tarea: Indagar que es un estudio Delphi y la diferencia con un muestreo de expertos.</p>
+</blockquote>
+</div>
+<div id="recomendaciones-para-el-tamaño-de-la-muestra-n" class="section level3 hasAnchor" number="1.7.3">
+<h3><span class="header-section-number">1.7.3</span> Recomendaciones para el Tamaño de la Muestra (<span class="math inline">\(n\)</span>)<a href="diseno-estadistico.html#recomendaciones-para-el-tama%C3%B1o-de-la-muestra-n" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>En estudios observacionales, el cálculo del <span class="math inline">\(n\)</span> no busca solo “significancia”, sino <strong>estabilidad en la estimación</strong>. Kish y Creswell sugieren considerar:</p>
 <ul>
 <li>El tamaño de muestra debe basarse en el <strong>Margen de Error</strong> deseado. Un <span class="math inline">\(n \approx 385\)</span> es el estándar para poblaciones grandes con un 5% de error.</li>
@@ -386,11 +399,15 @@ div.csl-indent {
 <li>Sigue la regla de <strong>15 a 20 sujetos por cada variable predictora</strong>. Si mides 5 factores de riesgo, tu <span class="math inline">\(n\)</span> mínimo debería ser de 100 sujetos válidos.</li>
 <li>Siempre sobre-muestrea. Creswell advierte que en psicología clínica la pérdida de sujetos puede ser del 20-30%. Si necesitas 200 casos finales, contacta al menos a 260.</li>
 </ul>
-<p>Puede consultar: <a href="https://wnarifin.github.io/ssc_web.html" class="uri">https://wnarifin.github.io/ssc_web.html</a></p>
+<p>Puede consultar:</p>
+<ul>
+<li><a href="https://wnarifin.github.io/ssc_web.html" class="uri">https://wnarifin.github.io/ssc_web.html</a></li>
+<li><a href="https://www.calculator.net/sample-size-calculator.html" class="uri">https://www.calculator.net/sample-size-calculator.html</a></li>
+</ul>
 <div class="rmdtip">
 <blockquote>
-<p>Actividad Grupal 2: “Cazadores de Sesgos”
-<strong>Escenario:</strong> Se publica un estudio que dice: <em>“El 80% de los jóvenes prefiere el teletrabajo”</em>. Al leer la metodología, descubren que se hizo por <strong>conveniencia</strong> en una cafetería de una facultad de Ingeniería.
+<p>Actividad Grupal: “Cazadores de Sesgos”
+<strong>Escenario:</strong> Se publica un estudio que dice: <em>“El 80% de los jóvenes prefiere clases virtuales”</em>. Al leer la metodología, descubren que se hizo por <strong>conveniencia</strong> en una cafetería de una facultad de Ingeniería.
 <strong>Dinámica:</strong></p>
 </blockquote>
 <ol style="list-style-type: decimal">
@@ -399,14 +416,30 @@ div.csl-indent {
 <li>¿Cómo cambiaría el tamaño de la muestra si quisiéramos comparar Ingeniería vs. Psicología?</li>
 </ol>
 </div>
-<div class="rmdimportant">
+<div class="rmdtip">
 <blockquote>
-<p>Actividad Grupal 3: “La Subasta del <span class="math inline">\(n\)</span>”
-<strong>Desafío:</strong> Tienen 1000 USD.
-- Opción A: <span class="math inline">\(n=50\)</span> aleatorio (caro pero puro).
-- Opción B: <span class="math inline">\(n=500\)</span> por bola de nieve (barato pero sesgado).
-<strong>Debate:</strong> Usando el <strong>Triángulo de Kish</strong>, ¿cuál estudio preferirían para presentar ante un comité de salud pública? Defiendan su postura analizando el compromiso entre volumen de datos y calidad de la inferencia.</p>
+<p><strong>Actividad Grupal: “La Subasta del <span class="math inline">\(n\)</span> en Psicología Pública”</strong></p>
 </blockquote>
+<p><strong>Escenario:</strong> Un Comité de Salud Pública les ha otorgado <strong>1,000 USD</strong> para investigar el nivel de ideación suicida en adolescentes que han sufrido <em>cyberbullying</em> en la ciudad. El comité usará sus datos para decidir si financia una línea de atención telefónica de emergencia.</p>
+<p><strong>El Dilema de la Inversión:</strong></p>
+<ul>
+<li><strong>Opción A: El Purista del Diseño (<span class="math inline">\(n=50\)</span> aleatorio).</strong> Gastan todo el presupuesto en obtener una base de datos escolar completa y realizar un muestreo probabilístico.
+<ul>
+<li><strong>Pros:</strong> Alta <strong>Representación</strong> (Kish). Cada joven tuvo la misma probabilidad de ser elegido. Es un diseño “limpio” de sesgos de selección.</li>
+<li><strong>Contras:</strong> <span class="math inline">\(n\)</span> pequeño. El error estándar será alto (poca precisión) y los resultados pueden verse afectados por la variabilidad individual (azar).</li>
+</ul></li>
+<li><strong>Opción B: El Gigante Sesgado (<span class="math inline">\(n=500\)</span> por bola de nieve).</strong> Usan redes sociales para que los jóvenes inviten a otros jóvenes. Es barato y rápido.
+<ul>
+<li><strong>Pros:</strong> Gran volumen de datos. El error de muestreo (varianza) es mínimo gracias a la Ley de los Grandes Números. Proporciona un gran <strong>Realismo</strong> al capturar redes sociales naturales.</li>
+<li><strong>Contras:</strong> Sesgo sistemático. Es un muestreo no probabilístico; es probable que solo capturen a grupos de amigos con características similares, dejando fuera a los más aislados (que podrían estar en mayor riesgo).</li>
+</ul></li>
+</ul>
+<p>¿Qué opción eligen?</p>
+<ol style="list-style-type: decimal">
+<li><strong>Análisis de la Representación:</strong> ¿Es mejor tener un reflejo exacto pero “borroso” (por el <span class="math inline">\(n\)</span> pequeño) de toda la ciudad, o una imagen muy nítida de solo una parte de la población (el grupo de amigos)?.</li>
+<li><strong>El Compromiso del Realismo:</strong> ¿Ayuda el <span class="math inline">\(n=500\)</span> a captar la “realidad” del fenómeno aunque no podamos calcular el error de muestreo con precisión estadística?.</li>
+<li><strong>Calidad de la Inferencia:</strong> Si el comité debe tomar una decisión de vida o muerte, ¿qué es más peligroso: un error por azar (Opción A) o un error por sesgo sistemático (Opción B)?.</li>
+</ol>
 </div>
 
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">

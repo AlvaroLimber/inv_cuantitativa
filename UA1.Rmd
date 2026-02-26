@@ -189,6 +189,17 @@ El investigador utiliza su pericia profesional para seleccionar casos que consid
 * **Pros:** Muy útil en fases exploratorias donde se necesitan casos extremos o expertos para definir variables. Permite optimizar recursos si se sabe exactamente a quién se quiere estudiar.
 * **Contras:** Es altamente subjetivo. El "juicio" del investigador puede estar nublado por sus propias teorías previas, lo que genera un sesgo de confirmación difícil de medir estadísticamente.
 
+Una variante del muestreo intencional, es el **juicio de expertos** donde la muestra se selecciona a partir de la recomendación de un conocedor del área (como un "gatekeeper")
+
+### Muestreo de Expertos
+
+Es una técnica de muestreo no probabilístico (un tipo de muestreo intencional o de juicio) en la que el investigador selecciona a los participantes basándose exclusivamente en su pericia, autoridad o experiencia técnica sobre el problema de investigación. Aquí se busca que cada individuo aporte información de alta calidad que el ciudadano común no posee.
+
+- Pros: Permite obtener un alto contenido informativo sobre temas complejos, técnicos o fenómenos poco frecuentes que requieren un bagaje previo para ser comprendidos. Es ideal para estudios donde se busca validar teorías emergentes o explorar problemas donde no existen marcos de referencia previos.
+- Contras: Carece de generalizabilidad estadística a la población general, ya que los resultados solo son aplicables al grupo específico de especialistas consultados. Además, presenta un alto riesgo de sesgo del investigador, ya que la validez del estudio depende totalmente de su criterio subjetivo para definir quién es realmente un "experto"
+
+> Tarea: Indagar que es un estudio Delphi y la diferencia con un muestreo de expertos.
+
 ### Recomendaciones para el Tamaño de la Muestra ($n$)
 
 En estudios observacionales, el cálculo del $n$ no busca solo "significancia", sino **estabilidad en la estimación**. Kish y Creswell sugieren considerar:
@@ -198,11 +209,14 @@ En estudios observacionales, el cálculo del $n$ no busca solo "significancia", 
 - Sigue la regla de **15 a 20 sujetos por cada variable predictora**. Si mides 5 factores de riesgo, tu $n$ mínimo debería ser de 100 sujetos válidos.
 - Siempre sobre-muestrea. Creswell advierte que en psicología clínica la pérdida de sujetos puede ser del 20-30%. Si necesitas 200 casos finales, contacta al menos a 260.
 
-Puede consultar: https://wnarifin.github.io/ssc_web.html
+Puede consultar: 
+
+- https://wnarifin.github.io/ssc_web.html
+- https://www.calculator.net/sample-size-calculator.html
 
 ::: {.rmdtip}
-> Actividad Grupal 2: "Cazadores de Sesgos"
-**Escenario:** Se publica un estudio que dice: *"El 80% de los jóvenes prefiere el teletrabajo"*. Al leer la metodología, descubren que se hizo por **conveniencia** en una cafetería de una facultad de Ingeniería.
+> Actividad Grupal: "Cazadores de Sesgos"
+**Escenario:** Se publica un estudio que dice: *"El 80% de los jóvenes prefiere clases virtuales"*. Al leer la metodología, descubren que se hizo por **conveniencia** en una cafetería de una facultad de Ingeniería.
 **Dinámica:** 
 
 1. Identifiquen por qué este resultado no es representativo. 
@@ -210,10 +224,23 @@ Puede consultar: https://wnarifin.github.io/ssc_web.html
 3. ¿Cómo cambiaría el tamaño de la muestra si quisiéramos comparar Ingeniería vs. Psicología?
 :::
 
-::: {.rmdimportant}
-> Actividad Grupal 3: "La Subasta del $n$"
-**Desafío:** Tienen 1000 USD. 
-- Opción A: $n=50$ aleatorio (caro pero puro).
-- Opción B: $n=500$ por bola de nieve (barato pero sesgado). 
-**Debate:** Usando el **Triángulo de Kish**, ¿cuál estudio preferirían para presentar ante un comité de salud pública? Defiendan su postura analizando el compromiso entre volumen de datos y calidad de la inferencia.
+::: {.rmdtip}
+> **Actividad Grupal: "La Subasta del $n$ en Psicología Pública"**
+
+**Escenario:** Un Comité de Salud Pública les ha otorgado **1,000 USD** para investigar el nivel de ideación suicida en adolescentes que han sufrido *cyberbullying* en la ciudad. El comité usará sus datos para decidir si financia una línea de atención telefónica de emergencia.
+
+**El Dilema de la Inversión:**
+
+*   **Opción A: El Purista del Diseño ($n=50$ aleatorio).** Gastan todo el presupuesto en obtener una base de datos escolar completa y realizar un muestreo probabilístico.
+    *   **Pros:** Alta **Representación** (Kish). Cada joven tuvo la misma probabilidad de ser elegido. Es un diseño "limpio" de sesgos de selección.
+    *   **Contras:** $n$ pequeño. El error estándar será alto (poca precisión) y los resultados pueden verse afectados por la variabilidad individual (azar).
+*   **Opción B: El Gigante Sesgado ($n=500$ por bola de nieve).** Usan redes sociales para que los jóvenes inviten a otros jóvenes. Es barato y rápido.
+    *   **Pros:** Gran volumen de datos. El error de muestreo (varianza) es mínimo gracias a la Ley de los Grandes Números. Proporciona un gran **Realismo** al capturar redes sociales naturales.
+    *   **Contras:** Sesgo sistemático. Es un muestreo no probabilístico; es probable que solo capturen a grupos de amigos con características similares, dejando fuera a los más aislados (que podrían estar en mayor riesgo).
+
+¿Qué opción eligen?
+
+1.  **Análisis de la Representación:** ¿Es mejor tener un reflejo exacto pero "borroso" (por el $n$ pequeño) de toda la ciudad, o una imagen muy nítida de solo una parte de la población (el grupo de amigos)?.
+2.  **El Compromiso del Realismo:** ¿Ayuda el $n=500$ a captar la "realidad" del fenómeno aunque no podamos calcular el error de muestreo con precisión estadística?.
+3.  **Calidad de la Inferencia:** Si el comité debe tomar una decisión de vida o muerte, ¿qué es más peligroso: un error por azar (Opción A) o un error por sesgo sistemático (Opción B)?.
 :::
