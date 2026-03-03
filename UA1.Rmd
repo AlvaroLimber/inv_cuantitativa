@@ -270,12 +270,14 @@ Para diseñar un muestreo riguroso, debemos dominar los siguientes términos té
 #### Muestreo Aleatorio Simple (MAS)
 
 Cada miembro de la población tiene una probabilidad **igual e independiente** de ser seleccionado. 
+
 * **Uso:** Ideal cuando la población es homogénea respecto a la variable de estudio.
 * **Herramienta:** Tablas de números aleatorios para garantizar que no haya sesgos en la elección.
 
 #### Muestreo Sistemático
 
 Se selecciona cada *k-ésimo* individuo de una lista, tras elegir un punto de partida al azar.
+
 * **Cálculo:** $k = \frac{N}{n}$.
 * **Riesgo:** Menos preciso que el MAS si la lista tiene un orden oculto que coincide con el intervalo $k$.
 
