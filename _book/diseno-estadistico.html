@@ -23,7 +23,7 @@
 <meta name="author" content="MSc. Alvaro Chirino Gutierrez" />
 
 
-<meta name="date" content="2026-02-26" />
+<meta name="date" content="2026-03-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -128,6 +128,12 @@ div.csl-indent {
 <li class="chapter" data-level="1.7.1" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#criterios-de-selecci%C3%B3n-muestreos-no-probabil%C3%ADsticos"><i class="fa fa-check"></i><b>1.7.1</b> Criterios de Selección: Muestreos No Probabilísticos</a></li>
 <li class="chapter" data-level="1.7.2" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#muestreo-de-expertos"><i class="fa fa-check"></i><b>1.7.2</b> Muestreo de Expertos</a></li>
 <li class="chapter" data-level="1.7.3" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#recomendaciones-para-el-tama%C3%B1o-de-la-muestra-n"><i class="fa fa-check"></i><b>1.7.3</b> Recomendaciones para el Tamaño de la Muestra (<span class="math inline">\(n\)</span>)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.8" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#muestreo-probabil%C3%ADstico-la-columna-de-la-representaci%C3%B3n"><i class="fa fa-check"></i><b>1.8</b> Muestreo Probabilístico: La Columna de la Representación</a>
+<ul>
+<li class="chapter" data-level="1.8.1" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#conceptos-fundamentales"><i class="fa fa-check"></i><b>1.8.1</b> Conceptos Fundamentales</a></li>
+<li class="chapter" data-level="1.8.2" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#tipos-de-muestreo-probabil%C3%ADstico"><i class="fa fa-check"></i><b>1.8.2</b> Tipos de Muestreo Probabilístico</a></li>
+<li class="chapter" data-level="1.8.3" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#muestreo-por-conglomerados-clusters"><i class="fa fa-check"></i><b>1.8.3</b> Muestreo por Conglomerados (Clusters)</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -438,6 +444,70 @@ div.csl-indent {
 <li><strong>Calidad de la Inferencia:</strong> Si el comité debe tomar una decisión de vida o muerte, ¿qué es más peligroso: un error por azar (Opción A) o un error por sesgo sistemático (Opción B)?.</li>
 </ol>
 </div>
+</div>
+</div>
+<div id="muestreo-probabilístico-la-columna-de-la-representación" class="section level2 hasAnchor" number="1.8">
+<h2><span class="header-section-number">1.8</span> Muestreo Probabilístico: La Columna de la Representación<a href="diseno-estadistico.html#muestreo-probabil%C3%ADstico-la-columna-de-la-representaci%C3%B3n" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>En psicología, la validez de nuestras inferencias depende de qué tan bien nuestra muestra “refleja” a la población. El <strong>muestreo probabilístico</strong> es aquel esquema formal donde cada elemento de la población tiene una <strong>probabilidad conocida y superior a cero</strong> de ser seleccionado.</p>
+<p><strong>Importancia en la psicología:</strong></p>
+<ul>
+<li><strong>Generalización (Validez Externa):</strong> Permite que lo hallado en un grupo pequeño sea aplicable a la población general.</li>
+<li><strong>Eliminación del Sesgo:</strong> Al usar criterios mecánicos, evitamos el error del juicio humano, que tiende a seleccionar casos “típicos” o convenientes, sesgando los resultados.</li>
+</ul>
+<div id="conceptos-fundamentales" class="section level3 hasAnchor" number="1.8.1">
+<h3><span class="header-section-number">1.8.1</span> Conceptos Fundamentales<a href="diseno-estadistico.html#conceptos-fundamentales" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Para diseñar un muestreo riguroso, debemos dominar los siguientes términos técnicos de la teoría de <strong>Kish</strong> y <strong>Salkind</strong>:</p>
+<ul>
+<li><strong>Marco Muestral (Sampling Frame):</strong> Es la lista física o procedimiento que identifica a todos los elementos de la población (ej. el padrón de alumnos matriculados o una base de datos clínica).</li>
+<li><strong>Probabilidad de Selección:</strong> La posibilidad matemática (<span class="math inline">\(n/N\)</span>) de que un individuo sea elegido.</li>
+<li><strong>Esquema de Selección:</strong> El proceso mecánico (como tablas de números aleatorios) que asegura que la elección no dependa de la voluntad del investigador.</li>
+<li><strong>Unidad de Muestreo:</strong> El grupo o unidad que se selecciona (ej. una escuela o un hogar), a diferencia del <strong>Elemento</strong>, que es de quien buscamos la información (ej. el estudiante o el paciente).</li>
+<li><strong>Error de Muestreo:</strong> La diferencia inevitable entre los resultados de la muestra y el valor real de la población.</li>
+</ul>
+</div>
+<div id="tipos-de-muestreo-probabilístico" class="section level3 hasAnchor" number="1.8.2">
+<h3><span class="header-section-number">1.8.2</span> Tipos de Muestreo Probabilístico<a href="diseno-estadistico.html#tipos-de-muestreo-probabil%C3%ADstico" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="muestreo-aleatorio-simple-mas" class="section level4 hasAnchor" number="1.8.2.1">
+<h4><span class="header-section-number">1.8.2.1</span> Muestreo Aleatorio Simple (MAS)<a href="diseno-estadistico.html#muestreo-aleatorio-simple-mas" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Cada miembro de la población tiene una probabilidad <strong>igual e independiente</strong> de ser seleccionado.
+* <strong>Uso:</strong> Ideal cuando la población es homogénea respecto a la variable de estudio.
+* <strong>Herramienta:</strong> Tablas de números aleatorios para garantizar que no haya sesgos en la elección.</p>
+</div>
+<div id="muestreo-sistemático" class="section level4 hasAnchor" number="1.8.2.2">
+<h4><span class="header-section-number">1.8.2.2</span> Muestreo Sistemático<a href="diseno-estadistico.html#muestreo-sistem%C3%A1tico" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Se selecciona cada <em>k-ésimo</em> individuo de una lista, tras elegir un punto de partida al azar.
+* <strong>Cálculo:</strong> <span class="math inline">\(k = \frac{N}{n}\)</span>.
+* <strong>Riesgo:</strong> Menos preciso que el MAS si la lista tiene un orden oculto que coincide con el intervalo <span class="math inline">\(k\)</span>.</p>
+</div>
+<div id="muestreo-estratificado" class="section level4 hasAnchor" number="1.8.2.3">
+<h4><span class="header-section-number">1.8.2.3</span> Muestreo Estratificado<a href="diseno-estadistico.html#muestreo-estratificado" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>La población se divide en subgrupos o <strong>estratos</strong> (ej. género, nivel socioeconómico) y se selecciona una muestra aleatoria de cada uno.</p>
+<ul>
+<li><strong>Clave:</strong> Se usa cuando el factor de estratificación está relacionado con la variable de estudio (ej. estratificar por “clase social” si estudiamos “percepción de bienestar”).</li>
+</ul>
+</div>
+</div>
+<div id="muestreo-por-conglomerados-clusters" class="section level3 hasAnchor" number="1.8.3">
+<h3><span class="header-section-number">1.8.3</span> Muestreo por Conglomerados (Clusters)<a href="diseno-estadistico.html#muestreo-por-conglomerados-clusters" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>En lugar de seleccionar individuos, se seleccionan <strong>unidades</strong> que contienen a los individuos (ej. hospitales, aulas, distritos) .
+* <strong>Ventaja:</strong> Es económico y útil cuando no existe una lista de todos los individuos, pero sí de las instituciones que los agrupan.
+* <strong>Contras:</strong> Incrementa la varianza</p>
+<div class="rmdtip">
+<p><strong>Práctica de Aleatoriedad Mecánica</strong></p>
+<p><strong>Objetivo:</strong> Comprender que el azar requiere un método externo, no intuición.</p>
+<ol style="list-style-type: decimal">
+<li><strong>Población:</strong> Se entrega una lista de 50 nombres de pacientes ficticios numerados del 01 al 50.</li>
+<li><strong>Uso de Tabla:</strong> Los estudiantes deben cerrar los ojos, colocar un lápiz en una tabla de números aleatorios y, a partir de ahí, seleccionar 5 números únicos que estén dentro del rango 01-50.</li>
+<li><strong>Reflexión:</strong> ¿Por qué no es válido que el investigador elija los números “que le parezcan más variados”?.</li>
+</ol>
+</div>
+<blockquote>
+<p>Reflexión</p>
+</blockquote>
+<ol style="list-style-type: decimal">
+<li><strong>El azar no es descuido:</strong> Requiere un marco muestral definido y un esquema de selección estrictamente mecánico.</li>
+<li><strong>Inferencia:</strong> Sin muestreo probabilístico, el cálculo del error de muestreo no es técnicamente válido, lo que limita nuestra capacidad de afirmar algo sobre la población general.</li>
+</ol>
 
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 <div class="csl-entry">
