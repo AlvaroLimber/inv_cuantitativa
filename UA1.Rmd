@@ -274,6 +274,39 @@ Cada miembro de la población tiene una probabilidad **igual e independiente** d
 * **Uso:** Ideal cuando la población es homogénea respecto a la variable de estudio.
 * **Herramienta:** Tablas de números aleatorios para garantizar que no haya sesgos en la elección.
 
+Pasos:
+
+1. Definir la población de interés.
+2. Listar a todos los miembros (crear el marco muestral).
+3. Asignar un número único a cada miembro.
+4. Utilizar una tabla de números aleatorios o un generador digital para seleccionar los números que conformarán la muestra.
+
+**Opciones en linea: Números aleatorios**
+
+- https://pinetools.com/es/generador-numeros-aleatorios
+- Define el ancho del listado
+- Define el tamaño de la muestra y otros criterios (no repetición, etc.)
+- Genera los números seleccionados
+
+**Ejemplo en excel**
+
+Este procedimiento permite seleccionar una muestra representativa de forma rápida utilizando las herramientas nativas de la hoja de cálculo:
+
+* **Generar un número aleatorio:** Crear una columna adicional y usar la función `=ALEATORIO()` para cada individuo en el marco muestral.
+* **Fijar los valores:** Copiar la columna de números aleatorios y usar **Pegado especial > Valores** para evitar que cambien al recalcular.
+* **Ordenar el listado:** Ordenar toda la tabla de menor a mayor (o viceversa) basándose en la columna de números aleatorios.
+* **Seleccionar la muestra:** Tomar los primeros $n$ registros de la lista ya ordenada.
+
+**Uso de Tabla de Números Aleatorios**
+
+Si prefieres el método manual o tradicional utilizando una [Tabla aleatoria](https://sed077e5007bca68b.jimcontent.com/download/version/1756357966/module/11142587519/name/Tabla%20de%20n%C3%BAmeros%20aleatorios.pdf), sigue estos pasos:
+
+* **Punto de partida:** Elegir al azar una celda de arranque en la tabla y definir una trayectoria (hacia abajo, hacia la derecha, etc.).
+* **Ancho de dígitos:** Definir cuántos dígitos se usarán según el tamaño de la población ($N$). 
+    * *Ejemplo: Si $N = 500$, usaremos bloques de 3 dígitos.*
+* **Recorrido y selección:** Seguir la trayectoria seleccionando a los individuos cuyos números aparezcan en la tabla hasta completar el tamaño de muestra $n$.
+* **Criterios de exclusión:** Omitir el número si ya fue seleccionado (repetición) o si el valor es mayor al tamaño total de la población ($> N$).
+
 #### Muestreo Sistemático
 
 Se selecciona cada *k-ésimo* individuo de una lista, tras elegir un punto de partida al azar.
@@ -281,27 +314,76 @@ Se selecciona cada *k-ésimo* individuo de una lista, tras elegir un punto de pa
 * **Cálculo:** $k = \frac{N}{n}$.
 * **Riesgo:** Menos preciso que el MAS si la lista tiene un orden oculto que coincide con el intervalo $k$.
 
+Pasos:
+
+1. Dividir el tamaño de la población (N) entre el tamaño de la muestra deseada (n) para obtener el intervalo $k=N/n$ (se sugiere tomar solo el entero).
+2. Elegir un número de partida al azar entre 1 y k.
+3. Seleccionar ese elemento y, a partir de él, cada k. elementos adicionales hasta completar la muestra.
+
 #### Muestreo Estratificado
 
 La población se divide en subgrupos o **estratos** (ej. género, nivel socioeconómico) y se selecciona una muestra aleatoria de cada uno.
 
 * **Clave:** Se usa cuando el factor de estratificación está relacionado con la variable de estudio (ej. estratificar por "clase social" si estudiamos "percepción de bienestar").
 
-### Muestreo por Conglomerados (Clusters)
+**Criterios de Asignación (Afijación):**
 
-En lugar de seleccionar individuos, se seleccionan **unidades** que contienen a los individuos (ej. hospitales, aulas, distritos) .
+- Proporcional: La muestra refleja la proporción exacta de los estratos en la población (ej. si el 60% son hombres, el 60% de la muestra lo serán). Es ideal para representar fielmente a la población.
+
+$$n_h=n*\frac{N_h}{N}$$
+Donde, $n_h$ muestra para el estrato $h$, $N_h$ total de elementos en la población en el estrato $h$.
+
+- Uniforme (Igual): Se selecciona el mismo número de sujetos de cada estrato, independientemente de su peso en la población. Útil para comparar estratos muy pequeños que de otro modo no tendrían representación suficiente.
+
+$$n_h=\frac{n}{H}$$
+
+Donde, $H$ representa el número de niveles del estrato. Por ejemplo para sexo $H=2$ (Hombre, mujer)
+
+- Óptima de Neyman: La muestra se asigna considerando tanto el tamaño del estrato como la variabilidad del dato (si existe).
+
+$$n_h=n*\frac{N_h*S_h}{\sum_{h=1}^H{N_h*S_h}}$$
+
+**Pasos:**
+
+1. Identificar las variables de estratificación.
+2. Listar a los miembros de la población por separado según su estrato.
+3. Asignar números a los miembros dentro de cada estrato.
+4. Seleccionar aleatoriamente (usando MAS) el número de sujetos requeridos de cada lista.
+
+#### Muestreo por Conglomerados (Clusters)
+
+En lugar de seleccionar individuos, se seleccionan **unidades** que contienen a los individuos (ej. hospitales, aulas, distritos).
+
 * **Ventaja:** Es económico y útil cuando no existe una lista de todos los individuos, pero sí de las instituciones que los agrupan.
 * **Contras:** Incrementa la varianza
 
-
 ::: {.rmdtip}
-**Práctica de Aleatoriedad Mecánica**
+**Ejercicio Grupal: "El Espejo de la Población"**
 
-**Objetivo:** Comprender que el azar requiere un método externo, no intuición.
+**Objetivo:** Comparar la capacidad de representación de los tres métodos de muestreo sobre una población simulada.
 
-1. **Población:** Se entrega una lista de 50 nombres de pacientes ficticios numerados del 01 al 50.
-2. **Uso de Tabla:** Los estudiantes deben cerrar los ojos, colocar un lápiz en una tabla de números aleatorios y, a partir de ahí, seleccionar 5 números únicos que estén dentro del rango 01-50.
-3. **Reflexión:** ¿Por qué no es válido que el investigador elija los números "que le parezcan más variados"?.
+**Contexto:** Al finalizar el semestre, la Facultad de Psicología desea medir los niveles de Burnout Académico y Laboral. Se cuenta con un marco muestral de $N=70$ individuos, divididos en tres estratos: Estudiantes, Docentes y Administrativos.
+
+**Instrucciones:** Seleccionar una muestra de $n=15$ individuos utilizando diferentes técnicas de muestreo probabilístico y comparar cómo varía la representación de los grupos según el método elegido.
+
+Pasos: 
+
+1. Determinar con ese tamaño de muestra cuál es el margen de error.
+2. Realice la selección de muestra para:
+  - Muestreo aleatorio simple
+  - Muestreo sistemático
+  - Estratificación proporcional
+  - Estratificación uniforme
+  - Estratificación Neyman
+3. Llenen la tabla de distribución de la muestra.
+4. Discuta los resultados alcanzados
+
+**Preguntas de Reflexión:** 
+
+1. ¿Qué método se acercó más a la distribución real de la población en cuanto a Sexo? ¿Y en cuanto a Edad?
+2. En el MAS, ¿notaron si algún subgrupo quedó subrepresentado por puro azar?
+3. Si la Edad fuera la variable más crítica para su estudio, ¿cómo habría cambiado su muestra si hubieran usado una asignación uniforme en lugar de proporcional?
+4. ¿Por qué no es válido que el investigador elija los números "que le parezcan más variados"?.
 :::
 
 > Reflexión

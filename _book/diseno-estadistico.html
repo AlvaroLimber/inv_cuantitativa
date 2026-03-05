@@ -23,7 +23,7 @@
 <meta name="author" content="MSc. Alvaro Chirino Gutierrez" />
 
 
-<meta name="date" content="2026-03-03" />
+<meta name="date" content="2026-03-05" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -133,7 +133,6 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="1.8.1" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#conceptos-fundamentales"><i class="fa fa-check"></i><b>1.8.1</b> Conceptos Fundamentales</a></li>
 <li class="chapter" data-level="1.8.2" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#tipos-de-muestreo-probabil%C3%ADstico"><i class="fa fa-check"></i><b>1.8.2</b> Tipos de Muestreo Probabilístico</a></li>
-<li class="chapter" data-level="1.8.3" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#muestreo-por-conglomerados-clusters"><i class="fa fa-check"></i><b>1.8.3</b> Muestreo por Conglomerados (Clusters)</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -474,6 +473,39 @@ div.csl-indent {
 <li><strong>Uso:</strong> Ideal cuando la población es homogénea respecto a la variable de estudio.</li>
 <li><strong>Herramienta:</strong> Tablas de números aleatorios para garantizar que no haya sesgos en la elección.</li>
 </ul>
+<p>Pasos:</p>
+<ol style="list-style-type: decimal">
+<li>Definir la población de interés.</li>
+<li>Listar a todos los miembros (crear el marco muestral).</li>
+<li>Asignar un número único a cada miembro.</li>
+<li>Utilizar una tabla de números aleatorios o un generador digital para seleccionar los números que conformarán la muestra.</li>
+</ol>
+<p><strong>Opciones en linea: Números aleatorios</strong></p>
+<ul>
+<li><a href="https://pinetools.com/es/generador-numeros-aleatorios" class="uri">https://pinetools.com/es/generador-numeros-aleatorios</a></li>
+<li>Define el ancho del listado</li>
+<li>Define el tamaño de la muestra y otros criterios (no repetición, etc.)</li>
+<li>Genera los números seleccionados</li>
+</ul>
+<p><strong>Ejemplo en excel</strong></p>
+<p>Este procedimiento permite seleccionar una muestra representativa de forma rápida utilizando las herramientas nativas de la hoja de cálculo:</p>
+<ul>
+<li><strong>Generar un número aleatorio:</strong> Crear una columna adicional y usar la función <code>=ALEATORIO()</code> para cada individuo en el marco muestral.</li>
+<li><strong>Fijar los valores:</strong> Copiar la columna de números aleatorios y usar <strong>Pegado especial &gt; Valores</strong> para evitar que cambien al recalcular.</li>
+<li><strong>Ordenar el listado:</strong> Ordenar toda la tabla de menor a mayor (o viceversa) basándose en la columna de números aleatorios.</li>
+<li><strong>Seleccionar la muestra:</strong> Tomar los primeros <span class="math inline">\(n\)</span> registros de la lista ya ordenada.</li>
+</ul>
+<p><strong>Uso de Tabla de Números Aleatorios</strong></p>
+<p>Si prefieres el método manual o tradicional utilizando una <a href="https://sed077e5007bca68b.jimcontent.com/download/version/1756357966/module/11142587519/name/Tabla%20de%20n%C3%BAmeros%20aleatorios.pdf">Tabla aleatoria</a>, sigue estos pasos:</p>
+<ul>
+<li><strong>Punto de partida:</strong> Elegir al azar una celda de arranque en la tabla y definir una trayectoria (hacia abajo, hacia la derecha, etc.).</li>
+<li><strong>Ancho de dígitos:</strong> Definir cuántos dígitos se usarán según el tamaño de la población (<span class="math inline">\(N\)</span>).
+<ul>
+<li><em>Ejemplo: Si <span class="math inline">\(N = 500\)</span>, usaremos bloques de 3 dígitos.</em></li>
+</ul></li>
+<li><strong>Recorrido y selección:</strong> Seguir la trayectoria seleccionando a los individuos cuyos números aparezcan en la tabla hasta completar el tamaño de muestra <span class="math inline">\(n\)</span>.</li>
+<li><strong>Criterios de exclusión:</strong> Omitir el número si ya fue seleccionado (repetición) o si el valor es mayor al tamaño total de la población (<span class="math inline">\(&gt; N\)</span>).</li>
+</ul>
 </div>
 <div id="muestreo-sistemático" class="section level4 hasAnchor" number="1.8.2.2">
 <h4><span class="header-section-number">1.8.2.2</span> Muestreo Sistemático<a href="diseno-estadistico.html#muestreo-sistem%C3%A1tico" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -482,6 +514,12 @@ div.csl-indent {
 <li><strong>Cálculo:</strong> <span class="math inline">\(k = \frac{N}{n}\)</span>.</li>
 <li><strong>Riesgo:</strong> Menos preciso que el MAS si la lista tiene un orden oculto que coincide con el intervalo <span class="math inline">\(k\)</span>.</li>
 </ul>
+<p>Pasos:</p>
+<ol style="list-style-type: decimal">
+<li>Dividir el tamaño de la población (N) entre el tamaño de la muestra deseada (n) para obtener el intervalo <span class="math inline">\(k=N/n\)</span> (se sugiere tomar solo el entero).</li>
+<li>Elegir un número de partida al azar entre 1 y k.</li>
+<li>Seleccionar ese elemento y, a partir de él, cada k. elementos adicionales hasta completar la muestra.</li>
+</ol>
 </div>
 <div id="muestreo-estratificado" class="section level4 hasAnchor" number="1.8.2.3">
 <h4><span class="header-section-number">1.8.2.3</span> Muestreo Estratificado<a href="diseno-estadistico.html#muestreo-estratificado" class="anchor-section" aria-label="Anchor link to header"></a></h4>
@@ -489,20 +527,63 @@ div.csl-indent {
 <ul>
 <li><strong>Clave:</strong> Se usa cuando el factor de estratificación está relacionado con la variable de estudio (ej. estratificar por “clase social” si estudiamos “percepción de bienestar”).</li>
 </ul>
-</div>
-</div>
-<div id="muestreo-por-conglomerados-clusters" class="section level3 hasAnchor" number="1.8.3">
-<h3><span class="header-section-number">1.8.3</span> Muestreo por Conglomerados (Clusters)<a href="diseno-estadistico.html#muestreo-por-conglomerados-clusters" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>En lugar de seleccionar individuos, se seleccionan <strong>unidades</strong> que contienen a los individuos (ej. hospitales, aulas, distritos) .
-* <strong>Ventaja:</strong> Es económico y útil cuando no existe una lista de todos los individuos, pero sí de las instituciones que los agrupan.
-* <strong>Contras:</strong> Incrementa la varianza</p>
-<div class="rmdtip">
-<p><strong>Práctica de Aleatoriedad Mecánica</strong></p>
-<p><strong>Objetivo:</strong> Comprender que el azar requiere un método externo, no intuición.</p>
+<p><strong>Criterios de Asignación (Afijación):</strong></p>
+<ul>
+<li>Proporcional: La muestra refleja la proporción exacta de los estratos en la población (ej. si el 60% son hombres, el 60% de la muestra lo serán). Es ideal para representar fielmente a la población.</li>
+</ul>
+<p><span class="math display">\[n_h=n*\frac{N_h}{N}\]</span>
+Donde, <span class="math inline">\(n_h\)</span> muestra para el estrato <span class="math inline">\(h\)</span>, <span class="math inline">\(N_h\)</span> total de elementos en la población en el estrato <span class="math inline">\(h\)</span>.</p>
+<ul>
+<li>Uniforme (Igual): Se selecciona el mismo número de sujetos de cada estrato, independientemente de su peso en la población. Útil para comparar estratos muy pequeños que de otro modo no tendrían representación suficiente.</li>
+</ul>
+<p><span class="math display">\[n_h=\frac{n}{H}\]</span></p>
+<p>Donde, <span class="math inline">\(H\)</span> representa el número de niveles del estrato. Por ejemplo para sexo <span class="math inline">\(H=2\)</span> (Hombre, mujer)</p>
+<ul>
+<li>Óptima de Neyman: La muestra se asigna considerando tanto el tamaño del estrato como la variabilidad del dato (si existe).</li>
+</ul>
+<p><span class="math display">\[n_h=n*\frac{N_h*S_h}{\sum_{h=1}^H{N_h*S_h}}\]</span></p>
+<p><strong>Pasos:</strong></p>
 <ol style="list-style-type: decimal">
-<li><strong>Población:</strong> Se entrega una lista de 50 nombres de pacientes ficticios numerados del 01 al 50.</li>
-<li><strong>Uso de Tabla:</strong> Los estudiantes deben cerrar los ojos, colocar un lápiz en una tabla de números aleatorios y, a partir de ahí, seleccionar 5 números únicos que estén dentro del rango 01-50.</li>
-<li><strong>Reflexión:</strong> ¿Por qué no es válido que el investigador elija los números “que le parezcan más variados”?.</li>
+<li>Identificar las variables de estratificación.</li>
+<li>Listar a los miembros de la población por separado según su estrato.</li>
+<li>Asignar números a los miembros dentro de cada estrato.</li>
+<li>Seleccionar aleatoriamente (usando MAS) el número de sujetos requeridos de cada lista.</li>
+</ol>
+</div>
+<div id="muestreo-por-conglomerados-clusters" class="section level4 hasAnchor" number="1.8.2.4">
+<h4><span class="header-section-number">1.8.2.4</span> Muestreo por Conglomerados (Clusters)<a href="diseno-estadistico.html#muestreo-por-conglomerados-clusters" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>En lugar de seleccionar individuos, se seleccionan <strong>unidades</strong> que contienen a los individuos (ej. hospitales, aulas, distritos).</p>
+<ul>
+<li><strong>Ventaja:</strong> Es económico y útil cuando no existe una lista de todos los individuos, pero sí de las instituciones que los agrupan.</li>
+<li><strong>Contras:</strong> Incrementa la varianza</li>
+</ul>
+<div class="rmdtip">
+<p><strong>Ejercicio Grupal: “El Espejo de la Población”</strong></p>
+<p><strong>Objetivo:</strong> Comparar la capacidad de representación de los tres métodos de muestreo sobre una población simulada.</p>
+<p><strong>Contexto:</strong> Al finalizar el semestre, la Facultad de Psicología desea medir los niveles de Burnout Académico y Laboral. Se cuenta con un marco muestral de <span class="math inline">\(N=70\)</span> individuos, divididos en tres estratos: Estudiantes, Docentes y Administrativos.</p>
+<p><strong>Instrucciones:</strong> Seleccionar una muestra de <span class="math inline">\(n=15\)</span> individuos utilizando diferentes técnicas de muestreo probabilístico y comparar cómo varía la representación de los grupos según el método elegido.</p>
+<p>Pasos:</p>
+<ol style="list-style-type: decimal">
+<li>Determinar con ese tamaño de muestra cuál es el margen de error.</li>
+<li>Realice la selección de muestra para:</li>
+</ol>
+<ul>
+<li>Muestreo aleatorio simple</li>
+<li>Muestreo sistemático</li>
+<li>Estratificación proporcional</li>
+<li>Estratificación uniforme</li>
+<li>Estratificación Neyman</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Llenen la tabla de distribución de la muestra.</li>
+<li>Discuta los resultados alcanzados</li>
+</ol>
+<p><strong>Preguntas de Reflexión:</strong></p>
+<ol style="list-style-type: decimal">
+<li>¿Qué método se acercó más a la distribución real de la población en cuanto a Sexo? ¿Y en cuanto a Edad?</li>
+<li>En el MAS, ¿notaron si algún subgrupo quedó subrepresentado por puro azar?</li>
+<li>Si la Edad fuera la variable más crítica para su estudio, ¿cómo habría cambiado su muestra si hubieran usado una asignación uniforme en lugar de proporcional?</li>
+<li>¿Por qué no es válido que el investigador elija los números “que le parezcan más variados”?.</li>
 </ol>
 </div>
 <blockquote>
@@ -549,6 +630,7 @@ Stevens, S. S. 1946. <span>“On the Theory of Scales of Measurement.”</span> 
 </div>
 <div class="csl-entry">
 Wackerly, Dennis D., William Mendenhall, and Richard L. Scheaffer. 2008. <em>Mathematical Statistics with Applications</em>. 7th ed. Belmont, CA: Thomson Brooks/Cole.
+</div>
 </div>
 </div>
 </div>

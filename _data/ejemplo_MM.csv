@@ -1,0 +1,71 @@
+ID,Nombre,Sexo,Edad,Estrato,Ansiedad
+1,Lucia Fernandez,F,19,Estudiante,41
+2,Mateo Vizcarra,M,21,Estudiante,39
+3,Valeria Gomez,F,20,Estudiante,40
+4,Nicolas Castro,M,22,Estudiante,42
+5,Camila Rojas,F,18,Estudiante,38
+6,Sebastian Ortiz,M,23,Estudiante,41
+7,Antonia Silva,F,20,Estudiante,39
+8,Andres Pineda,M,19,Estudiante,40
+9,Daniela Vargas,F,21,Estudiante,42
+10,Diego Morales,M,22,Estudiante,38
+11,Florencia Herrera,F,19,Estudiante,41
+12,Benjamin Rios,M,21,Estudiante,40
+13,Javiera Blanco,F,20,Estudiante,39
+14,Joaquin Mendez,M,22,Estudiante,42
+15,Isidora Lara,F,18,Estudiante,38
+16,Tomas Vidal,M,23,Estudiante,41
+17,Martina Soto,F,20,Estudiante,40
+18,Lucas Ibanez,M,19,Estudiante,39
+19,Sofia Ramos,F,21,Estudiante,42
+20,Gabriel Flores,M,22,Estudiante,38
+21,Agustina Cruz,F,19,Estudiante,41
+22,Felipe Jara,M,21,Estudiante,40
+23,Isabella Saenz,F,20,Estudiante,39
+24,Vicente Leon,M,22,Estudiante,42
+25,Emilia Vega,F,18,Estudiante,38
+26,Maximiliano Rey,M,23,Estudiante,41
+27,Maite Nunez,F,20,Estudiante,40
+28,Cristobal Luna,M,19,Estudiante,39
+29,Antonella Diaz,F,21,Estudiante,42
+30,Bastian Gatti,M,22,Estudiante,38
+31,Ignacia Polo,F,19,Estudiante,41
+32,Alonso Costa,M,21,Estudiante,40
+33,Josefina Duran,F,20,Estudiante,39
+34,Facundo Ferrero,M,22,Estudiante,42
+35,Renata Mas,F,18,Estudiante,38
+36,Julian Bravo,M,23,Estudiante,41
+37,Paz Hidalgo,F,20,Estudiante,40
+38,Simon Marin,M,19,Estudiante,39
+39,Elena Valer,F,21,Estudiante,42
+40,Hugo Juez,M,22,Estudiante,38
+41,Catalina Rivas,F,19,Estudiante,41
+42,Matias Soler,M,21,Estudiante,40
+43,Rocio Prieto,F,20,Estudiante,39
+44,Bruno Santos,M,22,Estudiante,42
+45,Constanza Moya,F,18,Estudiante,38
+46,Samuel Franco,M,23,Estudiante,41
+47,Amparo Navas,F,20,Estudiante,40
+48,Paolo Esteban,M,19,Estudiante,39
+49,Trinidad Parra,F,21,Estudiante,42
+50,Esteban Luque,M,22,Estudiante,38
+51,Dr. Ricardo Salinas,M,45,Docente,55
+52,Dra. Beatriz Ferrer,F,38,Docente,70
+53,Mg. Jorge Beltran,M,52,Docente,35
+54,Dra. Elena Maza,F,41,Docente,58
+55,Dr. Luis Carmona,M,60,Docente,45
+56,Dra. Alicia Vaca,F,35,Docente,65
+57,Mg. Roberto Sanz,M,48,Docente,52
+58,Dra. Carmen Paz,F,55,Docente,30
+59,Dr. Mario Lara,M,33,Docente,75
+60,Dra. Paula Cano,F,42,Docente,50
+61,Mg. Andres Vila,M,50,Docente,62
+62,Dra. Gloria Ortiz,F,39,Docente,48
+63,Dr. Marcos Jara,M,58,Docente,40
+64,Dra. Julia Ramos,F,44,Docente,68
+65,Dr. Victor Lima,M,47,Docente,55
+66,Sra. Marta Cardenas,F,30,Administrativo,15
+67,Sr. Emilio Zuniga,M,55,Administrativo,95
+68,Sra. Lidia Castro,F,28,Administrativo,20
+69,Sr. Ismael Costa,M,40,Administrativo,88
+70,Sra. Nerea Pardo,F,35,Administrativo,12
