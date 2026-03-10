@@ -390,3 +390,22 @@ Pasos:
 
 1. **El azar no es descuido:** Requiere un marco muestral definido y un esquema de selección estrictamente mecánico.
 2. **Inferencia:** Sin muestreo probabilístico, el cálculo del error de muestreo no es técnicamente válido, lo que limita nuestra capacidad de afirmar algo sobre la población general.
+
+
+### Tamaño de muestra
+
+Para el MAS, sistemático y estratificado las formulas habituales son:
+
+$$n_0=\frac{z^2 p*(1-p)}{\epsilon^2}$$
+$$n=\frac{n_0}{1+\frac{n_0}{N}}$$
+Donde:
+
+- $z^2$, valor asociado a la confiabilidad (1.96 para 95%),
+- $\epsilon$, Margen de error (0.05, 5%)
+- $p$, valor referencial de la incidencia del constructo. (0.5 si se desconoce)
+- $n_0$, tamaño de muestra cuando no se conoce $N$
+- $n$, tamaño de muestra con $N$ conocida
+- $N$, tamaño de la población
+
+- https://wnarifin.github.io/ssc_web.html
+- https://www.calculator.net/sample-size-calculator.html

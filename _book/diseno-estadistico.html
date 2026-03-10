@@ -23,7 +23,7 @@
 <meta name="author" content="MSc. Alvaro Chirino Gutierrez" />
 
 
-<meta name="date" content="2026-03-05" />
+<meta name="date" content="2026-03-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -133,6 +133,7 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="1.8.1" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#conceptos-fundamentales"><i class="fa fa-check"></i><b>1.8.1</b> Conceptos Fundamentales</a></li>
 <li class="chapter" data-level="1.8.2" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#tipos-de-muestreo-probabil%C3%ADstico"><i class="fa fa-check"></i><b>1.8.2</b> Tipos de Muestreo Probabilístico</a></li>
+<li class="chapter" data-level="1.8.3" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#tama%C3%B1o-de-muestra"><i class="fa fa-check"></i><b>1.8.3</b> Tamaño de muestra</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -593,6 +594,24 @@ Donde, <span class="math inline">\(n_h\)</span> muestra para el estrato <span cl
 <li><strong>El azar no es descuido:</strong> Requiere un marco muestral definido y un esquema de selección estrictamente mecánico.</li>
 <li><strong>Inferencia:</strong> Sin muestreo probabilístico, el cálculo del error de muestreo no es técnicamente válido, lo que limita nuestra capacidad de afirmar algo sobre la población general.</li>
 </ol>
+</div>
+</div>
+<div id="tamaño-de-muestra" class="section level3 hasAnchor" number="1.8.3">
+<h3><span class="header-section-number">1.8.3</span> Tamaño de muestra<a href="diseno-estadistico.html#tama%C3%B1o-de-muestra" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Para el MAS, sistemático y estratificado las formulas habituales son:</p>
+<p><span class="math display">\[n_0=\frac{z^2 p*(1-p)}{\epsilon^2}\]</span>
+<span class="math display">\[n=\frac{n_0}{1+\frac{n_0}{N}}\]</span>
+Donde:</p>
+<ul>
+<li><p><span class="math inline">\(z^2\)</span>, valor asociado a la confiabilidad (1.96 para 95%),</p></li>
+<li><p><span class="math inline">\(\epsilon\)</span>, Margen de error (0.05, 5%)</p></li>
+<li><p><span class="math inline">\(p\)</span>, valor referencial de la incidencia del constructo. (0.5 si se desconoce)</p></li>
+<li><p><span class="math inline">\(n_0\)</span>, tamaño de muestra cuando no se conoce <span class="math inline">\(N\)</span></p></li>
+<li><p><span class="math inline">\(n\)</span>, tamaño de muestra con <span class="math inline">\(N\)</span> conocida</p></li>
+<li><p><span class="math inline">\(N\)</span>, tamaño de la población</p></li>
+<li><p><a href="https://wnarifin.github.io/ssc_web.html" class="uri">https://wnarifin.github.io/ssc_web.html</a></p></li>
+<li><p><a href="https://www.calculator.net/sample-size-calculator.html" class="uri">https://www.calculator.net/sample-size-calculator.html</a></p></li>
+</ul>
 
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 <div class="csl-entry">
@@ -630,7 +649,6 @@ Stevens, S. S. 1946. <span>“On the Theory of Scales of Measurement.”</span> 
 </div>
 <div class="csl-entry">
 Wackerly, Dennis D., William Mendenhall, and Richard L. Scheaffer. 2008. <em>Mathematical Statistics with Applications</em>. 7th ed. Belmont, CA: Thomson Brooks/Cole.
-</div>
 </div>
 </div>
 </div>

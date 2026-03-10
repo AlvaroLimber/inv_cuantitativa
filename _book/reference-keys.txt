@@ -31,3 +31,4 @@ muestreo-aleatorio-simple-mas
 muestreo-sistemático
 muestreo-estratificado
 muestreo-por-conglomerados-clusters
+tamaño-de-muestra
