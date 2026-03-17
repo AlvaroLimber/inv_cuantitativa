@@ -412,11 +412,57 @@ Donde:
 
 ## Diseños Experimentales en Psicología
 
-El objetivo principal de un experimento en psicología es establecer relaciones de **causa y efecto** mediante la manipulación de una variable independiente para observar su impacto en una variable dependiente. A diferencia de los estudios correlacionales, el diseño experimental busca un alto grado de control sobre el entorno y las variables para asegurar que los cambios observados no se deban al azar o a factores extraños.
+A diferencia de los métodos descriptivos o correlacionales que solo observan relaciones, el **método experimental** es la herramienta fundamental para establecer **causa y efecto**. En psicología, esto significa que podemos afirmar que un cambio en una variable (como una terapia o un fármaco) es el responsable directo de un cambio en el comportamiento o proceso estudiado.
 
-### Notación Técnica y Modelos de Diseño
+### Elementos clave:
 
-Se utiliza la notación de Campbell y Stanley para diagramar los diseños: **R** indica asignación aleatoria, **X** representa el tratamiento y **O** representa la observación o medición.
+* **Manipulación:** El investigador decide quién recibe qué tratamiento.
+* **Control:** Se busca aislar la variable de interés de otros factores que podrían "ensuciar" los resultados (variables extrañas).
+* **Aleatorización (R):** Es el "arma secreta" de los experimentos verdaderos. Al asignar personas al azar a los grupos, nos aseguramos de que, en promedio, ambos grupos sean equivalentes antes de empezar el tratamiento.
+
+### Notación Técnica (Campbell y Stanley)
+
+Para diagramar los diseños, utilizamos un sistema de símbolos estándar:
+
+* **R:** Asignación aleatoria de los participantes a los grupos.
+* **X:** Exposición a un tratamiento o variable experimental.
+* **O:** Observación o medición (usualmente un test o escala).
+* **Línea horizontal entre filas:** Indica que los grupos no fueron asignados al azar (diseños cuasi-experimentales).
+
+
+### Diseños Pre-experimentales (Bajo control, malos ejemplos)
+
+Tienen poca validez interna porque no hay comparación rigurosa o no hay aleatorización.
+
+* **Estudio de caso de una sola medición:** Un grupo recibe tratamiento y se mide.
+  *   Diagrama: `X O`
+*  **Diseño de un solo grupo pretest-posttest:**
+  *   Diagrama: `O1 X O2`
+
+### Diseños Experimentales Verdaderos (Alto Control)
+
+Utilizan grupos de control y aleatorización total.
+
+*   **Diseño de grupo de control pretest-posttest:**
+  * Grupo Experimental: `R O1 X O2`
+  * Grupo de Control: `R O3  O4`
+  * *Utilidad:* Permite ver cuánto cambió exactamente el grupo debido al tratamiento comparado con quien no hizo nada [9].
+
+### El Diseño de Cuatro Grupos de Solomon
+
+Este es considerado uno de los diseños más rigurosos. Su objetivo es controlar la **sensibilización al pretest** (cuando el simple hecho de tomar el test por primera vez afecta cómo el sujeto responde al tratamiento o al segundo test).
+
+**Diagrama de Solomon:**
+1.  Grupo 1: `R O X O` (Pretest, Tratamiento, Posttest)
+2.  Grupo 2: `R O   O` (Pretest, Control, Posttest)
+3.  Grupo 3: `R   X O` (Sin Pretest, Tratamiento, Posttest)
+4.  Grupo 4: `R     O` (Sin Pretest, Control, Posttest) [20, 23]
+
+**¿Por qué usarlo en psicología?**
+
+Permite al psicólogo estar seguro de que la mejora del paciente se debe a la terapia (X) y no a que el paciente "aprendió" a responder mejor al test tras la primera medición (amenaza de instrumentación o testeo).
+
+### Resúmen y otros diseños
 
 | Tipo de Diseño | Nombre | Notación Típica | Nivel de Control y Utilidad |
 | :--- | :--- | :--- | :--- |
@@ -428,10 +474,6 @@ Se utiliza la notación de Campbell y Stanley para diagramar los diseños: **R**
 | **Cuasi-experimental** | Grupo de control no equivalente | **O1 X O2** (Exp)<br>**O3  O4** (Ctrl) | **Moderado:** Usa grupos intactos; la equivalencia inicial no está asegurada por el azar. |
 | | Series cronológicas interrumpidas | **O O O X O O O** | **Moderado:** Evalúa cambios en una tendencia a lo largo de múltiples mediciones. |
 
-### El Diseño de Cuatro Grupos de Solomon
-
-Este diseño es considerado el estándar de oro para controlar la **sensibilización al pretest**, que ocurre cuando el acto de completar un test inicial cambia la respuesta del sujeto al tratamiento. Al incluir grupos que reciben el tratamiento sin haber pasado por un pretest, el psicólogo puede confirmar si la mejora se debe a la intervención (**X**) o al aprendizaje derivado de la primera medición (**O**).
-
 ### Tamaño de la Muestra y Poder Estadístico
 
 Determinar el número de participantes ($n$) es una decisión estratégica que afecta la **precisión** y la capacidad de detectar efectos reales.
@@ -441,3 +483,15 @@ Determinar el número de participantes ($n$) es una decisión estratégica que a
 *   **La Regla de los 30:** En experimentos con alto control, a menudo se considera que un mínimo de **30 participantes por grupo** es suficiente para que la distribución de las medias se aproxime a la normalidad según el Teorema del Límite Central.
 
 - https://wnarifin.github.io/ssc_web.html
+
+::: {.rmdtip}
+**Ejercicio Rápido de Clase: "El Efecto de la Música en la Memoria"**
+
+**Desafío:** Imagina que quieres probar si escuchar Mozart mejora la memoria a corto plazo en niños.
+
+1.  **Diseña un esquema verdaderamente aleatorio para este estudio.**
+2.  **Identifica:**
+    *   ¿Cuál es la Variable Independiente (Predictor)?.
+    *   ¿Cuál es la Variable Dependiente (Resultado)?.
+3.  **Reflexión:** Si usaras un diseño de Solomon, ¿qué grupo te ayudaría a saber si los niños simplemente memorizaron el test porque se los diste dos veces?.
+:::

@@ -33,6 +33,10 @@ muestreo-estratificado
 muestreo-por-conglomerados-clusters
 tamaño-de-muestra
 diseños-experimentales-en-psicología
-notación-técnica-y-modelos-de-diseño
+elementos-clave
+notación-técnica-campbell-y-stanley
+diseños-pre-experimentales-bajo-control-malos-ejemplos
+diseños-experimentales-verdaderos-alto-control
 el-diseño-de-cuatro-grupos-de-solomon
+resúmen-y-otros-diseños
 tamaño-de-la-muestra-y-poder-estadístico
