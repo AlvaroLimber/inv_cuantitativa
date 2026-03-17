@@ -23,7 +23,7 @@
 <meta name="author" content="MSc. Alvaro Chirino Gutierrez" />
 
 
-<meta name="date" content="2026-03-10" />
+<meta name="date" content="2026-03-16" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -134,6 +134,12 @@ div.csl-indent {
 <li class="chapter" data-level="1.8.1" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#conceptos-fundamentales"><i class="fa fa-check"></i><b>1.8.1</b> Conceptos Fundamentales</a></li>
 <li class="chapter" data-level="1.8.2" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#tipos-de-muestreo-probabil%C3%ADstico"><i class="fa fa-check"></i><b>1.8.2</b> Tipos de Muestreo Probabilístico</a></li>
 <li class="chapter" data-level="1.8.3" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#tama%C3%B1o-de-muestra"><i class="fa fa-check"></i><b>1.8.3</b> Tamaño de muestra</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#dise%C3%B1os-experimentales-en-psicolog%C3%ADa"><i class="fa fa-check"></i><b>1.9</b> Diseños Experimentales en Psicología</a>
+<ul>
+<li class="chapter" data-level="1.9.1" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#notaci%C3%B3n-t%C3%A9cnica-y-modelos-de-dise%C3%B1o"><i class="fa fa-check"></i><b>1.9.1</b> Notación Técnica y Modelos de Diseño</a></li>
+<li class="chapter" data-level="1.9.2" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#el-dise%C3%B1o-de-cuatro-grupos-de-solomon"><i class="fa fa-check"></i><b>1.9.2</b> El Diseño de Cuatro Grupos de Solomon</a></li>
+<li class="chapter" data-level="1.9.3" data-path="diseno-estadistico.html"><a href="diseno-estadistico.html#tama%C3%B1o-de-la-muestra-y-poder-estad%C3%ADstico"><i class="fa fa-check"></i><b>1.9.3</b> Tamaño de la Muestra y Poder Estadístico</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -611,6 +617,88 @@ Donde:</p>
 <li><p><span class="math inline">\(N\)</span>, tamaño de la población</p></li>
 <li><p><a href="https://wnarifin.github.io/ssc_web.html" class="uri">https://wnarifin.github.io/ssc_web.html</a></p></li>
 <li><p><a href="https://www.calculator.net/sample-size-calculator.html" class="uri">https://www.calculator.net/sample-size-calculator.html</a></p></li>
+</ul>
+</div>
+</div>
+<div id="diseños-experimentales-en-psicología" class="section level2 hasAnchor" number="1.9">
+<h2><span class="header-section-number">1.9</span> Diseños Experimentales en Psicología<a href="diseno-estadistico.html#dise%C3%B1os-experimentales-en-psicolog%C3%ADa" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>El objetivo principal de un experimento en psicología es establecer relaciones de <strong>causa y efecto</strong> mediante la manipulación de una variable independiente para observar su impacto en una variable dependiente. A diferencia de los estudios correlacionales, el diseño experimental busca un alto grado de control sobre el entorno y las variables para asegurar que los cambios observados no se deban al azar o a factores extraños.</p>
+<div id="notación-técnica-y-modelos-de-diseño" class="section level3 hasAnchor" number="1.9.1">
+<h3><span class="header-section-number">1.9.1</span> Notación Técnica y Modelos de Diseño<a href="diseno-estadistico.html#notaci%C3%B3n-t%C3%A9cnica-y-modelos-de-dise%C3%B1o" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Se utiliza la notación de Campbell y Stanley para diagramar los diseños: <strong>R</strong> indica asignación aleatoria, <strong>X</strong> representa el tratamiento y <strong>O</strong> representa la observación o medición.</p>
+<table>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Tipo de Diseño</th>
+<th align="left">Nombre</th>
+<th align="left">Notación Típica</th>
+<th align="left">Nivel de Control y Utilidad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Pre-experimental</strong></td>
+<td align="left">Estudio de caso de una sola medición</td>
+<td align="left"><strong>X O</strong></td>
+<td align="left"><strong>Mínimo:</strong> Útil solo para generar ideas; no permite establecer causalidad.</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">Pretest-posttest de un solo grupo</td>
+<td align="left"><strong>O1 X O2</strong></td>
+<td align="left"><strong>Bajo:</strong> Vulnerable a amenazas como la maduración o la historia.</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Experimental Verdadero</strong></td>
+<td align="left">Grupo de control con pretest y posttest</td>
+<td align="left"><strong>R O1 X O2</strong> (Exp)<br><strong>R O3 O4</strong> (Ctrl)</td>
+<td align="left"><strong>Alto:</strong> La aleatorización (R) garantiza que los grupos sean equivalentes al inicio.</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">Solo posttest con grupo de control</td>
+<td align="left"><strong>R X O1</strong> (Exp)<br><strong>R O2</strong> (Ctrl)</td>
+<td align="left"><strong>Alto:</strong> Ideal cuando el pretest no es posible o puede sensibilizar al sujeto.</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">Cuatro grupos de Solomon</td>
+<td align="left">Mixto (Combina los anteriores)</td>
+<td align="left"><strong>Máximo:</strong> Controla y mide explícitamente el efecto de la sensibilización al pretest.</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Cuasi-experimental</strong></td>
+<td align="left">Grupo de control no equivalente</td>
+<td align="left"><strong>O1 X O2</strong> (Exp)<br><strong>O3 O4</strong> (Ctrl)</td>
+<td align="left"><strong>Moderado:</strong> Usa grupos intactos; la equivalencia inicial no está asegurada por el azar.</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">Series cronológicas interrumpidas</td>
+<td align="left"><strong>O O O X O O O</strong></td>
+<td align="left"><strong>Moderado:</strong> Evalúa cambios en una tendencia a lo largo de múltiples mediciones.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="el-diseño-de-cuatro-grupos-de-solomon" class="section level3 hasAnchor" number="1.9.2">
+<h3><span class="header-section-number">1.9.2</span> El Diseño de Cuatro Grupos de Solomon<a href="diseno-estadistico.html#el-dise%C3%B1o-de-cuatro-grupos-de-solomon" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Este diseño es considerado el estándar de oro para controlar la <strong>sensibilización al pretest</strong>, que ocurre cuando el acto de completar un test inicial cambia la respuesta del sujeto al tratamiento. Al incluir grupos que reciben el tratamiento sin haber pasado por un pretest, el psicólogo puede confirmar si la mejora se debe a la intervención (<strong>X</strong>) o al aprendizaje derivado de la primera medición (<strong>O</strong>).</p>
+</div>
+<div id="tamaño-de-la-muestra-y-poder-estadístico" class="section level3 hasAnchor" number="1.9.3">
+<h3><span class="header-section-number">1.9.3</span> Tamaño de la Muestra y Poder Estadístico<a href="diseno-estadistico.html#tama%C3%B1o-de-la-muestra-y-poder-estad%C3%ADstico" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Determinar el número de participantes (<span class="math inline">\(n\)</span>) es una decisión estratégica que afecta la <strong>precisión</strong> y la capacidad de detectar efectos reales.</p>
+<ul>
+<li><p><strong>Poder Estadístico:</strong> Es la probabilidad de rechazar la hipótesis nula cuando esta es falsa (evitar el Error Tipo II). El estándar en psicología suele ser un poder de <strong>0.80</strong>.</p></li>
+<li><p><strong>Análisis a Priori:</strong> El tamaño de la muestra debe calcularse antes de la recolección de datos considerando el nivel de significancia (<span class="math inline">\(\alpha\)</span>), el poder deseado y el <strong>tamaño del efecto</strong> esperado (la magnitud de la diferencia que se busca detectar).</p></li>
+<li><p><strong>La Regla de los 30:</strong> En experimentos con alto control, a menudo se considera que un mínimo de <strong>30 participantes por grupo</strong> es suficiente para que la distribución de las medias se aproxime a la normalidad según el Teorema del Límite Central.</p></li>
+<li><p><a href="https://wnarifin.github.io/ssc_web.html" class="uri">https://wnarifin.github.io/ssc_web.html</a></p></li>
 </ul>
 
 <div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">

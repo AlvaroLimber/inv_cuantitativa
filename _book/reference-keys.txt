@@ -32,3 +32,7 @@ muestreo-sistemático
 muestreo-estratificado
 muestreo-por-conglomerados-clusters
 tamaño-de-muestra
+diseños-experimentales-en-psicología
+notación-técnica-y-modelos-de-diseño
+el-diseño-de-cuatro-grupos-de-solomon
+tamaño-de-la-muestra-y-poder-estadístico

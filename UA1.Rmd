@@ -409,3 +409,35 @@ Donde:
 
 - https://wnarifin.github.io/ssc_web.html
 - https://www.calculator.net/sample-size-calculator.html
+
+## Diseños Experimentales en Psicología
+
+El objetivo principal de un experimento en psicología es establecer relaciones de **causa y efecto** mediante la manipulación de una variable independiente para observar su impacto en una variable dependiente. A diferencia de los estudios correlacionales, el diseño experimental busca un alto grado de control sobre el entorno y las variables para asegurar que los cambios observados no se deban al azar o a factores extraños.
+
+### Notación Técnica y Modelos de Diseño
+
+Se utiliza la notación de Campbell y Stanley para diagramar los diseños: **R** indica asignación aleatoria, **X** representa el tratamiento y **O** representa la observación o medición.
+
+| Tipo de Diseño | Nombre | Notación Típica | Nivel de Control y Utilidad |
+| :--- | :--- | :--- | :--- |
+| **Pre-experimental** | Estudio de caso de una sola medición | **X O** | **Mínimo:** Útil solo para generar ideas; no permite establecer causalidad. |
+| | Pretest-posttest de un solo grupo | **O1 X O2** | **Bajo:** Vulnerable a amenazas como la maduración o la historia. |
+| **Experimental Verdadero** | Grupo de control con pretest y posttest | **R O1 X O2** (Exp)<br>**R O3  O4** (Ctrl) | **Alto:** La aleatorización (R) garantiza que los grupos sean equivalentes al inicio. |
+| | Solo posttest con grupo de control | **R  X O1** (Exp)<br>**R    O2** (Ctrl) | **Alto:** Ideal cuando el pretest no es posible o puede sensibilizar al sujeto. |
+| | Cuatro grupos de Solomon | Mixto (Combina los anteriores) | **Máximo:** Controla y mide explícitamente el efecto de la sensibilización al pretest. |
+| **Cuasi-experimental** | Grupo de control no equivalente | **O1 X O2** (Exp)<br>**O3  O4** (Ctrl) | **Moderado:** Usa grupos intactos; la equivalencia inicial no está asegurada por el azar. |
+| | Series cronológicas interrumpidas | **O O O X O O O** | **Moderado:** Evalúa cambios en una tendencia a lo largo de múltiples mediciones. |
+
+### El Diseño de Cuatro Grupos de Solomon
+
+Este diseño es considerado el estándar de oro para controlar la **sensibilización al pretest**, que ocurre cuando el acto de completar un test inicial cambia la respuesta del sujeto al tratamiento. Al incluir grupos que reciben el tratamiento sin haber pasado por un pretest, el psicólogo puede confirmar si la mejora se debe a la intervención (**X**) o al aprendizaje derivado de la primera medición (**O**).
+
+### Tamaño de la Muestra y Poder Estadístico
+
+Determinar el número de participantes ($n$) es una decisión estratégica que afecta la **precisión** y la capacidad de detectar efectos reales.
+
+*   **Poder Estadístico:** Es la probabilidad de rechazar la hipótesis nula cuando esta es falsa (evitar el Error Tipo II). El estándar en psicología suele ser un poder de **0.80**.
+*   **Análisis a Priori:** El tamaño de la muestra debe calcularse antes de la recolección de datos considerando el nivel de significancia ($\alpha$), el poder deseado y el **tamaño del efecto** esperado (la magnitud de la diferencia que se busca detectar).
+*   **La Regla de los 30:** En experimentos con alto control, a menudo se considera que un mínimo de **30 participantes por grupo** es suficiente para que la distribución de las medias se aproxime a la normalidad según el Teorema del Límite Central.
+
+- https://wnarifin.github.io/ssc_web.html
