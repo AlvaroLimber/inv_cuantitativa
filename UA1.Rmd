@@ -453,6 +453,7 @@ Utilizan grupos de control y aleatorización total.
 Este es considerado uno de los diseños más rigurosos. Su objetivo es controlar la **sensibilización al pretest** (cuando el simple hecho de tomar el test por primera vez afecta cómo el sujeto responde al tratamiento o al segundo test).
 
 **Diagrama de Solomon:**
+
 1.  Grupo 1: `R O X O` (Pretest, Tratamiento, Posttest)
 2.  Grupo 2: `R O   O` (Pretest, Control, Posttest)
 3.  Grupo 3: `R   X O` (Sin Pretest, Tratamiento, Posttest)
