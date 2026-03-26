@@ -1,4 +1,4 @@
-# Diseño Estadístico de la Investigación {#diseno-estadistico}
+# Fundamentos y Diseño de la Investigación cuantitativa {#diseno-estadistico}
 
 Este capítulo presenta la síntesis de los fundamentos de la investigación cuantitativa, integrando las perspectivas de **John W. Creswell** y **Leslie Kish**. Se centra en la transición de la teoría abstracta a la medición empírica y la arquitectura del diseño.
 

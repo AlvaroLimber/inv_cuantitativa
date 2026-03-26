@@ -1,0 +1,151 @@
+---
+title: "Examen de Investigación Cuantitativa - Fichas de Casos"
+author: "Psicología UCB"
+date: "Marzo, 2026"
+geometry: margin=0.5in
+output: pdf_document
+---
+
+\newpage
+
+**CASO 1 - VARIANTE A: Estrés y Rendimiento Académico**
+
+Un **equipo de investigación** desea saber si el nivel de estrés autopercibido influye en el promedio de notas de **la comunidad estudiantil** de primer año. Para ello, obtienen la lista completa de las 500 personas matriculadas y, tras elegir un número al azar entre 1 y 25, seleccionan a cada 25-ava persona de la lista hasta completar una muestra de 20 integrantes. El estudio se realiza en un aula tranquila, asegurando que todas las personas tengan la misma edad (18 años) para evitar variaciones por madurez. Sin embargo, se nota que el día de la prueba hubo una manifestación ruidosa afuera del edificio que no se pudo evitar.
+
+***
+
+**CASO 1 - VARIANTE B: Ansiedad ante los Exámenes en Medicina**
+
+**Una investigadora** busca evaluar si el nivel de ansiedad rasgo influye en el tiempo de entrega de un examen final en **estudiantes** de medicina. Cuenta con una lista de 300 integrantes del curso y decide seleccionar a cada 15-ava persona de la lista tras elegir un punto de partida al azar entre el 1 y el 15 hasta obtener una muestra de 20 participantes. El estudio se realiza en un cubículo con iluminación controlada para todo el grupo; sin embargo, durante la prueba, un taladro de una construcción vecina generó un ruido intermitente que no pudo ser detenido.
+
+***
+
+**CASO 1 - VARIANTE C: Hábitos de Sueño y Atención Focalizada**
+**Un investigador** desea saber si las horas de sueño nocturno afectan la capacidad de atención focalizada en **el personal** de una consultora. La empresa tiene 500 personas empleadas: 300 en el turno mañana (60%) y 200 en el turno tarde (40%). Quien investiga selecciona al azar a 12 personas del turno mañana y 8 del turno tarde para la muestra final de 20 participantes. Durante la tarea, se controla que todo el grupo use la misma silla ergonómica para evitar incomodidad física, pero no se puede evitar que las notificaciones constantes de los teléfonos personales interrumpan su concentración.
+
+***
+
+**CASO 1 - VARIANTE A: Estrés y Rendimiento Académico**
+
+Un **equipo de investigación** desea saber si el nivel de estrés autopercibido influye en el promedio de notas de **la comunidad estudiantil** de primer año. Para ello, obtienen la lista completa de las 500 personas matriculadas y, tras elegir un número al azar entre 1 y 25, seleccionan a cada 25-ava persona de la lista hasta completar una muestra de 20 integrantes. El estudio se realiza en un aula tranquila, asegurando que todas las personas tengan la misma edad (18 años) para evitar variaciones por madurez. Sin embargo, se nota que el día de la prueba hubo una manifestación ruidosa afuera del edificio que no se pudo evitar.
+
+***
+
+**CASO 1 - VARIANTE B: Ansiedad ante los Exámenes en Medicina**
+
+**Una investigadora** busca evaluar si el nivel de ansiedad rasgo influye en el tiempo de entrega de un examen final en **estudiantes** de medicina. Cuenta con una lista de 300 integrantes del curso y decide seleccionar a cada 15-ava persona de la lista tras elegir un punto de partida al azar entre el 1 y el 15 hasta obtener una muestra de 20 participantes. El estudio se realiza en un cubículo con iluminación controlada para todo el grupo; sin embargo, durante la prueba, un taladro de una construcción vecina generó un ruido intermitente que no pudo ser detenido.
+
+***
+
+**CASO 1 - VARIANTE C: Hábitos de Sueño y Atención Focalizada**
+**Un investigador** desea saber si las horas de sueño nocturno afectan la capacidad de atención focalizada en **el personal** de una consultora. La empresa tiene 500 personas empleadas: 300 en el turno mañana (60%) y 200 en el turno tarde (40%). Quien investiga selecciona al azar a 12 personas del turno mañana y 8 del turno tarde para la muestra final de 20 participantes. Durante la tarea, se controla que todo el grupo use la misma silla ergonómica para evitar incomodidad física, pero no se puede evitar que las notificaciones constantes de los teléfonos personales interrumpan su concentración.
+
+\newpage
+ 
+**CASO 2 - VARIANTE A: Bio-retroalimentación y Pánico Agorafóbico**
+
+**Una psicóloga** investiga el impacto de una aplicación de bío-retroalimentación en el manejo del pánico en adultos que sufren de agorafobia severa. Al ser una población difícil de localizar, contacta a 3 pacientes conocidos y les solicita que inviten a otras personas de sus redes de apoyo que compartan el diagnóstico. Una vez reunido un grupo de 40 personas mediante estas referencias, lanza una moneda por cada participante: si sale cara, la persona entrena con la aplicación; si sale cruz, no recibe la intervención. Se aplica una escala de pánico al inicio y al final del estudio a todo el grupo.
+
+***
+
+**CASO 2 - VARIANTE B: Integración Social en Migrantes no Documentados**
+
+**Un psicólogo social** estudia el impacto de un taller de "habilidades de navegación" en la percepción de seguridad de personas migrantes sin documentos, una población que evita registros oficiales por temor. Se contacta a 2 líderes comunitarios y se les pide que refieran a otros conocidos en su misma situación. Una vez que se logra un grupo de 30 personas, se usa un software para asignar al azar a la mitad al taller y a la otra mitad a una charla informativa general. Se mide la percepción de seguridad de ambos grupos únicamente al finalizar la intervención para evitar sospechas por evaluaciones repetidas.
+
+***
+
+**CASO 2 - VARIANTE C: Grupos de Apoyo para Fobias de Baja Prevalencia**
+
+**Quien lidera la investigación** busca evaluar la eficacia de un grupo de apoyo para personas con *tripofobia*. Al ser un diagnóstico poco común, solicita a integrantes de un foro especializado que inviten a otras personas usuarias con el mismo miedo. Tras reunir a 40 voluntades mediante estas redes de contacto, se lanza un dado por cada integrante: si sale par, asiste al grupo de apoyo; si sale impar, recibe terapia individual estándar. Se aplica un test de reactividad fisiológica antes de iniciar y otro después de tres meses de sesiones.
+
+***
+
+**CASO 2 - VARIANTE A: Bio-retroalimentación y Pánico Agorafóbico**
+
+**Una psicóloga** investiga el impacto de una aplicación de bío-retroalimentación en el manejo del pánico en adultos que sufren de agorafobia severa. Al ser una población difícil de localizar, contacta a 3 pacientes conocidos y les solicita que inviten a otras personas de sus redes de apoyo que compartan el diagnóstico. Una vez reunido un grupo de 40 personas mediante estas referencias, lanza una moneda por cada participante: si sale cara, la persona entrena con la aplicación; si sale cruz, no recibe la intervención. Se aplica una escala de pánico al inicio y al final del estudio a todo el grupo.
+
+***
+
+**CASO 2 - VARIANTE B: Integración Social en Migrantes no Documentados**
+
+**Un psicólogo social** estudia el impacto de un taller de "habilidades de navegación" en la percepción de seguridad de personas migrantes sin documentos, una población que evita registros oficiales por temor. Se contacta a 2 líderes comunitarios y se les pide que refieran a otros conocidos en su misma situación. Una vez que se logra un grupo de 30 personas, se usa un software para asignar al azar a la mitad al taller y a la otra mitad a una charla informativa general. Se mide la percepción de seguridad de ambos grupos únicamente al finalizar la intervención para evitar sospechas por evaluaciones repetidas.
+
+***
+
+**CASO 2 - VARIANTE C: Grupos de Apoyo para Fobias de Baja Prevalencia**
+
+**Quien lidera la investigación** busca evaluar la eficacia de un grupo de apoyo para personas con *tripofobia*. Al ser un diagnóstico poco común, solicita a integrantes de un foro especializado que inviten a otras personas usuarias con el mismo miedo. Tras reunir a 40 voluntades mediante estas redes de contacto, se lanza un dado por cada integrante: si sale par, asiste al grupo de apoyo; si sale impar, recibe terapia individual estándar. Se aplica un test de reactividad fisiológica antes de iniciar y otro después de tres meses de sesiones.
+
+\newpage
+
+# HOJA DE RESPUESTAS (Para el Estudiante)
+
+**Nombre:** ____________________________________  **Nro de Carnet:** __________ 
+
+\vspace{0.5cm}
+\hrule
+
+**ESTUDIO DE CASO 1, VARIANTE (A, B o C):** _____
+
+\hrule
+
+1. **Pregunta de Investigación (10 pts):** 
+
+Desarrolle:
+
+2. **Identificación del Muestreo (10 pts):** 
+
+Desarrolle: 
+
+\vspace{1.5cm}
+
+3. **Clasificación de Variables (15 pts):** 
+  - Explicativa (E): 
+  - Controlada (C): 
+  - Perturbadora (D): 
+4. **Triángulo de Kish (15 pts):** Criterio priorizado en el diseño 
+
+Desarrolle:
+
+\vspace{1cm}
+
+\hrule
+
+**ESTUDIO DE CASO 2, VARIANTE (A, B o C):** _____
+
+\hrule
+
+1. **Identificación de Muestreo (10 pts):** 
+
+Desarrolle:
+
+2. **Pregunta y Variables (10 pts):** (Var. Independiente / Var. Dependiente)
+
+Desarrolle:
+
+\vspace{1cm}
+
+3. **Análisis del Diseño (15 pts):** (Tipo diseño/ Diagrama) 
+
+Desarrolle:
+
+\vspace{1.5cm}
+
+4. **Compromiso de Kish (15 pts):** ¿Qué criterio se sacrificó en el reclutamiento y cómo ayuda el azar a manejar las variables ajenas?
+
+Desarrolle: 
+
+\newpage
+
+# RÚBRICA DE RESPUESTAS ESPERADAS (Para el Docente)
+
+### PARTE 1: Muestreo y Variables (Leslie Kish)
+* **Muestreo:** Variantes A y B = **Sistemático**; Variante C = **Estratificado Proporcional** [1.8.2].
+* **Variables:** **E** = Variable de resultado (notas, tiempo, atención); **C** = Factor constante (edad, iluminación, silla); **D** = Evento externo imprevisto (manifestación, taladro, notificaciones) [1.3].
+* **Triángulo de Kish:** Se prioriza la **Representación** al utilizar marcos muestrales para asegurar la generalización [1.4].
+
+### PARTE 2: Diseño Experimental (Campbell y Stanley)
+* **Muestreo:** **Bola de Nieve** (Snowball) [1.7.1].
+* **Análisis del Diseño:** Todas las variantes son **Experimental Verdadero** por el uso del azar [1.9.4].
+* **Diagrama:** Var A y C ($R \ O \ X \ O$ / $R \ O \ \ \ O$); Var B ($R \ \ \ X \ O$ / $R \ \ \ \ \ O$) [1.9.2].
+* **Triángulo:** Se sacrifica la **Representación**. El azar (R) permite controlar las **Variables Clase D** al distribuirlas aleatoriamente [1.3, 1.4].

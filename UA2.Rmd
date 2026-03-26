@@ -1,0 +1,127 @@
+# Medición, Validación y Gestión de Datos
+
+> Vínculo con la Unidad anterior: Del Control Técnico al Límite Ético
+
+En la unidad anterior estudiamos el **Triángulo de Kish**, donde el diseño estadístico se entiende como un compromiso entre **Representación, Aleatorización y Realismo**. 
+
+Sin embargo, la búsqueda de la "pureza" estadística tiene un límite: **la integridad del ser humano**. Mientras que en la Unidad 1 el objetivo era reducir el error de muestreo y controlar variables perturbadoras, en esta unidad establecemos el marco ético que impide que los sujetos sean tratados como meros "puntos de datos" ($data\ points$) sin autonomía. 
+
+**Punto clave:** Una alta validez interna (control total) a menudo choca con la ética. Por ejemplo, no podemos "asignar al azar" a niños a una condición de maltrato para estudiar sus efectos, aunque técnicamente eso nos daría un experimento puro.
+
+::: {.rmdtip}
+**Lectura de investigación: Casos de Tuskegee, Milgram**
+
+Realice una búsqueda en internet sobre los casos de  Tuskegee, Milgram e identifique:
+
+- Pregunta de investigación (X/Y)
+- Método
+- Criterio priorizado en el triangulo de Kish
+- Conflicto ético
+:::
+
+::: {.rmdtip}
+**Actividad de Inicio: Debate de Dilemas Éticos en la Era del Big Data**
+
+**Instrucciones:** En grupos de 4 personas, analicen el siguiente dilema contemporáneo:
+
+> **El Caso del Algoritmo Predictivo:** Una universidad desarrolla un modelo cuantitativo que analiza las publicaciones de Facebook y Twitter de sus estudiantes. El modelo tiene un 90% de precisión para detectar crisis depresivas inminentes. Para validar si la intervención de la universidad funciona, el equipo de investigación propone un diseño de **Grupo de Control**: a un grupo de estudiantes detectados en riesgo se les envía ayuda psicológica inmediata ($X$), mientras que al grupo de control se le observa sin intervenir para comparar las tasas de deserción y autolesión.
+
+**Preguntas para el debate:**
+
+1. ¿Es ético privar al grupo de control de una intervención vital solo por rigor estadístico?.
+2. ¿Viola el anonimato el uso de datos de redes sociales si el investigador no pide permiso explícito, argumentando que son "espacios públicos"?.
+3. Comparen este caso con el de **Tuskegee**: ¿Se repite el patrón de observar el curso de una dolencia sin intervenir?.
+:::
+
+## Principios Éticos en la Investigación Cuantitativa
+
+En la investigación cuantitativa moderna, el enfoque no es el individuo, sino el **dataset** (conjunto de datos).
+
+1.  **Anonimicidad vs. Confidencialidad:** 
+    *   **Anonimicidad:** Nadie (ni el investigador) puede vincular un dato con un nombre. Es el ideal en encuestas masivas.
+    *   **Confidencialidad:** El investigador conoce la identidad pero se compromete a no revelarla.
+2.  **Principio de Datos Agregados:** El análisis cuantitativo debe reportar tendencias de grupo (medias, desviaciones estándar). Nunca se deben publicar casos individuales que permitan la re-identificación de un participante en un dataset público (riesgo alto en la *Open Science*).
+
+### El Principio de Compartir Beneficios (Reciprocidad)
+
+La investigación no debe ser una actividad "extractiva". 
+
+*   Si una intervención psicológica ($X$) resulta ser altamente efectiva, el investigador tiene la obligación ética de ofrecer ese tratamiento al **grupo de control** una vez finalizado el estudio.
+*   **Justicia Distributiva:** Los beneficios de la ciencia deben llegar a todos los grupos que asumieron los riesgos de participar.
+
+### Ética en Entornos Digitales (Internet-Mediated Research)
+
+La investigación online (redes sociales, foros, encuestas en línea) requiere precauciones adicionales debido a la porosidad entre lo público y lo privado.
+
+1. **Espacios Públicos vs. Privados:** Se puede analizar información online sin consentimiento explícito si está archivada públicamente, no requiere contraseña y no hay una prohibición expresa en el sitio. 
+2. **Consentimiento Electrónico:** Es válido para mayores de 18 años si el riesgo es bajo; de lo contrario, se debe obtener una firma física o digital verificable.
+3. **No Intrusión:** El proceso de pedir consentimiento no debe irrumpir o alterar la dinámica natural del grupo online que se observa (Efecto Reactividad).
+
+### Consentimiento Informado: La Base de la Autonomía 
+
+Es el proceso por el cual los participantes entran libremente en la investigación tras comprender su naturaleza. En psicología, no es solo un papel, sino la garantía de que la **autonomía** del individuo se respeta por encima de los intereses de la ciencia.
+
+*   **Voluntariedad:** Nadie debe ser coaccionado. Es común el sesgo en muestras de estudiantes universitarios que se sienten obligados a participar por créditos extra.
+*   **Debriefing (Entrevista de cierre):** Si el diseño incluyó engaño (como en el caso de **Milgram** donde se fingían descargas eléctricas), es obligatorio explicar la verdad al finalizar.
+*   **Asentimiento:** En menores de edad, los padres firman el consentimiento, pero el niño debe dar su **asentimiento** (aceptación voluntaria adaptada a su nivel de desarrollo).
+
+**Componentes esenciales:**
+
+* **Propósito y Procedimiento:** Explicar qué se está haciendo y cuánto tiempo tomará.
+* **Voluntariedad:** El participante debe saber que puede retirarse en cualquier momento sin represalias.
+* **Riesgos y Beneficios:** Descripción honesta de cualquier incomodidad física o psicológica (riesgo) y el valor del estudio para la sociedad.
+* **Debriefing (Entrevista de cierre):** Especialmente en diseños que implican engaño (como en el experimento de Milgram), es obligatorio informar a los sujetos sobre los objetivos reales al finalizar.
+
+### Plantilla de Consentimiento Informado (Modelo Estándar)
+
+Esta plantilla debe adaptarse según la población (ej: usar lenguaje pictográfico para niños o traductores para minorías étnicas).
+
+> **TÍTULO DEL ESTUDIO:** [Insertar Nombre]
+> **INVESTIGADOR PRINCIPAL:** [Nombre y Afiliación]
+>
+> 1. **Propósito:** Se le invita a participar en un estudio sobre [X]. El objetivo es medir cuantitativamente [Y].
+> 2. **Procedimiento:** Usted completará un cuestionario de [Número] ítems que tomará aproximadamente [Tiempo]. Sus datos se sumarán a un **análisis de datos agregados**.
+> 3. **Participación Voluntaria:** Usted puede negarse a participar o retirarse en cualquier momento sin que esto afecte su relación con [Institución/Universidad].
+> 4. **Riesgos:** No existen riesgos físicos. Podría sentir una ligera incomodidad al responder sobre [Tema sensible].
+> 5. **Privacidad y Anonimato:** Sus respuestas serán **anónimas**. Los datos se identificarán solo mediante un código numérico. No se publicará ninguna información que permita su identificación individual.
+> 6. **Beneficios:** Su aporte ayudará a mejorar [Práctica clínica/educativa]. Al finalizar el estudio, usted puede solicitar un resumen de los resultados generales.
+> 7. **Contacto:** Si tiene dudas sobre sus derechos, contacte al Comité de Ética en: [Email/Teléfono].
+>
+> **FIRMA:** __________________________ **FECHA:** __________
+
+
+#### Variantes según la Población
+
+El nivel de protección debe escalar según la vulnerabilidad de los participantes.
+* **Niños y Menores:** El consentimiento legal lo otorgan los padres o tutores (*loco parentis*), pero el niño debe dar su **asentimiento** (aceptación verbal o escrita simple según su edad). Los derechos del niño siempre superan los del investigador.
+* **Poblaciones Vulnerables:** Personas con discapacidades intelectuales, víctimas de trauma, prisioneros o mujeres embarazadas requieren que el **Comité de Ética (IRB)** realice una evaluación de riesgo-beneficio mucho más rigurosa para evitar la coacción.
+* **Poblaciones Ocultas:** En muestreos de **Bola de Nieve**, se debe asegurar que el contacto entre referidos no rompa la confidencialidad de los diagnósticos o identidades.
+
+#### Ejemplos
+
+- https://investigacion.pucp.edu.pe/wp-content/uploads/2019/04/ejemplos-de-los-pci-desarrollados-todos-los-casos.pdf
+- https://urosario.edu.co/sites/default/files/2023-04/8.modelo-consentimiento-informado_sala-de-ciencias-sociales.docx
+- https://www.uwiener.edu.pe/wp-content/uploads/2025/09/guia-elaboracion-tesis-cuantitativo.pdf
+- https://repositorio.uchile.cl/bitstream/handle/2250/146464/Anexo%20N%C2%B0%201%20-%20Formato%20Consentimiento%20informado.pdf?sequence=2
+
+::: {.rmdtip}
+**Ejercicio de Aplicación: Auditoría de un Dataset Psicológico**
+
+**Caso:** Un investigador publica en un repositorio abierto de *Open Science* un dataset de 100 pacientes con Trastorno Límite de la Personalidad para que otros repliquen su ANOVA. El dataset incluye: Edad exacta, Ciudad de residencia, Profesión y puntuación de depresión.
+
+**Pregunta Técnica:** 
+Basándose en el concepto de **Privacidad en la era digital** y el **Uso de datos agregados**, identifique dos fallos éticos en la gestión de este dataset y proponga cómo corregirlos para proteger la anonimicidad de los pacientes.
+:::
+
+::: {.rmdtip}
+**Ejercicio: Estudio de Caso de Ética en Datos Masivos**
+
+**Instrucciones:** Analice el siguiente caso y responda a las preguntas técnicas.
+
+**El Caso:** "Big Mind" es una empresa de salud mental que recolectó datos de 50,000 usuarios de una App de terapia. Un investigador universitario solicita acceso al dataset para publicar un estudio sobre "Depresión y Nivel Socioeconómico". La empresa entrega una tabla con el ID del usuario, el diagnóstico, el ingreso mensual y la ubicación GPS exacta de la vivienda del usuario para control de "Realismo" según el **Triángulo de Kish**. El investigador publica un mapa de calor mostrando dónde viven las personas con mayor depresión en la ciudad.
+
+**Preguntas:**
+1.  **Privacidad:** ¿Se cumple el principio de **Anonimicidad** en este caso?.
+2.  **Datos Agregados:** Explique cómo debió el investigador presentar los resultados para respetar el principio de **no individualizar**.
+3.  **Consentimiento:** Si los usuarios aceptaron los "Términos y Condiciones" de la App para uso comercial, ¿es suficiente esto como **Consentimiento Informado** para una investigación científica?.
+4.  **Beneficios:** Si el estudio descubre que un grupo específico de la ciudad tiene alta vulnerabilidad, ¿qué acción debería tomar el investigador bajo el **Principio de Compartir Beneficios**?.
