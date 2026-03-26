@@ -93,6 +93,7 @@ Esta plantilla debe adaptarse según la población (ej: usar lenguaje pictográf
 #### Variantes según la Población
 
 El nivel de protección debe escalar según la vulnerabilidad de los participantes.
+
 * **Niños y Menores:** El consentimiento legal lo otorgan los padres o tutores (*loco parentis*), pero el niño debe dar su **asentimiento** (aceptación verbal o escrita simple según su edad). Los derechos del niño siempre superan los del investigador.
 * **Poblaciones Vulnerables:** Personas con discapacidades intelectuales, víctimas de trauma, prisioneros o mujeres embarazadas requieren que el **Comité de Ética (IRB)** realice una evaluación de riesgo-beneficio mucho más rigurosa para evitar la coacción.
 * **Poblaciones Ocultas:** En muestreos de **Bola de Nieve**, se debe asegurar que el contacto entre referidos no rompa la confidencialidad de los diagnósticos o identidades.
