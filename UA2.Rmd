@@ -122,7 +122,34 @@ Basándose en el concepto de **Privacidad en la era digital** y el **Uso de dato
 **El Caso:** "Big Mind" es una empresa de salud mental que recolectó datos de 50,000 usuarios de una App de terapia. Un investigador universitario solicita acceso al dataset para publicar un estudio sobre "Depresión y Nivel Socioeconómico". La empresa entrega una tabla con el ID del usuario, el diagnóstico, el ingreso mensual y la ubicación GPS exacta de la vivienda del usuario para control de "Realismo" según el **Triángulo de Kish**. El investigador publica un mapa de calor mostrando dónde viven las personas con mayor depresión en la ciudad.
 
 **Preguntas:**
+
 1.  **Privacidad:** ¿Se cumple el principio de **Anonimicidad** en este caso?.
 2.  **Datos Agregados:** Explique cómo debió el investigador presentar los resultados para respetar el principio de **no individualizar**.
 3.  **Consentimiento:** Si los usuarios aceptaron los "Términos y Condiciones" de la App para uso comercial, ¿es suficiente esto como **Consentimiento Informado** para una investigación científica?.
 4.  **Beneficios:** Si el estudio descubre que un grupo específico de la ciudad tiene alta vulnerabilidad, ¿qué acción debería tomar el investigador bajo el **Principio de Compartir Beneficios**?.
+
+
+::: {.rmdtip}
+**Actividad Grupal: "Protocolos Éticos en la Práctica Investigativa"**
+
+Objetivo: Desarrollar la capacidad de operativizar los principios éticos de la APA y las sociedades de psicología en contextos de investigación cuantitativa reales.
+Instrucciones: En grupos, analicen los siguientes dos casos de estudio. Para cada uno, deben redactar los documentos solicitados, asegurándose de cumplir con los requisitos legales y morales descritos en las fuentes (identificación, propósito, riesgos, beneficios y voluntariedad)
+
+**Caso 1:**
+
+- Estudio: "Intervención de Realidad Aumentada para reducir la ansiedad social en adolescentes (12-14 años) con diagnóstico previo de trauma infantil."
+- Contexto Técnico: El equipo de investigación utilizará un diseño experimental de pretest-posttest con un grupo de control. Los adolescentes participarán en 8 sesiones. Existe un riesgo de re-experimentación de estrés emocional debido a la naturaleza de su diagnóstico previo.
+- Tarea del Grupo:
+  + Redactar la Nota de Consentimiento Informado dirigida a los padres o tutores legales.
+  + Redactar la Nota de Asentimiento dirigida específicamente al adolescente, utilizando un lenguaje adaptado a su nivel de desarrollo.
+  + Pregunta de Reflexión: ¿Cómo aplicarán el Principio de Compartir Beneficios si la intervención de realidad aumentada resulta ser altamente efectiva al finalizar el estudio?.
+
+**Caso 2:**
+
+- Estudio: "Impacto de la flexibilidad de horarios en la productividad y niveles de cortisol en empleados administrativos de una corporación multinacional."
+- Contexto Técnico: Se recolectarán datos de 500 empleados mediante un muestreo estratificado. Se tomarán muestras de saliva (cortisol) y se aplicarán escalas de productividad. El estudio garantiza el uso de datos agregados para que la gerencia no pueda identificar el rendimiento individual de un empleado específico, protegiendo su estabilidad laboral.
+- Tarea del Grupo:
+  + Redactar la Nota de Consentimiento Informado para los empleados adultos.
+  + Explicar claramente en el documento la diferencia entre Confidencialidad y Anonimicidad en el manejo del dataset de cortisol y productividad.
+  + Pregunta de Reflexión: Si un empleado decide retirarse a mitad de la recolección de muestras, ¿qué debe suceder con sus datos ya recolectados según el principio de Participación Voluntaria?
+:::
