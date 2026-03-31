@@ -127,7 +127,7 @@ Basándose en el concepto de **Privacidad en la era digital** y el **Uso de dato
 2.  **Datos Agregados:** Explique cómo debió el investigador presentar los resultados para respetar el principio de **no individualizar**.
 3.  **Consentimiento:** Si los usuarios aceptaron los "Términos y Condiciones" de la App para uso comercial, ¿es suficiente esto como **Consentimiento Informado** para una investigación científica?.
 4.  **Beneficios:** Si el estudio descubre que un grupo específico de la ciudad tiene alta vulnerabilidad, ¿qué acción debería tomar el investigador bajo el **Principio de Compartir Beneficios**?.
-
+:::
 
 ::: {.rmdtip}
 **Actividad Grupal: "Protocolos Éticos en la Práctica Investigativa"**
