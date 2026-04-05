@@ -232,9 +232,9 @@ En la investigación psicológica cuantitativa, el uso de las **Escalas Likert**
 ::: {.rmdtip}
 **Ejercicio de Autoevaluación**
 
-Un equipo de investigación mide el **tiempo que tardan** los pacientes en completar una tarea de memoria tras una intervención. Luego, los **agrupa** en "Mejoría Notable", "Mejoría Leve" y "Sin Mejoría". Finalmente, registra el **tipo de seguro médico** de cada paciente.
+Un equipo de investigación mide el *tiempo que tardan* los pacientes en completar una tarea de memoria tras una intervención. Luego, los *agrupa* en "Mejoría Notable", "Mejoría Leve" y "Sin Mejoría". Finalmente, registra el *tipo de seguro médico* de cada paciente.
 
-1.  ¿Cuál es el nivel de medición del tiempo (original)? **Razón**.
-2.  ¿Cuál es el nivel de la variable de mejoría (agrupada)? **Ordinal**.
-3.  ¿Cuál es el nivel del tipo de seguro médico? **Nominal**.
+1.  ¿Cuál es el nivel de medición del tiempo (original)?.
+2.  ¿Cuál es el nivel de la variable de mejoría (agrupada)?.
+3.  ¿Cuál es el nivel del tipo de seguro médico?.
 :::
