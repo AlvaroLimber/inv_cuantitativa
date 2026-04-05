@@ -54,3 +54,15 @@ nivel-ordinal-orden-y-rango
 nivel-de-intervalo-distancias-iguales
 nivel-de-razón-cero-absoluto
 el-dilema-de-la-escala-likert
+validez-de-instrumentos-validez-de-contenido-de-criterio-y-de-constructo
+conceptos-fundamentales-de-la-validez
+a.-validez-de-contenido-representatividad
+b.-validez-de-criterio-relación-empírica
+c.-validez-de-constructo-la-red-teórica
+la-relación-crítica-entre-fiabilidad-y-validez
+confiabilidad-consistencia-interna-alfa-de-cronbach-y-omega-de-mcdonald
+teoría-clásica-de-los-test
+medidas-de-consistencia-interna
+a.-alfa-de-cronbach-alpha
+b.-omega-de-mcdonald-omega
+dataset-público-recomendado

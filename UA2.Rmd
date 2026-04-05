@@ -206,11 +206,11 @@ Es el nivel más preciso y posee un **cero absoluto** que representa la ausencia
 
 **Instrucciones:** En grupos de 4 personas, clasifiquen el nivel de medición de las siguientes variables para un estudio sobre "Bienestar Universitario". Justifiquen su elección basándose en si la variable tiene orden, distancia igual o un cero absoluto.
 
-1. **Facultad** (Psicología, Derecho, Medicina).
-2. **Nivel de estrés** reportado en una escala Likert de 1 (Muy bajo) a 5 (Muy alto).
-3. **Número de materias** reprobadas el semestre anterior.
-4. **Puntaje en la escala de satisfacción con la vida** (0 a 100 puntos).
-5. **Tiempo promedio** (en minutos) que tarda el estudiante en llegar a la universidad.
+1. *Facultad* (Psicología, Derecho, Medicina).
+2. *Nivel de estrés* reportado en una escala Likert de 1 (Muy bajo) a 5 (Muy alto).
+3. *Número de materias* reprobadas el semestre anterior.
+4. *Puntaje en la escala de satisfacción con la vida* (0 a 100 puntos).
+5. *Tiempo promedio* (en minutos) que tarda el estudiante en llegar a la universidad.
 :::
 
 ### El Dilema de la Escala Likert
@@ -229,7 +229,7 @@ En la investigación psicológica cuantitativa, el uso de las **Escalas Likert**
     *   *Razón:* ¿Qué conducta observable podrían contar que permitiera un cero absoluto?
 :::
 
-::: {.rmdtip}
+::: {.rmdactivity}
 **Ejercicio de Autoevaluación**
 
 Un equipo de investigación mide el *tiempo que tardan* los pacientes en completar una tarea de memoria tras una intervención. Luego, los *agrupa* en "Mejoría Notable", "Mejoría Leve" y "Sin Mejoría". Finalmente, registra el *tipo de seguro médico* de cada paciente.
@@ -238,3 +238,154 @@ Un equipo de investigación mide el *tiempo que tardan* los pacientes en complet
 2.  ¿Cuál es el nivel de la variable de mejoría (agrupada)?.
 3.  ¿Cuál es el nivel del tipo de seguro médico?.
 :::
+
+## Validez de instrumentos: Validez de contenido, de criterio y de constructo
+
+Siguendo a @Salkind2017; @Creswell2009; @Navarro2025.
+
+En la sección anterior estudiamos los **niveles de medición** (nominal, ordinal, de intervalo y de razón), los cuales determinan la **precisión** con la que capturamos un dato. Sin embargo, desde la perspectiva de la investigación cuantitativa, tener un número preciso no es útil si ese número no representa la realidad que buscamos estudiar. 
+
+Mientras que la **fiabilidad** se pregunta "¿con cuánta consistencia medimos?", la **validez** se pregunta **"¿estamos midiendo lo que realmente creemos estar midiendo?"**. Este paso es el eje de la **inferencia**: una medición puede ser altamente fiable (dar siempre el mismo resultado) pero ser totalmente inválida si está equivocada sistemáticamente respecto al constructo real. Por tanto, la validez es el cimiento ético y técnico que permite que nuestras conclusiones sean **veraces y generalizables**.
+
+### Conceptos Fundamentales de la Validez
+
+La validez se define como la **exactitud, verdad y solidez** de las inferencias realizadas a partir de las puntuaciones de un instrumento. En psicología, no validamos el instrumento en sí, sino la interpretación de sus resultados en un contexto específico.
+
+#### A. Validez de Contenido (Representatividad)
+
+Mide el grado en que los ítems de un test reflejan el **universo o dominio** total del contenido que se desea evaluar. Dado que es imposible preguntar todo sobre un tema, el instrumento debe ser una muestra representativa de todas las conductas posibles.
+
+*   **Procedimiento Técnico:** Se establece mediante el **Juicio de Expertos**. Profesionales con amplia trayectoria en el área revisan los reactivos para asegurar que sean apropiados y no incluyan elementos irrelevantes.
+*   **Ejemplo:** Si se diseña una prueba de "Aptitud Matemática", expertos en pedagogía deben certificar que los problemas cubran aritmética, álgebra y geometría, y no solo una de estas áreas.
+
+#### B. Validez de Criterio (Relación Empírica)
+
+Evalúa la relación entre las puntuaciones del instrumento y un **estándar de oro** o criterio externo ya validado.
+
+1.  **Validez Concurrente:** El test y el criterio se aplican simultáneamente. Se usa para validar nuevos instrumentos frente a medidas ya establecidas. 
+    *   *Ejemplo:* Correlacionar los resultados de un nuevo inventario de personalidad con un diagnóstico clínico realizado hoy mismo por un equipo de psiquiatría.
+2.  **Validez Predictiva:** El test se utiliza para predecir un desempeño o resultado en el futuro. 
+    *   *Ejemplo:* Utilizar el puntaje de un examen de ingreso universitario ($X$) para predecir el promedio de notas que el estudiantado tendrá al graduarse ($Y$).
+
+#### C. Validez de Constructo (La Red Teórica)
+
+Es la forma más compleja de validez. Determina si el test mide realmente la **variable teórica subyacente** (como la inteligencia, la autoestima o la motivación) y si el instrumento refleja la teoría en la que se basa. 
+
+*   **Validez Convergente:** Se demuestra cuando el test correlaciona positivamente con otras medidas que evalúan constructos similares.
+*   **Validez Discriminante:** Se demuestra cuando el test **no correlaciona** con constructos que teóricamente son diferentes, asegurando que medimos el rasgo específico y no otro.
+
+### La Relación Crítica entre Fiabilidad y Validez
+
+Es imperativo recordar que la **fiabilidad es una condición necesaria, pero no suficiente, para la validez**. 
+*   Un test **puede ser fiable pero no válido** (ej. una báscula que marca siempre 5 kilos menos es consistente, pero miente sobre el peso real).
+*   Sin embargo, un test **no puede ser válido si no es primero fiable**. Si los datos son inconsistentes y varían por errores aleatorios, no pueden reflejar la "verdad" del fenómeno.
+
+::: {.rmdactivity}
+**Simulación Profesional: Validación de Contenido mediante Juicio de Expertos**
+
+**Contexto:** Un equipo de investigación ha desarrollado los primeros reactivos para una nueva escala de **"Compromiso Académico"**.
+
+**Instrucciones:** Formen parejas. Una persona asumirá el rol de **"Investigadora"** y la otra de **"Experta en Educación"**.
+
+1.  *Tarea de la persona Investigadora:* Presente los siguientes ítems al experto:
+    -   *Ítem 1:* "Dedico al menos 2 horas diarias al estudio independiente."
+    -   *Ítem 2:* "Me siento feliz cuando comparto tiempo con mis amistades en el campus."
+    -   *Ítem 3:* "Suelo participar activamente en los debates de clase."
+    -   *Ítem 4:* "Entrego mis trabajos finales antes de la fecha límite."
+2.  *Tarea de la persona Experta:* Califique cada ítem del 1 al 5 (1: No relevante / 5: Totalmente relevante) basándose en si miden realmente el **compromiso con las tareas académicas**.
+3.  **Análisis Grupal:** ¿El Ítem 2 tiene validez de contenido?.
+:::
+
+::: {.rmdactivity}
+Ejercicio de Aplicación: Auditoría de Instrumentos en Psicología
+
+**Instrucciones:** Analice el siguiente estudio de caso y responda a las preguntas técnicas utilizando los conceptos de **Kish y Salkind**.
+
+**El Caso:** El departamento de Psicología de una organización crea un test para detectar el **"Liderazgo Transformacional"**. 
+*   **Escenario A:** Se comparan los resultados del test con el cumplimiento de metas de los equipos de trabajo seis meses después. 
+*   **Escenario B:** Se aplica el test junto con una escala de "Empatía" para ver si ambos constructos correlacionan, ya que la teoría indica que el liderazgo transformacional requiere alta empatía.
+*   **Escenario C:** Un grupo de directivos revisa el test e indica que faltan preguntas sobre "Gestión de crisis", señalando que el test no representa todas las facetas del liderazgo.
+
+**Preguntas:**
+1.  **Identificación (10 pts):** ¿Qué tipo de validez se busca en el **Escenario A**? Justifique.
+2.  **Teoría (10 pts):** En el **Escenario B**, ¿qué tipo de validez de constructo se está intentando establecer?.
+3.  **Juicio Técnico (15 pts):** ¿Cuál es el tipo de validez que se cuestiona en el **Escenario C** y quiénes actúan como "jueces"?.
+4.  **Desafío Ético (15 pts):** Si el test resulta ser muy fiable pero se descubre que tiene sesgos culturales que invalidan los resultados para minorías étnicas, ¿qué principio ético de la **Unidad 2.1** se está vulnerando?.
+:::
+
+## Confiabilidad: Consistencia interna (Alfa de Cronbach y Omega de McDonald)
+
+Siguiendo a @Salkind2017; @Navarro2025; @Creswell2009
+
+Mientras que la **validez** (Sección 2.3) se pregunta si el instrumento mide el constructo correcto ("la verdad"), la **confiabilidad** se centra en la estabilidad y consistencia de esa medida. En psicología, la relación es jerárquica: la confiabilidad es una **condición necesaria pero no suficiente** para la validez. Un test puede ser altamente consistente (fiable) pero estar midiendo algo equivocado (no válido); sin embargo, un test que no es consistente no puede pretender ser un reflejo veraz de la realidad.
+
+### Teoría Clásica de los Test
+
+Conceptualmente, la confiabilidad se basa en la idea de que cada puntuación obtenida en un test (**Puntaje Observado**) es la suma de dos componentes:
+
+$$X_{obs} = X_{true} + e$$
+
+*   **Puntaje Verdadero ($X_{true}$):** El valor real del atributo si no hubiera interferencias.
+*   **Error ($e$):** Factores aleatorios que distorsionan la medida, divididos en **Error de Método** (problemas del test o investigador) y **Error de Rasgo** (fatiga o ansiedad del sujeto).
+
+La confiabilidad se define entonces como la proporción de la varianza total que se debe al puntaje verdadero:
+
+$$r_{xx} = \frac{\sigma^2_{True}}{\sigma^2_{Observed}}$$
+
+### Medidas de Consistencia Interna
+
+En la investigación cuantitativa con datasets masivos, la forma más común de evaluar la fiabilidad es la **consistencia interna**, que mide qué tan bien "trabajan juntos" los ítems para medir el mismo constructo.
+
+#### A. Alfa de Cronbach ($\alpha$)
+
+Es el índice más utilizado. Evalúa la correlación promedio entre todos los ítems del test. Su ecuación fundamental es:
+
+$$\alpha = \frac{K}{K-1} \left( 1 - \frac{\sum_{i=1}^{K} \sigma^2_{y_i}}{\sigma^2_x} \right)$$
+
+Donde:
+*   **$K$:** Número de ítems de la escala.
+*   **$\sigma^2_{y_i}$:** Varianza del ítem $i$.
+*   **$\sigma^2_x$:** Varianza total de la escala.
+
+**Limitación:** El Alfa asume **tau-equivalencia**, es decir, que todos los ítems contribuyen por igual al constructo. Si esta condición se viola, el Alfa puede subestimar la fiabilidad real.
+
+#### B. Omega de McDonald ($\omega$)
+
+Considerado un estimador más robusto en la psicometría moderna, el Omega no asume tau-equivalencia. Se basa en las **cargas factoriales** ($\lambda$) de cada ítem en el análisis factorial:
+
+$$\omega = \frac{(\sum \lambda_i)^2}{(\sum \lambda_i)^2 + \sum \psi_i}$$
+
+Donde:
+*   **$\lambda_i$:** Cargas factoriales de cada ítem.
+*   **$\psi_i$:** Varianza de error o unicidad de cada ítem.
+
+**Interpretación:** En psicología, valores entre **.70 y .90** suelen considerarse adecuados. Valores mayores a .95 pueden sugerir que la escala es demasiado larga o los ítems son redundantes.
+
+::: {.rmdtip}
+**Actividad Práctica: Cálculo de Consistencia Interna y Análisis de Ítem**
+
+**Dataset Sugerido:** **Rosenberg Self-Esteem Scale (RSES)**. Esta escala de 10 ítems es ideal porque requiere limpieza de datos previa (recodificación de ítems invertidos).
+
+**Instrucciones:**
+1.  **Carga:** Importen los datos de la escala RSES en JASP o SPSS.
+2.  **Limpieza:** Realicen el **reverse scoring** de los ítems negativos (ej. "A veces me siento un inútil") para que todos los ítems apunten en la misma dirección.
+3.  **Cálculo:** Ejecuten el análisis de fiabilidad solicitando tanto el **Alfa ($\alpha$)** como el **Omega ($\omega$)**.
+4.  **Auditoría (Scale if item deleted):** Identifiquen si algún ítem, al ser eliminado, aumenta significativamente el Alfa global.
+    -   Si el Alfa sube mucho sin el ítem $X$, ese ítem está introduciendo ruido en el constructo.
+:::
+
+::: {.rmdtip}
+Ejercicio: Diagnóstico de Error de Medición
+
+Un investigador administra una escala de estrés laboral y obtiene un **Alfa de Cronbach de .55**. El software indica que el ítem 8 ("Mi jefe usa corbata roja") tiene una correlación casi nula con el resto de la escala. Al eliminarlo, el Alfa sube a **.78**.
+
+**Responda utilizando las ecuaciones y conceptos presentados:**
+
+1.  **Interpretación Técnica:** ¿Qué ocurrió con el término $\frac{\sum \sigma^2_{y_i}}{\sigma^2_x}$ de la ecuación del Alfa al eliminar el ítem 8?
+2.  **Diagnóstico del Error:** Basado en la CTT, ¿el ítem 8 representaba **Puntaje Verdadero** o puro **Error**?.
+3.  **Decisión Ética:** Según el principio de integridad científica, ¿es válido reportar el Alfa de 0.78 sin mencionar que se eliminó un ítem del diseño original?.
+::: 
+
+### Dataset Público Recomendado
+
+Se sugiere el uso de la **Rosenberg Self-Esteem Scale (RSES)**. Es el ejemplo de referencia en el manual de **Navarro et al. (2025)** y permite practicar el manejo de **datos agregados** y datasets con variabilidad real.

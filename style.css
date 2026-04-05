@@ -34,3 +34,73 @@
   font-size: 18px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
+
+/* --- CAJA PARA ACTIVIDADES / EJERCICIOS --- */
+.rmdactivity {
+  padding: 1.5em;
+  margin: 20px 0;
+  background: #eef7ff; /* Azul muy pálido */
+  border-left: 6px solid #3498db; /* Azul brillante */
+  border-radius: 5px;
+  color: #2c3e50;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.rmdactivity strong:first-child {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: #2980b9;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rmdactivity::before {
+  content: "📝"; /* Icono de lápiz/papel */
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  background: #3498db;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* --- CAJA PARA REFORZAR CONCEPTOS --- */
+.rmdreinforce {
+  padding: 1.5em;
+  margin: 20px 0;
+  background: #f0f9eb; /* Verde pálido */
+  border-left: 6px solid #27ae60; /* Verde esmeralda */
+  border-radius: 5px;
+  color: #1d3324;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.rmdreinforce strong:first-child {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: #1e8449;
+}
+
+.rmdreinforce::before {
+  content: "📚"; /* Icono de libros */
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  background: #27ae60;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 32px;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
