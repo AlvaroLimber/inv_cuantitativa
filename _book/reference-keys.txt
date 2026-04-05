@@ -48,3 +48,9 @@ consentimiento-informado-la-base-de-la-autonomía
 plantilla-de-consentimiento-informado-modelo-estándar
 variantes-según-la-población
 ejemplos
+niveles-de-medición-escalas-nominal-ordinal-de-intervalo-y-de-razón
+nivel-nominal-categorías
+nivel-ordinal-orden-y-rango
+nivel-de-intervalo-distancias-iguales
+nivel-de-razón-cero-absoluto
+el-dilema-de-la-escala-likert

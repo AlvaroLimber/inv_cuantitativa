@@ -153,3 +153,88 @@ Instrucciones: En grupos, analicen los siguientes dos casos de estudio. Para cad
   + Explicar claramente en el documento la diferencia entre Confidencialidad y Anonimicidad en el manejo del dataset de cortisol y productividad.
   + Pregunta de Reflexión: Si un empleado decide retirarse a mitad de la recolección de muestras, ¿qué debe suceder con sus datos ya recolectados según el principio de Participación Voluntaria?
 :::
+
+## Niveles de medición: Escalas nominal, ordinal, de intervalo y de razón
+
+En la sección anterior establecimos que la ética en la investigación protege la autonomía y el bienestar del participante. Desde una perspectiva técnica, esta protección se extiende a la **precisión** con la que tratamos sus datos. La medición se define como el proceso de asignar valores (números o etiquetas) a objetos, eventos o resultados siguiendo reglas específicas. 
+
+En psicología, medir incorrectamente un constructo (como la depresión o la inteligencia) no es solo un error estadístico; es un fallo ético, ya que puede conducir a diagnósticos erróneos, interpretaciones sesgadas y decisiones de política pública que afecten negativamente a las personas. Por ello, comprender los **niveles de medición** propuestos por @Stevens1946 es fundamental para garantizar la **exactitud** y la validez de nuestras conclusiones.
+
+El nivel de medición representa una jerarquía de precisión en la cual se evalúa una variable. Cada nivel sucesivo posee las cualidades del anterior, añadiendo nuevas características matemáticas.
+
+### Nivel Nominal (Categorías)
+
+Es el nivel más básico y cualitativo. Los números o etiquetas aquí solo sirven para **clasificar** las observaciones en grupos mutuamente excluyentes .
+
+*   **Características:** No existe una relación de orden; solo podemos decir que las categorías son diferentes entre sí.
+*   **Ejemplos en Psicología:** 
+    *   **Género** (Masculino, Femenino, Otro).
+    *   **Diagnóstico clínico** (Depresión, Ansiedad, TDAH).
+
+### Nivel Ordinal (Orden y Rango)
+
+En este nivel, los datos se pueden **ordenar o jerarquizar** a lo largo de un continuo, pero no conocemos la distancia exacta entre las posiciones.
+
+*   **Características:** Sabemos que una observación es "mayor que" o "menor que" otra, pero la diferencia entre el 1º y el 2º lugar no es necesariamente igual a la del 2º y el 3º.
+*   **Ejemplos en Psicología:** 
+    *   **Rango en clase** o lugar en una competencia.
+    *   **Nivel socioeconómico** (Bajo, Medio, Alto).
+    *   **Etapas del desarrollo** (donde el orden es fijo pero el tiempo de transición varía).
+
+### Nivel de Intervalo (Distancias Iguales)
+
+Aquí, los intervalos entre los números son iguales y significativos. Sin embargo, esta escala **no tiene un cero absoluto**; el cero es arbitrario y no indica la ausencia total del rasgo medido.
+
+*   **Características:** Permite sumar y restar valores, pero no realizar comparaciones proporcionales (no se puede decir que un valor es "el doble" que otro).
+*   **Ejemplos en Psicología:** 
+    *   **Puntuaciones de CI** (Tener 0 de CI no significa ausencia de inteligencia).
+    *   **Temperatura** en grados Celsius.
+    *   **Puntajes en escalas de actitud** estandarizadas (cuando se asume que las distancias entre ítems son iguales).
+
+### Nivel de Razón (Cero Absoluto)
+
+Es el nivel más preciso y posee un **cero absoluto** que representa la ausencia real de la característica medida.
+
+*   **Características:** Permite todas las operaciones matemáticas, incluyendo la multiplicación y división. Podemos afirmar con exactitud que alguien es "el doble de rápido" que otro.
+*   **Ejemplos en Psicología:** 
+    *   **Tiempo de reacción** (medido en milisegundos).
+    *   **Número de respuestas correctas** en una prueba de memoria.
+    *   **Peso o estatura** física.
+
+::: {.rmdtip}
+**Actividad Grupal 1: Auditoría de Variables en Psicología**
+
+**Instrucciones:** En grupos de 4 personas, clasifiquen el nivel de medición de las siguientes variables para un estudio sobre "Bienestar Universitario". Justifiquen su elección basándose en si la variable tiene orden, distancia igual o un cero absoluto.
+
+1. **Facultad** (Psicología, Derecho, Medicina).
+2. **Nivel de estrés** reportado en una escala Likert de 1 (Muy bajo) a 5 (Muy alto).
+3. **Número de materias** reprobadas el semestre anterior.
+4. **Puntaje en la escala de satisfacción con la vida** (0 a 100 puntos).
+5. **Tiempo promedio** (en minutos) que tarda el estudiante en llegar a la universidad.
+:::
+
+### El Dilema de la Escala Likert
+
+En la investigación psicológica cuantitativa, el uso de las **Escalas Likert** (ej. 1: Muy en desacuerdo a 5: Muy de acuerdo) es omnipresente. Existe un debate técnico: mientras que formalmente son **ordinales** (no podemos probar que la distancia mental entre "de acuerdo" y "muy de acuerdo" sea la misma para todos), en la práctica se suelen tratar como **quasi-intervalares**. Esto permite a los investigadores aplicar estadísticas más potentes, como la media y la desviación estándar, asumiendo que los participantes perciben los intervalos como iguales.
+
+::: {.rmdtip}
+**Actividad Grupal: El Reto de la Operacionalización**
+
+**Instrucciones:** Seleccionen el constructo psicológico **"Agresividad"**. Propongan cómo podrían medirlo en cada uno de los cuatro niveles de medición.
+
+*   **Pista:** 
+    *   *Nominal:* ¿Cómo clasificarían a los sujetos simplemente como diferentes?
+    *   *Ordinal:* ¿Cómo establecerían un ranking?
+    *   *Intervalo:* ¿Qué tipo de test estandarizado usarían?
+    *   *Razón:* ¿Qué conducta observable podrían contar que permitiera un cero absoluto?
+:::
+
+::: {.rmdtip}
+**Ejercicio de Autoevaluación**
+
+Un equipo de investigación mide el **tiempo que tardan** los pacientes en completar una tarea de memoria tras una intervención. Luego, los **agrupa** en "Mejoría Notable", "Mejoría Leve" y "Sin Mejoría". Finalmente, registra el **tipo de seguro médico** de cada paciente.
+
+1.  ¿Cuál es el nivel de medición del tiempo (original)? **Razón**.
+2.  ¿Cuál es el nivel de la variable de mejoría (agrupada)? **Ordinal**.
+3.  ¿Cuál es el nivel del tipo de seguro médico? **Nominal**.
+:::
