@@ -311,7 +311,7 @@ Es imperativo recordar que la **fiabilidad es una condición necesaria, pero no 
 **Preguntas:**
 
 1.  *Identificación (10 pts):* ¿Qué tipo de validez se busca en el **Escenario A**? Justifique.
-2.  *Teoría (10 pts):** En el **Escenario B**, ¿qué tipo de validez de constructo se está intentando establecer?.
+2.  *Teoría (10 pts):* En el **Escenario B**, ¿qué tipo de validez de constructo se está intentando establecer?.
 3.  *Juicio Técnico (15 pts):* ¿Cuál es el tipo de validez que se cuestiona en el **Escenario C** y quiénes actúan como "jueces"?.
 4.  *Desafío Ético (15 pts):* Si el test resulta ser muy fiable pero se descubre que tiene sesgos culturales que invalidan los resultados para minorías étnicas, ¿qué principio ético de la **Unidad 2.1** se está vulnerando?.
 :::
