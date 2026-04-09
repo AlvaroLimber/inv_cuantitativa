@@ -277,6 +277,7 @@ Es la forma más compleja de validez. Determina si el test mide realmente la **v
 ### La Relación Crítica entre Fiabilidad y Validez
 
 Es imperativo recordar que la **fiabilidad es una condición necesaria, pero no suficiente, para la validez**. 
+
 *   Un test **puede ser fiable pero no válido** (ej. una báscula que marca siempre 5 kilos menos es consistente, pero miente sobre el peso real).
 *   Sin embargo, un test **no puede ser válido si no es primero fiable**. Si los datos son inconsistentes y varían por errores aleatorios, no pueden reflejar la "verdad" del fenómeno.
 
@@ -293,24 +294,26 @@ Es imperativo recordar que la **fiabilidad es una condición necesaria, pero no 
     -   *Ítem 3:* "Suelo participar activamente en los debates de clase."
     -   *Ítem 4:* "Entrego mis trabajos finales antes de la fecha límite."
 2.  *Tarea de la persona Experta:* Califique cada ítem del 1 al 5 (1: No relevante / 5: Totalmente relevante) basándose en si miden realmente el **compromiso con las tareas académicas**.
-3.  **Análisis Grupal:** ¿El Ítem 2 tiene validez de contenido?.
+3.  *Análisis Grupal:* ¿El Ítem 2 tiene validez de contenido?.
 :::
 
 ::: {.rmdactivity}
-Ejercicio de Aplicación: Auditoría de Instrumentos en Psicología
+**Ejercicio de Aplicación: Auditoría de Instrumentos en Psicología**
 
 **Instrucciones:** Analice el siguiente estudio de caso y responda a las preguntas técnicas utilizando los conceptos de **Kish y Salkind**.
 
 **El Caso:** El departamento de Psicología de una organización crea un test para detectar el **"Liderazgo Transformacional"**. 
-*   **Escenario A:** Se comparan los resultados del test con el cumplimiento de metas de los equipos de trabajo seis meses después. 
-*   **Escenario B:** Se aplica el test junto con una escala de "Empatía" para ver si ambos constructos correlacionan, ya que la teoría indica que el liderazgo transformacional requiere alta empatía.
-*   **Escenario C:** Un grupo de directivos revisa el test e indica que faltan preguntas sobre "Gestión de crisis", señalando que el test no representa todas las facetas del liderazgo.
+
+*   *Escenario A:* Se comparan los resultados del test con el cumplimiento de metas de los equipos de trabajo seis meses después. 
+*   *Escenario B:* Se aplica el test junto con una escala de "Empatía" para ver si ambos constructos correlacionan, ya que la teoría indica que el liderazgo transformacional requiere alta empatía.
+*   *Escenario C:* Un grupo de directivos revisa el test e indica que faltan preguntas sobre "Gestión de crisis", señalando que el test no representa todas las facetas del liderazgo.
 
 **Preguntas:**
-1.  **Identificación (10 pts):** ¿Qué tipo de validez se busca en el **Escenario A**? Justifique.
-2.  **Teoría (10 pts):** En el **Escenario B**, ¿qué tipo de validez de constructo se está intentando establecer?.
-3.  **Juicio Técnico (15 pts):** ¿Cuál es el tipo de validez que se cuestiona en el **Escenario C** y quiénes actúan como "jueces"?.
-4.  **Desafío Ético (15 pts):** Si el test resulta ser muy fiable pero se descubre que tiene sesgos culturales que invalidan los resultados para minorías étnicas, ¿qué principio ético de la **Unidad 2.1** se está vulnerando?.
+
+1.  *Identificación (10 pts):* ¿Qué tipo de validez se busca en el **Escenario A**? Justifique.
+2.  *Teoría (10 pts):** En el **Escenario B**, ¿qué tipo de validez de constructo se está intentando establecer?.
+3.  *Juicio Técnico (15 pts):* ¿Cuál es el tipo de validez que se cuestiona en el **Escenario C** y quiénes actúan como "jueces"?.
+4.  *Desafío Ético (15 pts):* Si el test resulta ser muy fiable pero se descubre que tiene sesgos culturales que invalidan los resultados para minorías étnicas, ¿qué principio ético de la **Unidad 2.1** se está vulnerando?.
 :::
 
 ## Confiabilidad: Consistencia interna (Alfa de Cronbach y Omega de McDonald)
@@ -343,6 +346,7 @@ Es el índice más utilizado. Evalúa la correlación promedio entre todos los �
 $$\alpha = \frac{K}{K-1} \left( 1 - \frac{\sum_{i=1}^{K} \sigma^2_{y_i}}{\sigma^2_x} \right)$$
 
 Donde:
+
 *   **$K$:** Número de ítems de la escala.
 *   **$\sigma^2_{y_i}$:** Varianza del ítem $i$.
 *   **$\sigma^2_x$:** Varianza total de la escala.
@@ -356,6 +360,7 @@ Considerado un estimador más robusto en la psicometría moderna, el Omega no as
 $$\omega = \frac{(\sum \lambda_i)^2}{(\sum \lambda_i)^2 + \sum \psi_i}$$
 
 Donde:
+
 *   **$\lambda_i$:** Cargas factoriales de cada ítem.
 *   **$\psi_i$:** Varianza de error o unicidad de cada ítem.
 
@@ -387,5 +392,7 @@ Un investigador administra una escala de estrés laboral y obtiene un **Alfa de 
 ::: 
 
 ### Dataset Público Recomendado
+
+- https://openpsychometrics.org/_rawdata/ (test de personalidad)
 
 Se sugiere el uso de la **Rosenberg Self-Esteem Scale (RSES)**. Es el ejemplo de referencia en el manual de **Navarro et al. (2025)** y permite practicar el manejo de **datos agregados** y datasets con variabilidad real.
