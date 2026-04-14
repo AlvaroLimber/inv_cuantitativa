@@ -366,12 +366,20 @@ Donde:
 
 **Interpretación:** En psicología, valores entre **.70 y .90** suelen considerarse adecuados. Valores mayores a .95 pueden sugerir que la escala es demasiado larga o los ítems son redundantes.
 
+Alfa de Cronbach (α): Mide qué tan unificados están los ítems para medir un solo constructo.
+
+- Mayor a 0.90: Indica una consistencia interna fuerte o muy alta, aunque valores superiores a 0.95 pueden sugerir redundancia de ítems.
+- 0.80 a 0.90: Se considera el estándar para tests estandarizados.
+- 0.70 o superior: Es el umbral común para considerar una escala como adecuada.
+- Menor a 0.70: Sugiere que los ítems no son suficientemente homogéneos o presentan excesivo error de medición.
+
 ::: {.rmdtip}
 **Actividad Práctica: Cálculo de Consistencia Interna y Análisis de Ítem**
 
 **Dataset Sugerido:** **Rosenberg Self-Esteem Scale (RSES)**. Esta escala de 10 ítems es ideal porque requiere limpieza de datos previa (recodificación de ítems invertidos).
 
 **Instrucciones:**
+
 1.  **Carga:** Importen los datos de la escala RSES en JASP o SPSS.
 2.  **Limpieza:** Realicen el **reverse scoring** de los ítems negativos (ej. "A veces me siento un inútil") para que todos los ítems apunten en la misma dirección.
 3.  **Cálculo:** Ejecuten el análisis de fiabilidad solicitando tanto el **Alfa ($\alpha$)** como el **Omega ($\omega$)**.

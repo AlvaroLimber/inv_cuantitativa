@@ -23,7 +23,7 @@
 <meta name="author" content="MSc. Alvaro Chirino Gutierrez" />
 
 
-<meta name="date" content="2026-04-09" />
+<meta name="date" content="2026-04-14" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -564,15 +564,26 @@ Instrucciones: En grupos, analicen los siguientes dos casos de estudio. Para cad
 <li><strong><span class="math inline">\(\psi_i\)</span>:</strong> Varianza de error o unicidad de cada ítem.</li>
 </ul>
 <p><strong>Interpretación:</strong> En psicología, valores entre <strong>.70 y .90</strong> suelen considerarse adecuados. Valores mayores a .95 pueden sugerir que la escala es demasiado larga o los ítems son redundantes.</p>
+<p>Alfa de Cronbach (α): Mide qué tan unificados están los ítems para medir un solo constructo.</p>
+<ul>
+<li>Mayor a 0.90: Indica una consistencia interna fuerte o muy alta, aunque valores superiores a 0.95 pueden sugerir redundancia de ítems.</li>
+<li>0.80 a 0.90: Se considera el estándar para tests estandarizados.</li>
+<li>0.70 o superior: Es el umbral común para considerar una escala como adecuada.</li>
+<li>Menor a 0.70: Sugiere que los ítems no son suficientemente homogéneos o presentan excesivo error de medición.</li>
+</ul>
 <div class="rmdtip">
 <p><strong>Actividad Práctica: Cálculo de Consistencia Interna y Análisis de Ítem</strong></p>
 <p><strong>Dataset Sugerido:</strong> <strong>Rosenberg Self-Esteem Scale (RSES)</strong>. Esta escala de 10 ítems es ideal porque requiere limpieza de datos previa (recodificación de ítems invertidos).</p>
-<p><strong>Instrucciones:</strong>
-1. <strong>Carga:</strong> Importen los datos de la escala RSES en JASP o SPSS.
-2. <strong>Limpieza:</strong> Realicen el <strong>reverse scoring</strong> de los ítems negativos (ej. “A veces me siento un inútil”) para que todos los ítems apunten en la misma dirección.
-3. <strong>Cálculo:</strong> Ejecuten el análisis de fiabilidad solicitando tanto el <strong>Alfa (<span class="math inline">\(\alpha\)</span>)</strong> como el <strong>Omega (<span class="math inline">\(\omega\)</span>)</strong>.
-4. <strong>Auditoría (Scale if item deleted):</strong> Identifiquen si algún ítem, al ser eliminado, aumenta significativamente el Alfa global.
-- Si el Alfa sube mucho sin el ítem <span class="math inline">\(X\)</span>, ese ítem está introduciendo ruido en el constructo.</p>
+<p><strong>Instrucciones:</strong></p>
+<ol style="list-style-type: decimal">
+<li><strong>Carga:</strong> Importen los datos de la escala RSES en JASP o SPSS.</li>
+<li><strong>Limpieza:</strong> Realicen el <strong>reverse scoring</strong> de los ítems negativos (ej. “A veces me siento un inútil”) para que todos los ítems apunten en la misma dirección.</li>
+<li><strong>Cálculo:</strong> Ejecuten el análisis de fiabilidad solicitando tanto el <strong>Alfa (<span class="math inline">\(\alpha\)</span>)</strong> como el <strong>Omega (<span class="math inline">\(\omega\)</span>)</strong>.</li>
+<li><strong>Auditoría (Scale if item deleted):</strong> Identifiquen si algún ítem, al ser eliminado, aumenta significativamente el Alfa global.
+<ul>
+<li>Si el Alfa sube mucho sin el ítem <span class="math inline">\(X\)</span>, ese ítem está introduciendo ruido en el constructo.</li>
+</ul></li>
+</ol>
 </div>
 <div class="rmdtip">
 <p>Ejercicio: Diagnóstico de Error de Medición</p>
