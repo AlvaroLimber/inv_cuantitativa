@@ -1,0 +1,90 @@
+---
+title: "**Examen de Recuperación: Unidad 1**"
+subtitle: "Fundamentos y Diseño de la Investigación Cuantitativa"
+author: "MSc. Alvaro Chirino Gutierrez"
+date: "Abril, 2026"
+output: pdf_document
+---
+
+## Instrucciones Generales para el Recuperatorio
+
+Para garantizar la autoría propia y evitar el uso de inteligencias artificiales, **todas las actividades deben entregarse en formato manuscrito (fotos de hojas de papel con letra legible)**.
+
+Para alcanzar la nota de aprobación (**60 puntos**), debe completar las actividades necesarias según su puntaje actual en la evaluación.
+
+### Actividades Disponibles
+
+* **Actividad 1:** 10 puntos
+* **Actividad 2:** 20 puntos
+* **Actividad 3:** 30 puntos
+
+### Guía de Selección Sugerida
+
+De acuerdo con su nota previa, elija la combinación que le permita alcanzar el puntaje mínimo:
+
+| Su nota actual | Puntos faltantes | Opciones de actividades |
+|:--------------|:----------------:|:-----------------------|
+| **50 - 59** | 1 a 10 puntos    | Actividad 1 |
+| **40 - 49** | 11 a 20 puntos   | Actividad 2 (o Actividad 1 + 2) |
+| **30 - 39** | 21 a 30 puntos   | Actividad 3 (o Actividad 1 + 2) |
+| **Menos de 30**| +30 puntos       | Combinación de varias actividades |
+
+> **Importante:** Usted tiene la libertad de elegir las actividades que prefiera, siempre y cuando la suma total de su nota previa y las actividades realizadas alcance **60 puntos**.
+
+# Actividad 1 (10 puntos). 
+
+**Objetivo:** Aplicar la taxonomía de variables de Leslie Kish y analizar los sacrificios técnicos en un diseño de investigación específico.
+
+**Contexto de la Investigación:** Un equipo de psicólogos clínicos desea evaluar la efectividad de una nueva **Terapia de Aceptación y Compromiso (ACT)** para reducir la ansiedad social. Debido a limitaciones presupuestarias y éticas, el estudio se realizará únicamente con **40 pacientes voluntarios** de una sola clínica privada en la ciudad de La Paz. Los pacientes no serán asignados al azar; en su lugar, los investigadores compararán a los 20 pacientes que eligieron el turno de la mañana (Grupo Experimental) con los 20 que eligieron el turno de la tarde (Grupo de Control).
+
+**Instrucciones Precisas:** Debe desarrollar su respuesta en máximo una plana de una hoja tamaño carta o A4.
+
+1.  **Mapa de Variables (4 pts):** Identifique las variables del caso según la lógica de Kish:
+    *   **Variables Explicativas (E):** Identifique con precisión las variables X/Y.
+    *   **Variables Extrañas:** Proponga un ejemplo concreto, basado en este caso, para una variable **Controlada (C)**, y una **Perturbadora (D)** que esté sesgando los resultados.
+
+2.  **Gráfico del Triángulo de Kish (3 pts):** Dibuje el triángulo representando los tres criterios: **Representación, Aleatorización y Realismo**.
+    *   Ubique un punto dentro del triángulo que represente este estudio.
+    *   **Identificación del Sacrificio:** Sombree claramente el área o los vértices que este diseño está **sacrificando**.
+
+3.  **Justificación Técnica (3 pts):** Escriba un párrafo de 5 a 7 líneas explicando por qué se sacrifican los criterios (o criterio) sombreados anteriormente. 
+
+# Actividad 2: (20 puntos)
+
+**Objetivo:** Evaluar la capacidad de identificar amenazas a la validez y errores de muestreo en un escenario de investigación aplicada.
+
+**Contexto de la Investigación:** Un investigador boliviano desea probar si un nuevo programa de "Gimnasia Cerebral" mejora la memoria de trabajo en estudiantes de primer año de la carrera de Psicología. Para el estudio, selecciona a los **30 estudiantes con el rendimiento más bajo** en el primer parcial de una sola universidad en la ciudad de Santa Cruz. Durante cuatro semanas, estos estudiantes realizan los ejercicios. Al finalizar el mes, el investigador vuelve a evaluar su memoria y nota una mejora significativa. Concluye que el programa es un éxito total para todos los estudiantes universitarios del país.
+
+**Instrucciones (Entrega en Audio):** Grabe un archivo de audio (MP3 o nota de voz de WhatsApp) de un máximo de **3 a 4 minutos**. El audio debe ser fluido y seguir este orden estrictamente:
+
+1.  **Apertura y Definiciones (4 pts):** Inicie mencionando su nombre completo. Defina de forma muy breve (máximo 20 segundos) qué es la **Validez Interna** y qué es la **Validez Externa**.
+2.  **Crítica al Muestreo (6 pts):** Explique por qué el uso de estudiantes de una sola carrera en una sola ciudad constituye un **muestreo de conveniencia** y no un muestreo probabilístico. Argumente cómo esta decisión afecta la **Representación** en el Triángulo de Kish.
+3.  **Identificación de Amenazas Internas (6 pts):** Identifique y explique verbalmente **dos amenazas específicas** presentes en este caso:
+    *   **Regresión a la Media:** Explique por qué seleccionar a los sujetos con las "notas más bajas" hace que esta amenaza sea casi inevitable en la segunda medición.
+    *   **Maduración o Historia:** Proponga un ejemplo de un evento externo (Historia) o un proceso biológico (Maduración) que podría explicar la mejora de los estudiantes sin que el programa de gimnasia cerebral tenga nada que ver.
+4.  **Cierre sobre Validez Externa (4 pts):** Explique por qué la conclusión del investigador ("el programa sirve para todos los universitarios de Bolivia") es una falacia técnica.
+
+# Actividad 3: (30 puntos)
+
+**Objetivo:** Operacionalizar un diseño experimental de alto control, aplicando la notación técnica de Campbell y Stanley y la gestión de variables según la taxonomía de Kish.
+
+**Contexto de la Investigación (Caso Obligatorio):** Usted es el investigador principal encargado de evaluar el impacto de un nuevo **"Programa de Remediación Cognitiva Basado en Realidad Virtual"** diseñado para mejorar la memoria episódica en adultos mayores con deterioro cognitivo leve. El estudio se llevará a cabo en un centro con 60 residentes permanentes. El programa tiene una duración de 8 semanas.
+
+**Instrucciones de Formato:** Debe entregar **exactamente 2 planas** (una hoja escrita por ambos lados) de forma **manuscrita**. 
+
+### Plana 1: Arquitectura y Simbología del Diseño (15 pts)
+
+1.  **Diagrama de Notación Técnica (5 pts):** Dibuje el esquema del diseño utilizando la notación oficial de **Campbell y Stanley**. Debe implementar obligatoriamente un **Diseño de Cuatro Grupos de Solomon**.
+    *   *Requisito:* El diagrama debe mostrar las cuatro líneas de grupos de forma vertical, especificando claramente la aleatorización (**R**), los pretests (**O**), la aplicación del tratamiento (**X**) y los postests finales (**O**).
+2.  **Análisis de la Sensibilización al Pretest (10 pts):** Explique técnicamente por qué el diseño de Solomon es el "ideal" para este caso. Debe describir cómo este diseño permite medir y controlar la **amenaza de prueba o sensibilización al pretest**. 
+    *   *Punto Clave:* Explique qué sucede si el primer examen de memoria (pretest) actúa como un "entrenamiento" que altera la respuesta del adulto mayor al tratamiento de realidad virtual.
+
+### Plana 2: Gestión de Variables y el Compromiso de Kish (15 pts)
+
+3.  **Matriz de Clasificación de Variables (7 pts):** Aplique la taxonomía de **Leslie Kish** al escenario propuesto:
+    *   **Variables Explicativas:** Identifique con precisión la (**X**) y la (**Y**).
+    *   **Variables Extrañas:** Liste **dos** variables que mantendrá como **Controladas (C)** .
+    *   **Lógica de la Aleatorización:** Explique cómo el uso del símbolo (**R**) en su diagrama de la Plana 1 permite que las variables **Perturbadoras (D)** sean tratadas como variables **Aleatorizadas (R)** para eliminar el sesgo de selección.
+4.  **Análisis del Triángulo de Kish (8 pts):** Dibuje el **Triángulo de Kish** representando sus tres vértices: **Representación, Aleatorización y Realismo**.
+    *   **Ubicación del Estudio:** Marque el punto exacto donde se sitúa este experimento.
+    *   **Justificación del Sacrificio:** Explique por qué este diseño prioriza la **Aleatorización** y qué ocurre con la **Representación** al trabajar con una muestra restringida a un solo centro.
