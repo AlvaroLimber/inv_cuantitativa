@@ -467,7 +467,8 @@ Los datos brutos suelen tener "ruido" o errores de captura. El pre-procesamiento
 
 ### Recodificación Inversa (Reverse Scoring)
 
-Muchos instrumentos incluyen ítems con polaridad opuesta para evitar el sesgo de respuesta automática. 
+Muchos instrumentos incluyen ítems con polaridad opuesta para evitar el sesgo de respuesta automática.
+
 *   **El Proceso:** Antes de calcular medias o el Alfa de Cronbach, los ítems negativos deben ser invertidos. 
 *   **Ejemplo:** En una escala de 1 a 4, un "4" en un ítem negativo debe convertirse en un "1".
 
@@ -505,3 +506,5 @@ Carguen el dataset `parenthood.csv` en JASP.
 2. Identifiquen si existen puntos (outliers) marcados con círculos.
 3. Si un dato de sueño dice "30 horas", ¿es un error de método o de rasgo? ¿Cómo aplicaría el Mandamiento 5 de Salkind en este caso?.
 :::
+
+# Referencias {-}
