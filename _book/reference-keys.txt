@@ -61,8 +61,16 @@ b.-validez-de-criterio-relación-empírica
 c.-validez-de-constructo-la-red-teórica
 la-relación-crítica-entre-fiabilidad-y-validez
 confiabilidad-consistencia-interna-alfa-de-cronbach-y-omega-de-mcdonald
-teoría-clásica-de-los-test
+teoría-clásica-de-los-test-ctt
 medidas-de-consistencia-interna
 a.-alfa-de-cronbach-alpha
 b.-omega-de-mcdonald-omega
+ejemplo-escala-de-autoestima-de-rosenberg
+pasos-para-calcular-el-alpha-o-omega-en-jasp
 dataset-público-recomendado
+gestión-de-datos-formato-tabular-limpieza-y-pre-procesamiento
+el-principio-del-formato-tabular-spreadsheet-logic
+estándares-de-archivos-excel-.xlsx-y-csv
+limpieza-de-datos-outliers-y-criterios-de-calidad
+recodificación-inversa-reverse-scoring
+los-diez-mandamientos-de-la-gestión-de-datos-salkind

@@ -322,7 +322,7 @@ Siguiendo a @Salkind2017; @Navarro2025; @Creswell2009
 
 Mientras que la **validez** (Sección 2.3) se pregunta si el instrumento mide el constructo correcto ("la verdad"), la **confiabilidad** se centra en la estabilidad y consistencia de esa medida. En psicología, la relación es jerárquica: la confiabilidad es una **condición necesaria pero no suficiente** para la validez. Un test puede ser altamente consistente (fiable) pero estar midiendo algo equivocado (no válido); sin embargo, un test que no es consistente no puede pretender ser un reflejo veraz de la realidad.
 
-### Teoría Clásica de los Test
+### Teoría Clásica de los Test (CTT)
 
 Conceptualmente, la confiabilidad se basa en la idea de que cada puntuación obtenida en un test (**Puntaje Observado**) es la suma de dos componentes:
 
@@ -373,7 +373,7 @@ Alfa de Cronbach (α): Mide qué tan unificados están los ítems para medir un 
 - 0.70 o superior: Es el umbral común para considerar una escala como adecuada.
 - Menor a 0.70: Sugiere que los ítems no son suficientemente homogéneos o presentan excesivo error de medición.
 
-**Ejemplo:** "Escala de Autoestima de Rosenberg"
+#### Ejemplo: Escala de Autoestima de Rosenberg
 
 Para cada item/reactivo/pregunta, se selecciona la opción que mejor describa su grado de acuerdo o desacuerdo.
 
@@ -381,6 +381,8 @@ Para cada item/reactivo/pregunta, se selecciona la opción que mejor describa su
 2. En desacuerdo
 3. De acuerdo
 4. Muy de acuerdo
+
+Las preguntas de la escala son:
 
 1. Siento que soy una persona digna de aprecio, al menos en igual medida que los demás.
 2. Siento que poseo varias cualidades buenas.
@@ -393,7 +395,7 @@ Para cada item/reactivo/pregunta, se selecciona la opción que mejor describa su
 9. Ciertamente, a veces me siento inútil.
 10. A veces pienso que no sirvo para nada.
 
-Pasos para calcular el Alpha o Omega en JASP
+#### Pasos para calcular el Alpha o Omega en JASP
 
 - Cargar los datos (csv, excel, spss)
 - Revisar la definición de las medidas
@@ -416,7 +418,7 @@ Pasos para calcular el Alpha o Omega en JASP
 :::
 
 ::: {.rmdtip}
-Ejercicio: Diagnóstico de Error de Medición
+**Ejercicio: Diagnóstico de Error de Medición**
 
 Un investigador administra una escala de estrés laboral y obtiene un **Alfa de Cronbach de .55**. El software indica que el ítem 8 ("Mi jefe usa corbata roja") tiene una correlación casi nula con el resto de la escala. Al eliminarlo, el Alfa sube a **.78**.
 
@@ -432,3 +434,74 @@ Un investigador administra una escala de estrés laboral y obtiene un **Alfa de 
 - https://openpsychometrics.org/_rawdata/ (test de personalidad)
 
 Se sugiere el uso de la **Rosenberg Self-Esteem Scale (RSES)**. Es el ejemplo de referencia en el manual de **Navarro et al. (2025)** y permite practicar el manejo de **datos agregados** y datasets con variabilidad real.
+
+## Gestión de datos: Formato Tabular, Limpieza y Pre-procesamiento
+
+@Salkind2017; @Navarro2025; @Kish2004
+
+Como advierte Leslie Kish, es un error pensar que los datos son "dados"; en realidad, deben ser **tomados, atraídos, capturados o minados**. Una vez que un instrumento es validado (Sección 2.3) y su fiabilidad es comprobada (Sección 2.4), el investigador enfrenta la fase crítica de organizar esas observaciones. Si la captura es descuidada, el análisis posterior solo procesará errores.
+
+### El Principio del Formato Tabular (Spreadsheet Logic)
+
+Independientemente del software (JASP, Excel, SPSS o R), la estructura fundamental de los datos científicos debe ser **tabular**:
+
+*   **Filas (Casos/Participantes):** Cada fila representa a una única entidad u observación (un estudiante, un paciente, una respuesta de encuesta).
+*   **Columnas (Variables):** Cada columna representa una característica medida (edad, puntaje de test, género).
+*   **Atomicidad:** Cada celda debe contener un solo dato. No se deben combinar categorías ni usar colores de celda como fuente de información estadística, ya que el software no podrá interpretarlos.
+
+### Estándares de Archivos: Excel (.xlsx) y CSV
+
+En la actualidad, el flujo de trabajo moderno reconoce dos herramientas complementarias:
+
+*   **Microsoft Excel (.xlsx):** Es la herramienta de elección para la entrada y organización inicial debido a su disponibilidad universal y facilidad de uso. Es ideal para la inspección visual rápida y el filtrado básico.
+*   **CSV (Comma Separated Values):** Es el formato de intercambio por excelencia. JASP y otros paquetes estadísticos lo prefieren porque es un archivo de texto plano que garantiza que los datos no se alteren por versiones de software o formatos propietarios.
+*   **Recomendación:** Capture y limpie sus datos en Excel, pero expórtelos a **CSV** para realizar el análisis estadístico serio en JASP.
+
+### Limpieza de Datos: Outliers y Criterios de Calidad
+
+Los datos brutos suelen tener "ruido" o errores de captura. El pre-procesamiento incluye:
+
+*   **Identificación de Outliers:** Son observaciones que se alejan drásticamente del resto. En JASP, se identifican visualmente mediante **Boxplots** (puntos más allá de 1.5 veces el rango intercuartílico).
+*   **Decisión Técnica:** Un outlier no se elimina por ser "raro", sino solo si es un **error obvio** de medición (ej. una respuesta de "999" años). Si es un valor real extremo, se debe analizar su impacto.
+*   **Criterios de Inclusión/Exclusión:** Antes del análisis, se deben aplicar las reglas de diseño (ej. "solo participantes que completaron el 90% del test") para asegurar la validez interna.
+
+### Recodificación Inversa (Reverse Scoring)
+
+Muchos instrumentos incluyen ítems con polaridad opuesta para evitar el sesgo de respuesta automática. 
+*   **El Proceso:** Antes de calcular medias o el Alfa de Cronbach, los ítems negativos deben ser invertidos. 
+*   **Ejemplo:** En una escala de 1 a 4, un "4" en un ítem negativo debe convertirse en un "1".
+
+### Los "Diez Mandamientos" de la Gestión de Datos (Salkind)
+
+Para garantizar la integridad del proceso, Salkind propone estas reglas críticas:
+
+1.  **Aprobación Ética:** No recolectar nada sin consentimiento y aval institucional.
+2.  **Anticipación:** Planificar qué datos se necesitan antes de empezar.
+3.  **Claridad:** Asegurar que las instrucciones del instrumento sean inequívocas.
+4.  **Copia de Seguridad:** Guardar siempre el **Dataset Bruto** original antes de cualquier limpieza.
+5.  **Supervisión Directa:** Entrenar personalmente a quien ayude en la entrada de datos.
+6.  **Cero Descarte:** Nunca tirar los protocolos originales (papeles, registros); pueden ser necesarios para auditorías.
+7.  **Calendario Realista:** Añadir un 25% a 50% de tiempo extra para imprevistos en la recolección.
+8.  **Confidencialidad:** Minimizar quién tiene acceso a los datos identificables.
+9.  **Sistematización:** Ser consistente en los códigos (ej. siempre 1=Mujer, 2=Varón).
+10. **Documentación:** Llevar una bitácora de cada cambio realizado al dataset.
+
+::: {.rmdtip}
+**Ejercicio de Clase 1: Del Papel al Formato Tabular**
+
+Utilizando las hojas de respuesta de la **Escala de Autoestima de Rosenberg** del grupo:
+
+1. Diseñen en Excel una tabla donde las columnas sean `ID`, `Sexo`, `Item1`... hasta `Item10`.
+2. Ingresen 5 casos, asegurándose de que cada fila sea un estudiante distinto.
+3. **Pregunta:** ¿Qué pasaría si en la columna "Edad" alguien escribió "veinte"? ¿Por qué debemos preferir el código numérico "20"?.
+:::
+
+::: {.rmdtip}
+**Ejercicio de Clase 2: Auditoría Visual en JASP**
+
+Carguen el dataset `parenthood.csv` en JASP.
+
+1. Generen un **Boxplot** para la variable `dan.grump`.
+2. Identifiquen si existen puntos (outliers) marcados con círculos.
+3. Si un dato de sueño dice "30 horas", ¿es un error de método o de rasgo? ¿Cómo aplicaría el Mandamiento 5 de Salkind en este caso?.
+:::
