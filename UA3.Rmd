@@ -34,6 +34,7 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
 **¿Qué es?** Es el conjunto total de personas sobre las cuales se quieren generalizar los hallazgos. Para definirla con rigor, no basta con nombrarla; se deben establecer **filtros de entrada y salida**.
 
 **Instrucciones de formulación:**
+
 1.  **Definición de la Población:** Debe ser específica, finita y realista (ej. Estudiantes de Psicología, UCB La Paz, Semestre 1-2026).
 2.  **Criterios de Inclusión:** Son las características que un individuo **debe cumplir** obligatoriamente para ser considerado parte de la población de estudio.
     *   *Ejemplo:* Estar legalmente matriculado, tener entre 18 y 25 años, pertenecer al turno mañana.
