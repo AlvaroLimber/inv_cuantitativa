@@ -1,0 +1,106 @@
+---
+title: "Evaluación Unidad 2"
+subtitle: "Psicología UCB - Ética, Medición y Validación"
+author: "Cátedra de Investigación Cuantitativa"
+date: "2026-04-30"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+geometry: margin=1.5cm
+header-includes:
+   - \pagenumbering{gobble}
+---
+
+\newpage
+
+**CASO 1 - VARIANTE A:** Un estudiante de último año quiere saber si el ambiente en la universidad afecta el ánimo. Para su tesis, anota de cada compañero: 1) La **Facultad** donde estudia (Psicología, Derecho, Ingeniería); 2) En qué **Semestre** está (1ro a 10mo); 3) La **Temperatura** del aula donde pasan clases (en grados Celsius) y 4) Cuántas **Materias aprobadas** tiene exactamente. Para que acepten participar, les envía un mensaje por el grupo de curso explicando que la participación es voluntaria y que pueden dejar de responder cuando quieran. Al final, les promete enviarles un PDF con "Tips de organización de tiempo" por haber ayudado.
+
+---
+
+**CASO 1 - VARIANTE B:** Una investigadora hace un estudio por Facebook sobre el uso de Instagram en adolescentes. Registra: 1) El **Género** (Femenino, Masculino, Otro); 2) El **Nivel de satisfacción** con su imagen (Muy bajo, Bajo, Medio, Alto); 3) La **Hora exacta** en la que publican su primera foto del día; y 4) Cuántos **Seguidores** reales tienen en su cuenta. Antes de empezar la encuesta digital, incluye una pantalla donde explica de qué trata el estudio y les pide marcar "Acepto" si están de acuerdo en participar. Como agradecimiento, publica en el grupo un video corto con los resultados del estudio para que todos aprendan algo nuevo.
+
+---
+
+**CASO 1 - VARIANTE C:** Un equipo de psicólogos visita un barrio para ver cómo viven las familias. Registran: 1) El **Nombre del barrio** donde viven; 2) El **Rango de ingresos** de la familia (Pobreza, Clase media, Clase alta); 3) El **Puntaje de ansiedad** que sacan en un test (de 0 a 50 puntos); y 4) Cuántos **Hijos** tienen. Les hacen firmar una hoja donde aseguran que nadie sabrá sus nombres. Para agradecer el tiempo que les quitaron, el equipo entrega a la junta de vecinos un mapa con los centros de salud más cercanos y sus números de emergencia.
+
+---
+
+**CASO 1 - VARIANTE A:** Un estudiante de último año quiere saber si el ambiente en la universidad afecta el ánimo. Para su tesis, anota de cada compañero: 1) La **Facultad** donde estudia (Psicología, Derecho, Ingeniería); 2) En qué **Semestre** está (1ro a 10mo); 3) La **Temperatura** del aula donde pasan clases (en grados Celsius) y 4) Cuántas **Materias aprobadas** tiene exactamente. Para que acepten participar, les envía un mensaje por el grupo de curso explicando que la participación es voluntaria y que pueden dejar de responder cuando quieran. Al final, les promete enviarles un PDF con "Tips de organización de tiempo" por haber ayudado.
+
+---
+
+**CASO 1 - VARIANTE B:** Una investigadora hace un estudio por Facebook sobre el uso de Instagram en adolescentes. Registra: 1) El **Género** (Femenino, Masculino, Otro); 2) El **Nivel de satisfacción** con su imagen (Muy bajo, Bajo, Medio, Alto); 3) La **Hora exacta** en la que publican su primera foto del día; y 4) Cuántos **Seguidores** reales tienen en su cuenta. Antes de empezar la encuesta digital, incluye una pantalla donde explica de qué trata el estudio y les pide marcar "Acepto" si están de acuerdo en participar. Como agradecimiento, publica en el grupo un video corto con los resultados del estudio para que todos aprendan algo nuevo.
+
+---
+
+**CASO 1 - VARIANTE C:** Un equipo de psicólogos visita un barrio para ver cómo viven las familias. Registran: 1) El **Nombre del barrio** donde viven; 2) El **Rango de ingresos** de la familia (Pobreza, Clase media, Clase alta); 3) El **Puntaje de ansiedad** que sacan en un test (de 0 a 50 puntos); y 4) Cuántos **Hijos** tienen. Les hacen firmar una hoja donde aseguran que nadie sabrá sus nombres. Para agradecer el tiempo que les quitaron, el equipo entrega a la junta de vecinos un mapa con los centros de salud más cercanos y sus números de emergencia.
+
+\newpage
+
+**CASO 2 - VARIANTE A:** Juan inventó un test para medir la felicidad. Él dice que el test "vale" porque a sus amigos les pareció que las preguntas son "bonitas y se ven profesionales". Además, para probar que funciona, comparó el puntaje de felicidad con la **Estatura** de la gente: Juan dice que como los más altos salieron más felices, el test es un éxito. Juan no consultó con ningún profesor experto sobre sus preguntas y no sabe si su test mide felicidad o si se confunde con "buen humor".
+
+---
+
+**CASO 2 - VARIANTE B:** Un equipo quiere medir la empatía en niños. Les mostraron sus preguntas a tres psicólogos con mucha experiencia, quienes les dijeron que las preguntas no tienen nada que ver con la empatía y están mal redactadas. El equipo ignoró esto y dijo que el test es válido porque los resultados son iguales a un test de "Popularidad" que pasaron el mismo día. Ellos dicen que ser empático y ser popular es exactamente lo mismo y no necesitan diferenciarlos.
+
+---
+
+**CASO 2 - VARIANTE C:** Un consultor hizo un test de motivación. Él eligió las preguntas al azar de un libro de frases motivadoras de internet. Dice que su test es muy útil porque puede predecir cuánto dinero ganará una persona dentro de 30 años, pero admite que no ha comparado su test con el desempeño actual de los trabajadores en sus oficinas hoy mismo. Tampoco sabe si su test mide motivación o si se confunde con tener un "carácter fuerte".
+
+---
+
+**CASO 2 - VARIANTE A:** Juan inventó un test para medir la felicidad. Él dice que el test "vale" porque a sus amigos les pareció que las preguntas son "bonitas y se ven profesionales". Además, para probar que funciona, comparó el puntaje de felicidad con la **Estatura** de la gente: Juan dice que como los más altos salieron más felices, el test es un éxito. Juan no consultó con ningún profesor experto sobre sus preguntas y no sabe si su test mide felicidad o si se confunde con "buen humor".
+
+---
+
+**CASO 2 - VARIANTE B:** Un equipo quiere medir la empatía en niños. Les mostraron sus preguntas a tres psicólogos con mucha experiencia, quienes les dijeron que las preguntas no tienen nada que ver con la empatía y están mal redactadas. El equipo ignoró esto y dijo que el test es válido porque los resultados son iguales a un test de "Popularidad" que pasaron el mismo día. Ellos dicen que ser empático y ser popular es exactamente lo mismo y no necesitan diferenciarlos.
+
+---
+
+**CASO 2 - VARIANTE C:** Un consultor hizo un test de motivación. Él eligió las preguntas al azar de un libro de frases motivadoras de internet. Dice que su test es muy útil porque puede predecir cuánto dinero ganará una persona dentro de 30 años, pero admite que no ha comparado su test con el desempeño actual de los trabajadores en sus oficinas hoy mismo. Tampoco sabe si su test mide motivación o si se confunde con tener un "carácter fuerte".
+
+\newpage
+
+# HOJA DE RESPUESTAS (100 Puntos Totales)
+
+**Nombre:** ____________________________________ **CI:** __________
+
+**PARTE 1: AUDITORÍA DE NIVELES Y ÉTICA (50 pts)**
+**Variante elegida (A, B o C): _____**
+
+1. **Clasificación de Variables (15 pts):** Identifique las 4 variables de su caso y diga qué nivel de medición tienen (Nominal, Ordinal, Intervalo o Razón).
+   * V1:
+   * V2:
+   * V3:
+   * V4:
+   
+2. **El Valor del Cero (10 pts):** Identifique cuál es la variable de nivel de **Razón** en su caso y explique por qué en esta variable el "cero" significa que la característica no existe (ausencia total).
+   *   Respuesta:
+
+\vspace{1cm}
+
+3. **Respeto a la Autonomía (15 pts):** Explique cómo el investigador de su caso asegura que la persona participe porque quiere y no por obligación. ¿Qué documento o mensaje usó para esto?.
+   *   Respuesta:
+   
+\vspace{1cm}   
+
+4. **Reciprocidad (10 pts):** ¿Qué acción de "Compartir Beneficios" se hizo en su caso? Explique por qué es mejor hacer esto que solo "robarse" los datos de la gente.
+   *   Respuesta:
+
+\vspace{0.5cm}
+
+**PARTE 2: EXPERTO EN VALIDACIÓN (50 pts)**
+**Variante elegida (A, B o C): _____**
+
+1. **(15 pts):** El investigador cometió un error grave de **Validez de Contenido**. Explique qué procedimiento técnico debió realizar con los "expertos o jueces" y por qué la apariencia estética del test no sustituye este paso.
+   *   Desarrolle:
+
+\vspace{1cm}
+
+2. **(15 pts):** El investigador intentó validar su test usando una medida externa (estatura, popularidad o éxito futuro). Explique por qué ese **Criterio** es lógicamente inválido o insuficiente para probar que el test sirve para algo práctico.
+   *   Desarrolle:
+
+\vspace{1cm}
+
+3. **(20 pts):** En su caso existe una confusión entre el rasgo que se quiere medir y otro diferente. Explique por qué la **Validez Discriminante** es la "prueba de fuego" para asegurar que el test mide un rasgo específico y no otra cosa similar.
+   *   Desarrolle:

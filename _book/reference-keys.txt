@@ -74,3 +74,9 @@ estándares-de-archivos-excel-.xlsx-y-csv
 limpieza-de-datos-outliers-y-criterios-de-calidad
 recodificación-inversa-reverse-scoring
 los-diez-mandamientos-de-la-gestión-de-datos-salkind
+análisis-y-reportes
+problematización-pregunta-de-investigación-y-población-objetivo
+tips-metodológicos-e-instrucciones-claras
+a.-la-problematización-el-cimientomotivación-del-estudio
+b.-la-pregunta-de-investigación-el-norte-del-estudio
+c.-la-población-objetivo-a-quiénes-llegamos
