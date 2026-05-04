@@ -76,6 +76,6 @@ recodificación-inversa-reverse-scoring
 los-diez-mandamientos-de-la-gestión-de-datos-salkind
 análisis-y-reportes
 problematización-pregunta-de-investigación-y-población-objetivo
-a.-la-problematización-el-cimientomotivación-del-estudio
-b.-la-pregunta-de-investigación-el-norte-del-estudio
-c.-la-población-objetivo-a-quiénes-llegamos
+la-problematización-el-cimientomotivación-del-estudio
+la-pregunta-de-investigación-el-norte-del-estudio
+la-población-objetivo-a-quiénes-llegamos

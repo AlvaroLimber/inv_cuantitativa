@@ -12,7 +12,8 @@
 }
 
 /* Título de la actividad dentro de la caja */
-.rmdtip strong:first-child {
+/* Para las cajas de Tips */
+.rmdtip > strong:first-of-type {
   display: block;
   font-size: 1.2em;
   margin-bottom: 10px;

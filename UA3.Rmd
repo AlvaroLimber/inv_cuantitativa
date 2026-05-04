@@ -4,7 +4,7 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
 
 ## Problematización, Pregunta de Investigación y Población Objetivo
 
-### A. La Problematización (El cimiento/motivación del estudio)
+### La Problematización (El cimiento/motivación del estudio)
 
 **¿Qué es?** Es la argumentación técnica que justifica por qué el estudio es necesario. No basta con una opinión; la problematización se apoya en la **revisión de la literatura** y el **estado del arte**.
 
@@ -15,7 +15,7 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
     *   *Instrucción:* Debe redactar un párrafo que establezca que, a pesar de lo que dice el estado del arte, existe un vacío de conocimiento en su contexto específico (ej. la universidad).
 3.  **El Gancho Narrativo:** Use una estadística o un hecho contundente del contexto universitario para atraer al lector.
 
-### B. La Pregunta de Investigación (El "norte" del estudio)
+### La Pregunta de Investigación (El "norte" del estudio)
 
 **¿Qué es?** Es el interrogante preciso que guiará la investigaci
 ón. En este nivel, se maneja tres tipos fundamentales:
@@ -29,7 +29,7 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
 3.  **Pregunta Causal (Experimental):** Busca determinar si una variable (X) provoca un cambio en otra (Y) mediante una intervención.
     *   *Ejemplo:* ¿En qué medida un programa de entrenamiento en técnicas de respiración reduce la reactividad fisiológica ante el estrés en comparación con un grupo que no recibe el programa?
 
-### C. La Población Objetivo (A quiénes llegamos)
+### La Población Objetivo (A quiénes llegamos)
 
 **¿Qué es?** Es el conjunto total de personas sobre las cuales se quieren generalizar los hallazgos. Para definirla con rigor, no basta con nombrarla; se deben establecer **filtros de entrada y salida**.
 
