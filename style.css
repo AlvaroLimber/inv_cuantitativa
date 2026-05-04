@@ -1,107 +1,107 @@
-/* Caja para Actividades / Tips */
-.rmdtip {
-  padding: 1.5em;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background: #fdf6e3; /* Fondo crema suave */
-  border-left: 6px solid #f39c12; /* Borde naranja/dorado */
-  border-radius: 5px;
-  color: #5c3d00;
+/* ============================================================
+   ESTILOS PARA CAJAS DE CONTENIDO (RMarkdown)
+   Resuelve el problema de formato en listas y negritas internas
+   ============================================================ */
+
+/* --- CONFIGURACIÓN BASE PARA TODAS LAS CAJAS --- */
+.rmdtip, .rmdactivity, .rmdreinforce {
+  padding: 1.5em 1.5em 1.5em 2.5em; /* Espacio extra a la izquierda para el borde */
+  margin: 25px 0;
+  border-radius: 8px;
   position: relative;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  line-height: 1.6; /* Mejora la legibilidad del texto interno */
 }
 
-/* Título de la actividad dentro de la caja */
-/* Para las cajas de Tips */
-.rmdtip > strong:first-of-type {
+/* Selector para el TÍTULO (Solo la primera negrita al inicio de la caja) */
+.rmdtip > strong:first-of-type, 
+.rmdactivity > strong:first-of-type, 
+.rmdreinforce > strong:first-of-type,
+.rmdtip > p:first-child > strong:first-child,
+.rmdactivity > p:first-child > strong:first-child,
+.rmdreinforce > p:first-child > strong:first-child {
   display: block;
-  font-size: 1.2em;
-  margin-bottom: 10px;
+  font-size: 1.25em;
+  margin-bottom: 12px;
+  margin-top: 0;
+  letter-spacing: -0.02em;
+}
+
+/* Iconos comunes (Posicionamiento mejorado) */
+.rmdtip::before, .rmdactivity::before, .rmdreinforce::before {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+/* --- 1. CAJA DE TIPS (AMARILLO/NARANJA) --- */
+.rmdtip {
+  background: #fdf6e3; 
+  border-left: 6px solid #f39c12;
+  color: #5c3d00;
+}
+
+.rmdtip::before {
+  content: "💡";
+  background: #f39c12;
+}
+
+.rmdtip > strong:first-of-type, 
+.rmdtip > p:first-child > strong:first-child {
   color: #d35400;
 }
 
-/* Icono decorativo (opcional) */
-.rmdtip::before {
-  content: "💡";
-  position: absolute;
-  top: -15px;
-  left: -15px;
-  background: #f39c12;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 30px;
-  font-size: 18px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-/* --- CAJA PARA ACTIVIDADES / EJERCICIOS --- */
+/* --- 2. CAJA DE ACTIVIDADES (AZUL) --- */
 .rmdactivity {
-  padding: 1.5em;
-  margin: 20px 0;
-  background: #eef7ff; /* Azul muy pálido */
-  border-left: 6px solid #3498db; /* Azul brillante */
-  border-radius: 5px;
+  background: #eef7ff;
+  border-left: 6px solid #3498db;
   color: #2c3e50;
-  position: relative;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.rmdactivity strong:first-child {
-  display: block;
-  font-size: 1.1em;
-  margin-bottom: 8px;
-  color: #2980b9;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
 }
 
 .rmdactivity::before {
-  content: "📝"; /* Icono de lápiz/papel */
-  position: absolute;
-  top: -15px;
-  left: -15px;
+  content: "📝";
   background: #3498db;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 32px;
-  font-size: 18px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-/* --- CAJA PARA REFORZAR CONCEPTOS --- */
-.rmdreinforce {
-  padding: 1.5em;
-  margin: 20px 0;
-  background: #f0f9eb; /* Verde pálido */
-  border-left: 6px solid #27ae60; /* Verde esmeralda */
-  border-radius: 5px;
-  color: #1d3324;
-  position: relative;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
-.rmdreinforce strong:first-child {
-  display: block;
+.rmdactivity > strong:first-of-type, 
+.rmdactivity > p:first-child > strong:first-child {
+  color: #2980b9;
+  text-transform: uppercase;
   font-size: 1.1em;
-  margin-bottom: 8px;
-  color: #1e8449;
+}
+
+/* --- 3. CAJA DE REFUERZO (VERDE) --- */
+.rmdreinforce {
+  background: #f0f9eb;
+  border-left: 6px solid #27ae60;
+  color: #1d3324;
 }
 
 .rmdreinforce::before {
-  content: "📚"; /* Icono de libros */
-  position: absolute;
-  top: -15px;
-  left: -15px;
+  content: "📚";
   background: #27ae60;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 32px;
-  font-size: 18px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.rmdreinforce > strong:first-of-type, 
+.rmdreinforce > p:first-child > strong:first-child {
+  color: #1e8449;
+}
+
+/* --- CORRECCIÓN PARA LISTAS Y FORMATO RMD --- */
+/* Asegura que las negritas dentro de listas no hereden el estilo de título */
+.rmdtip li strong, .rmdactivity li strong, .rmdreinforce li strong {
+  display: inline;
+  font-size: inherit;
+  color: inherit;
+  text-transform: none;
+  margin: 0;
+  letter-spacing: normal;
 }

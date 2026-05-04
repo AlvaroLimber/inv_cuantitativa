@@ -37,11 +37,11 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
 
 1.  **Definición de la Población:** Debe ser específica, finita y realista (ej. Estudiantes de Psicología, UCB La Paz, Semestre 1-2026).
 2.  **Criterios de Inclusión:** Son las características que un individuo **debe cumplir** obligatoriamente para ser considerado parte de la población de estudio.
-    *   *Ejemplo:* Estar legalmente matriculado, tener entre 18 y 25 años, pertenecer al turno mañana.
+    * *Ejemplo:* Estar legalmente matriculado, tener entre 18 y 25 años, pertenecer al turno mañana.
 3.  **Criterios de Exclusión:** Son características que, aunque la persona cumpla los criterios de inclusión, la **descalifican** del estudio por razones éticas, prácticas o técnicas (para evitar variables perturbadoras). Estas exclusiones suelen ser deliberadas por razones económicas o de control.
-    *   *Ejemplo:* Estudiantes que ya aprobaron la materia antes, personas con diagnósticos previos que interfieran con la variable de resultado, o aquellos que no tengan acceso a internet (si la encuesta es digital).
+  *   *Ejemplo:* Estudiantes que ya aprobaron la materia antes, personas con diagnósticos previos que interfieran con la variable de resultado, o aquellos que no tengan acceso a internet (si la encuesta es digital).
 
-::: {.rmdtip}
+::: {.rmdactivity}
 **Actividad Práctica: "Inicio del Protocolo de Investigación"**
 
 Instrucciones para el grupo:
