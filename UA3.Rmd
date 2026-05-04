@@ -4,9 +4,7 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
 
 ## Problematización, Pregunta de Investigación y Población Objetivo
 
-### Tips Metodológicos e Instrucciones Claras
-
-#### A. La Problematización (El cimiento/motivación del estudio)
+### A. La Problematización (El cimiento/motivación del estudio)
 
 **¿Qué es?** Es la argumentación técnica que justifica por qué el estudio es necesario. No basta con una opinión; la problematización se apoya en la **revisión de la literatura** y el **estado del arte**.
 
@@ -17,7 +15,7 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
     *   *Instrucción:* Debe redactar un párrafo que establezca que, a pesar de lo que dice el estado del arte, existe un vacío de conocimiento en su contexto específico (ej. la universidad).
 3.  **El Gancho Narrativo:** Use una estadística o un hecho contundente del contexto universitario para atraer al lector.
 
-#### B. La Pregunta de Investigación (El "norte" del estudio)
+### B. La Pregunta de Investigación (El "norte" del estudio)
 
 **¿Qué es?** Es el interrogante preciso que guiará la investigaci
 ón. En este nivel, se maneja tres tipos fundamentales:
@@ -31,28 +29,34 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
 3.  **Pregunta Causal (Experimental):** Busca determinar si una variable (X) provoca un cambio en otra (Y) mediante una intervención.
     *   *Ejemplo:* ¿En qué medida un programa de entrenamiento en técnicas de respiración reduce la reactividad fisiológica ante el estrés en comparación con un grupo que no recibe el programa?
 
-#### C. La Población Objetivo (A quiénes llegamos)
+### C. La Población Objetivo (A quiénes llegamos)
 
-**¿Qué es?** Es el conjunto total de personas sobre las cuales se quieren generalizar los hallazgos.
+**¿Qué es?** Es el conjunto total de personas sobre las cuales se quieren generalizar los hallazgos. Para definirla con rigor, no basta con nombrarla; se deben establecer **filtros de entrada y salida**.
 
 **Instrucciones de formulación:**
-*   Debe ser **específica, finita y realista** para el tiempo de la instigación
-*   *Instrucción:* Defina el grupo según caracteristicas de tiempo, espacio y de manera muy precisa.
-    *   *Ejemplo:* "Estudiantes de pregrado de la carrera de Psicología de la UCB La Paz que cursan el turno de la mañana en el semestre 1-2026".
+1.  **Definición de la Población:** Debe ser específica, finita y realista (ej. Estudiantes de Psicología, UCB La Paz, Semestre 1-2026).
+2.  **Criterios de Inclusión:** Son las características que un individuo **debe cumplir** obligatoriamente para ser considerado parte de la población de estudio.
+    *   *Ejemplo:* Estar legalmente matriculado, tener entre 18 y 25 años, pertenecer al turno mañana.
+3.  **Criterios de Exclusión:** Son características que, aunque la persona cumpla los criterios de inclusión, la **descalifican** del estudio por razones éticas, prácticas o técnicas (para evitar variables perturbadoras). Estas exclusiones suelen ser deliberadas por razones económicas o de control.
+    *   *Ejemplo:* Estudiantes que ya aprobaron la materia antes, personas con diagnósticos previos que interfieran con la variable de resultado, o aquellos que no tengan acceso a internet (si la encuesta es digital).
 
 ::: {.rmdtip}
 **Actividad Práctica: "Inicio del Protocolo de Investigación"**
 
 Instrucciones para el grupo:
-1.  **Discusión de Temas:** Elijan un problema relevante para la **comunidad universitaria** (ej. rendimiento académico, salud mental, uso de tecnología, relaciones sociales).
-2.  **Consulta de Literatura:** Busquen al menos 3 fuentes académicas recientes que hablen del tema para establecer el **estado del arte**.
-3.  **Redacción de la Problematización:** Escriban un párrafo justificando su estudio basándose en esas fuentes y en el vacío de información que detectaron.
-4.  **Definición de Pregunta y Población:** Planteen una pregunta descriptiva y una correlacional. Definan su población objetivo con precisión.
 
-Entregable Verificable:
-Un documento en **formato Word** que contenga:
+1.  **Discusión de Temas:** Elijan un problema relevante para la comunidad universitaria.
+2.  **Consulta de Literatura:** Busquen al menos 3 fuentes académicas recientes para establecer el **estado del arte**.
+3.  **Redacción de la Problematización:** Escriban un párrafo justificando su estudio basándose en el vacío detectado.
+4.  **Definición de Pregunta y Población:** Planteen su pregunta de investigación.
+5.  **Establecimiento de Filtros:** Redacten una lista con los criterios de inclusión y exclusión que delimiten claramente a quiénes buscarán y a quiénes dejarán fuera del estudio.
+
+Entregable Verificable: Un documento en **formato Word** que contenga:
+
 1.  **Título provisional** del estudio.
-2.  **Párrafo de Problematización** (mencionando brevemente el estado del arte).
-3.  **Pregunta de Investigación** correctamente formulada.
-4.  **Ficha de Población Objetivo**.
+2.  **Párrafo de Problematización** (con soporte del estado del arte).
+3.  **Pregunta de Investigación** (Descriptiva, Correlacional o Causal).
+4.  **Ficha de Población Objetivo**, incluyendo la lista detallada de **Criterios de Inclusión y Exclusión**.
 :::
+
+# Referencias {-}

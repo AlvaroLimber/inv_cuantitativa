@@ -506,5 +506,3 @@ Carguen el dataset `parenthood.csv` en JASP.
 2. Identifiquen si existen puntos (outliers) marcados con círculos.
 3. Si un dato de sueño dice "30 horas", ¿es un error de método o de rasgo? ¿Cómo aplicaría el Mandamiento 5 de Salkind en este caso?.
 :::
-
-# Referencias {-}
