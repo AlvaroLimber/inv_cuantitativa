@@ -35,10 +35,10 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
 
 **Instrucciones de formulación:**
 
-1.  **Definición de la Población:** Debe ser específica, finita y realista (ej. Estudiantes de Psicología, UCB La Paz, Semestre 1-2026).
-2.  **Criterios de Inclusión:** Son las características que un individuo **debe cumplir** obligatoriamente para ser considerado parte de la población de estudio.
-    * *Ejemplo:* Estar legalmente matriculado, tener entre 18 y 25 años, pertenecer al turno mañana.
-3.  **Criterios de Exclusión:** Son características que, aunque la persona cumpla los criterios de inclusión, la **descalifican** del estudio por razones éticas, prácticas o técnicas (para evitar variables perturbadoras). Estas exclusiones suelen ser deliberadas por razones económicas o de control.
+1. **Definición de la Población:** Debe ser específica, finita y realista (ej. Estudiantes de Psicología, UCB La Paz, Semestre 1-2026).
+2. **Criterios de Inclusión:** Son las características que un individuo **debe cumplir** obligatoriamente para ser considerado parte de la población de estudio.
+  * *Ejemplo:* Estar legalmente matriculado, tener entre 18 y 25 años, pertenecer al turno mañana.
+3. **Criterios de Exclusión:** Son características que, aunque la persona cumpla los criterios de inclusión, la **descalifican** del estudio por razones éticas, prácticas o técnicas (para evitar variables perturbadoras). Estas exclusiones suelen ser deliberadas por razones económicas o de control.
   *   *Ejemplo:* Estudiantes que ya aprobaron la materia antes, personas con diagnósticos previos que interfieran con la variable de resultado, o aquellos que no tengan acceso a internet (si la encuesta es digital).
 
 ::: {.rmdactivity}
@@ -46,10 +46,10 @@ Esta unidad marca el inicio de la producción científica. El objetivo es desarr
 
 Instrucciones para el grupo:
 
-1.  **Discusión de Temas:** Elijan un problema relevante para la comunidad universitaria.
-2.  **Consulta de Literatura:** Busquen al menos 3 fuentes académicas recientes para establecer el **estado del arte**.
-3.  **Redacción de la Problematización:** Escriban un párrafo justificando su estudio basándose en el vacío detectado.
-4.  **Definición de Pregunta y Población:** Planteen su pregunta de investigación.
+1. **Discusión de Temas:** Elijan un problema relevante para la comunidad universitaria.
+2. **Consulta de Literatura:** Busquen al menos 3 fuentes académicas recientes para establecer el **estado del arte**.
+3. **Redacción de la Problematización:** Escriban un párrafo justificando su estudio basándose en el vacío detectado.
+4. **Definición de Pregunta y Población:** Planteen su pregunta de investigación.
 5.  **Establecimiento de Filtros:** Redacten una lista con los criterios de inclusión y exclusión que delimiten claramente a quiénes buscarán y a quiénes dejarán fuera del estudio.
 
 Entregable Verificable: Un documento en **formato Word** que contenga:
