@@ -80,20 +80,20 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
 **Instrucciones de formulación:**
 
 1. **Clasificación según el rol en el diseño (Taxonomía de Kish):** No todas las variables tienen la misma función. Deben decidir qué papel juega cada una para controlar el error:
-  *   **Variables Explicativas (E):** Son el corazón de su pregunta. $X$, $X \rightarrow Y$
-  *   **Variables de control (C):** Factores que decide incluir para que no "ensucien" la relación que esta buscando, sirve para aportar contexto a la pregunta de investigación.
-  *   **Variables Perturbadoras (D):** Factores que no pueden controlar pero que saben que pueden sesgar sus resultados.
+  * **Variables Explicativas (E):** Son el corazón de su pregunta. $X$, $X \rightarrow Y$
+  * **Variables de control (C):** Factores que decide incluir para que no "ensucien" la relación que esta buscando, sirve para aportar contexto a la pregunta de investigación.
+  * **Variables Perturbadoras (D):** Factores que no pueden controlar pero que saben que pueden sesgar sus resultados.
 2. **Definición de los Niveles de Medición:** Desde ahora deben decidir qué "tipo de número" obtendrán, pues esto dicta qué escala elegirán y qué estadística usarán después:
-  *   **Nominal:** Solo etiquetas o categorías.
-  *   **Ordinal:** Categorías con un orden lógico pero sin distancia fija.
-  *   **Intervalo:** Números con distancias iguales pero sin cero absoluto.
-  *   **Razón:** Números con distancias iguales y un **cero absoluto** que indica ausencia total de la variable.
+  * **Nominal:** Solo etiquetas o categorías.
+  * **Ordinal:** Categorías con un orden lógico pero sin distancia fija.
+  * **Intervalo:** Números con distancias iguales pero sin cero absoluto.
+  * **Razón:** Números con distancias iguales y un **cero absoluto** que indica ausencia total de la variable.
 3. **La Matriz de Operacionalización (El insumo para el Instrumento):** Deben construir una tabla que conecte la teoría con la pregunta real. Sus elementos
-  *   **Variable:** El constructo o atributo que se desea medir.
-  *   **Definición Conceptual:** Explicación teórica de la variable (el "qué es" según la literatura).
-  *   **Dimensiones:** Sub-conceptos que componen la variable para facilitar su medición cuando esta es compleja o multidimensional.
-  *   **Indicadores:** Los referentes empíricos directos; aquello que es observable y cuantificable.
-  *   **Escala de Medición:** Clasifica la naturaleza del dato 
+  * **Variable:** El constructo o atributo que se desea medir.
+  * **Definición Conceptual:** Explicación teórica de la variable (el "qué es" según la literatura).
+  * **Dimensiones:** Sub-conceptos que componen la variable para facilitar su medición cuando esta es compleja o multidimensional.
+  * **Indicadores:** Los referentes empíricos directos; aquello que es observable y cuantificable.
+  * **Escala de Medición:** Clasifica la naturaleza del dato 
   * Idealmente columna de **"Ítems"** que hace referencia específica a la pregunta del cuestionario o instrumento que recolecta el dato para cada indicador.
 
 ### Elaboración del Instrumento (Arquitectura de Captura)
@@ -104,9 +104,8 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
 
 1.  **Búsqueda de Constructos Estandarizados:** Antes de redactar preguntas propias, investigue si existen **escalas validadas** por expertos para sus variables (ej. la escala de Autoestima de Rosenberg). Usar instrumentos estandarizados garantiza niveles previos de **fiabilidad y validez**, facilitando la comparación de sus resultados con otros estudios.
 2.  **Espectro de Escalas de Respuesta:** Seleccione el formato según la precisión que necesite su variable:
-    *   **Escala Likert:** Mide el grado de acuerdo o desacuerdo (usualmente de 1 a 5). Es ideal para actitudes y opiniones. Se recomienda incluir items invertidos para mejorar la validez de contenido y reducir sesgos de respuesta.
-    *   **Diferencial Semántico:** Utiliza adjetivos opuestos (ej. "Rápido --- Lento") para medir la reacción ante un concepto.
-    *   **Escala Visual Analógica (VAS):** El sujeto marca su respuesta sobre una línea continua. Es muy útil para evitar que todos los participantes elijan la opción central (efecto techo) y permite una medición más sensible.
+    *   **Escala Likert:** Mide el grado de acuerdo o desacuerdo (usualmente de 1 a 5). Es ideal para actitudes y opiniones. Se recomienda incluir items invertidos para mejorar la validez de contenido y reducir sesgos de respuesta. ([Ejemplos](https://es.surveymonkey.com/learn/survey-best-practices/likert-scale/))
+    *   **Diferencial Semántico:** Utiliza adjetivos opuestos (ej. "Rápido --- Lento") para medir la reacción ante un concepto. ([Ejmplos](https://es.surveymonkey.com/mp/que-es-una-escala-de-diferencial-semantico/))
 3.  **Captura Multidimensional y Variables de Control:** El cuestionario debe incluir secciones para capturar las **variables extrañas o demográficas** (sexo, edad, semestre) identificadas en su matriz de operacionalización. Esto permite en el análisis descartar que los resultados se deban a estos factores ajenos.
 4.  **Codificación Previa (Pre-coding):** Diseñe las opciones de respuesta asignándoles un **código numérico** desde el principio (ej. 1 = Sí, 2 = No; 1 = Hombre, 2 = Mujer). Esto ahorra tiempo crítico en la transcripción de datos a Excel o JASP y reduce errores humanos.
 5.  **Lenguaje, Duración y Fatiga:** 
@@ -122,7 +121,7 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
   *   **Diseño:** Especifiquen si el estudio es **Experimental** (manipulación y azar) o **No-experimental** (observación natural).
   *   **Unidades:** Identifiquen la **Unidad de Análisis** (sobre quién se concluye) y la **Unidad de Información** (quién provee el dato).
   *   **Muestreo:** Definan el tamaño de la muestra ($n \ge 30$) y si el procedimiento es **Probabilístico** o **No-probabilístico**.
-2. Matriz de Operacionalización de variables (ver enlace)
+2. Matriz de Operacionalización de variables (ver enlace) [Acá](https://docs.google.com/spreadsheets/d/1sLWLYrcjJGHUJijqDncT4ySouEbIFJLMS8VUG7dvYy8/edit?usp=sharing)
 3. Borrador del Instrumento Codificado
 :::
 
