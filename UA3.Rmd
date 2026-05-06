@@ -80,21 +80,21 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
 **Instrucciones de formulación:**
 
 1. **Clasificación según el rol en el diseño (Taxonomía de Kish):** No todas las variables tienen la misma función. Deben decidir qué papel juega cada una para controlar el error:
-  * **Variables Explicativas (E):** Son el corazón de su pregunta. $X$, $X \rightarrow Y$
-  * **Variables de control (C):** Factores que decide incluir para que no "ensucien" la relación que esta buscando, sirve para aportar contexto a la pregunta de investigación.
-  * **Variables Perturbadoras (D):** Factores que no pueden controlar pero que saben que pueden sesgar sus resultados.
+    * **Variables Explicativas (E):** Son el corazón de su pregunta. $X$, $X \rightarrow Y$
+    * **Variables de control (C):** Factores que decide incluir para que no "ensucien" la relación que esta buscando, sirve para aportar contexto a la pregunta de investigación.
+    * **Variables Perturbadoras (D):** Factores que no pueden controlar pero que saben que pueden sesgar sus resultados.
 2. **Definición de los Niveles de Medición:** Desde ahora deben decidir qué "tipo de número" obtendrán, pues esto dicta qué escala elegirán y qué estadística usarán después:
-  * **Nominal:** Solo etiquetas o categorías.
-  * **Ordinal:** Categorías con un orden lógico pero sin distancia fija.
-  * **Intervalo:** Números con distancias iguales pero sin cero absoluto.
-  * **Razón:** Números con distancias iguales y un **cero absoluto** que indica ausencia total de la variable.
+    * **Nominal:** Solo etiquetas o categorías.
+    * **Ordinal:** Categorías con un orden lógico pero sin distancia fija.
+    * **Intervalo:** Números con distancias iguales pero sin cero absoluto.
+    * **Razón:** Números con distancias iguales y un **cero absoluto** que indica ausencia total de la variable.
 3. **La Matriz de Operacionalización (El insumo para el Instrumento):** Deben construir una tabla que conecte la teoría con la pregunta real. Sus elementos
-  * **Variable:** El constructo o atributo que se desea medir.
-  * **Definición Conceptual:** Explicación teórica de la variable (el "qué es" según la literatura).
-  * **Dimensiones:** Sub-conceptos que componen la variable para facilitar su medición cuando esta es compleja o multidimensional.
-  * **Indicadores:** Los referentes empíricos directos; aquello que es observable y cuantificable.
-  * **Escala de Medición:** Clasifica la naturaleza del dato 
-  * Idealmente columna de **"Ítems"** que hace referencia específica a la pregunta del cuestionario o instrumento que recolecta el dato para cada indicador.
+    * **Variable:** El constructo o atributo que se desea medir.
+    * **Definición Conceptual:** Explicación teórica de la variable (el "qué es" según la literatura).
+    * **Dimensiones:** Sub-conceptos que componen la variable para facilitar su medición cuando esta es compleja o multidimensional.
+    * **Indicadores:** Los referentes empíricos directos; aquello que es observable y cuantificable.
+    * **Escala de Medición:** Clasifica la naturaleza del dato 
+    * Idealmente columna de **"Ítems"** que hace referencia específica a la pregunta del cuestionario o instrumento que recolecta el dato para cada indicador.
 
 ### Elaboración del Instrumento (Arquitectura de Captura)
 
