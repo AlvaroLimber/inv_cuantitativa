@@ -79,3 +79,7 @@ problematización-pregunta-de-investigación-y-población-objetivo
 la-problematización-el-cimientomotivación-del-estudio
 la-pregunta-de-investigación-el-norte-del-estudio
 la-población-objetivo-a-quiénes-llegamos
+método-operacionalización-e-instrumento
+definición-del-método-unidades-y-muestra
+operacionalización-de-variables-el-puente-entre-la-teoría-y-el-dato
+elaboración-del-instrumento-arquitectura-de-captura
