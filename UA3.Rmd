@@ -118,9 +118,9 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
 **Instrucciones:** En equipos, desarrollen los pilares técnicos de su investigación siguiendo estos tres puntos:
 
 1. Ficha Metodológica
-  *   **Diseño:** Especifiquen si el estudio es **Experimental** (manipulación y azar) o **No-experimental** (observación natural).
-  *   **Unidades:** Identifiquen la **Unidad de Análisis** (sobre quién se concluye) y la **Unidad de Información** (quién provee el dato).
-  *   **Muestreo:** Definan el tamaño de la muestra ($n \ge 30$) y si el procedimiento es **Probabilístico** o **No-probabilístico**.
+    *   **Diseño:** Especifiquen si el estudio es **Experimental** (manipulación y azar) o **No-experimental** (observación natural).
+    *   **Unidades:** Identifiquen la **Unidad de Análisis** (sobre quién se concluye) y la **Unidad de Información** (quién provee el dato).
+    *   **Muestreo:** Definan el tamaño de la muestra ($n \ge 30$) y si el procedimiento es **Probabilístico** o **No-probabilístico**.
 2. Matriz de Operacionalización de variables
 3. Borrador del Instrumento Codificado
 :::
