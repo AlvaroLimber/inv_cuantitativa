@@ -88,7 +88,7 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
     * **Ordinal:** Categorías con un orden lógico pero sin distancia fija.
     * **Intervalo:** Números con distancias iguales pero sin cero absoluto.
     * **Razón:** Números con distancias iguales y un **cero absoluto** que indica ausencia total de la variable.
-3. **La Matriz de Operacionalización (El insumo para el Instrumento):** Deben construir una tabla que conecte la teoría con la pregunta real. Sus elementos
+3. **La Matriz de Operacionalización (El insumo para el Instrumento):** Deben construir una tabla que conecte la teoría con la pregunta real ([Ejemplo](https://docs.google.com/spreadsheets/d/1sLWLYrcjJGHUJijqDncT4ySouEbIFJLMS8VUG7dvYy8/edit?usp=sharing)). Sus elementos:
     * **Variable:** El constructo o atributo que se desea medir.
     * **Definición Conceptual:** Explicación teórica de la variable (el "qué es" según la literatura).
     * **Dimensiones:** Sub-conceptos que componen la variable para facilitar su medición cuando esta es compleja o multidimensional.
@@ -121,7 +121,7 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
   *   **Diseño:** Especifiquen si el estudio es **Experimental** (manipulación y azar) o **No-experimental** (observación natural).
   *   **Unidades:** Identifiquen la **Unidad de Análisis** (sobre quién se concluye) y la **Unidad de Información** (quién provee el dato).
   *   **Muestreo:** Definan el tamaño de la muestra ($n \ge 30$) y si el procedimiento es **Probabilístico** o **No-probabilístico**.
-2. Matriz de Operacionalización de variables (ver enlace) [Acá](https://docs.google.com/spreadsheets/d/1sLWLYrcjJGHUJijqDncT4ySouEbIFJLMS8VUG7dvYy8/edit?usp=sharing)
+2. Matriz de Operacionalización de variables
 3. Borrador del Instrumento Codificado
 :::
 
