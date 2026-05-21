@@ -125,4 +125,135 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
 3. Borrador del Instrumento Codificado
 :::
 
+## Recomendación de Calidad y Ética: Revisión Externa
+
+Antes de iniciar la fase de recolección de datos en campo, es fundamental que el protocolo de investigación sea sometido a procesos de validación externa. Estos filtros actúan como una auditoría técnica y moral que garantiza que el estudio no solo sea científicamente riguroso, sino también respetuoso con la integridad de las personas involucradas.
+
+### Instancias de Validación Externa
+
+Existen dos tipos de revisiones críticas que todo investigador debe considerar antes de entrar en contacto con su población objetivo:
+
+*   **Juicio de Expertos:** Es una revisión técnica realizada por especialistas en el tema de estudio. Su función principal es certificar la **validez de contenido**, asegurando que los ítems del instrumento representen fielmente el constructo que se pretende medir y que la metodología sea la más adecuada para responder a la pregunta de investigación.
+*   **Comité de Ética de la Investigación (IRB):** Es una instancia institucional que evalúa si el diseño del estudio cumple con los principios éticos internacionales. Su objetivo es proteger los derechos, la seguridad y el bienestar de los participantes, evaluando el equilibrio entre los posibles riesgos y los beneficios del estudio.
+
+### Flexibilidad Institucional y Criterios Universales
+
+Es importante señalar que **no existe un estándar rígido o formato único universal** sobre lo que hará cada comité, ya que los procedimientos y requisitos específicos suelen depender de la normativa, la cultura académica y las políticas de cada institución. Sin embargo, a pesar de estas variaciones locales, existen **puntos generales comunes** que rigen estas revisiones para asegurar la calidad de la ciencia:
+
+#### Criterios Comunes en los Comités de Ética (IRB)
+
+Independientemente de la institución, estos comités se enfocan en tres pilares:
+
+*   **Protección contra riesgos:** Evalúan cualquier potencial daño físico, psicológico, social o legal, exigiendo planes de mitigación si el riesgo es superior al mínimo.
+*   **Autonomía y Consentimiento Informado:** Verifican que los participantes reciban información clara sobre el estudio y que su participación sea estrictamente voluntaria, garantizando su derecho a retirarse en cualquier momento.
+*   **Confidencialidad y Anonimato:** Aseguran que existan protocolos estrictos para el manejo de los datos, de modo que la identidad de los sujetos nunca sea revelada ni vinculada públicamente con sus respuestas.
+
+#### Criterios Comunes en el Juicio de Expertos
+
+Los especialistas externos suelen evaluar el instrumento bajo los siguientes lentes:
+
+*   **Suficiencia y Relevancia:** Determinan si las preguntas son suficientes para cubrir todas las dimensiones del fenómeno y si cada una es necesaria para el estudio.
+*   **Claridad y Lenguaje:** Revisan que la redacción sea comprensible para la población objetivo, eliminando ambigüedades o sesgos en las preguntas.
+*   **Coherencia Técnica:** Verifican que los niveles de medición (nominal, ordinal, de intervalo o razón) y los formatos de respuesta (Likert, Diferencial Semántico, VAS) sean consistentes con el análisis estadístico propuesto.
+
+### Integridad Científica y Honestidad
+
+Más allá de los trámites administrativos, estas revisiones externas buscan promover la **integridad científica**. Esto implica asegurar la **honestidad del investigador** al evitar la manipulación de datos o el sesgo por creencias previas, y fomentar la **responsabilidad social**, garantizando que el esfuerzo y el tiempo de los participantes resulten en un conocimiento que contribuya genuinamente al bienestar de la comunidad.
+
+## Formato APA
+
+### Tipos de Documentos y su Estructura Global
+
+Las Normas APA se aplican a una amplia variedad de trabajos, desde **artículos profesionales** destinados a revistas académicas hasta **trabajos estudiantiles** y **tesis**. La estructura general recomendada sigue este orden:
+
+*   **Portada:** Obligatoria en todos los casos.
+*   **Resumen (Abstract):** Un párrafo breve (150-250 palabras) y preciso sobre el contenido.
+*   **Texto Principal:** Compuesto por la Introducción (que no lleva etiqueta), Método, Resultados y Discusión.
+*   **Referencias:** Listado de todas las fuentes citadas.
+*   **Elementos adicionales:** Pueden incluirse Notas al final, Tablas, Figuras y Apéndices.
+
+### Formato y Configuración General
+
+Para asegurar la uniformidad, el documento debe cumplir con los siguientes parámetros técnicos:
+
+*   **Papel y Márgenes:** Use tamaño **carta** (21.59 cm x 27.94 cm) con márgenes de **2.54 cm** (1 pulgada) en todos los lados.
+*   **Fuentes permitidas:** Se aceptan fuentes **sin serifas** (Calibri 11 pt, Arial 11 pt) y **con serifas** (Times New Roman 12 pt, Georgia 11 pt). Debe mantenerse la misma fuente en todo el documento.
+*   **Interlineado y Alineación:** Use **interlineado doble** en todo el texto, incluyendo títulos y referencias. El texto debe estar **alineado a la izquierda**, dejando el margen derecho irregular (sin justificar).
+*   **Sangría:** Aplique una sangría de **1.27 cm** (½ pulgada) en la primera línea de cada párrafo.
+
+### Diferencias en Portadas y Encabezados
+
+Una de las actualizaciones clave de la 7ma edición es la distinción entre portadas:
+
+*   **Portada para Estudiantes:** Incluye título, autores, afiliación (universidad), curso, profesor, fecha y número de página; **no requiere título corto (running head)**.
+*   **Portada Profesional:** Incluye además una **nota del autor** y el **titulillo o running head**.
+*   **Running Head:** Es una versión abreviada del título en **MAYÚSCULAS**, con un máximo de **50 caracteres**, alineado a la izquierda en el encabezado de todas las páginas.
+
+### Recomendaciones Específicas para Tablas, Figuras y Fórmulas
+
+En investigación cuantitativa, la presentación de datos debe ser limpia y directa:
+
+*   **Tablas:** Deben tener un número en negrita (**Tabla 1**) y un título descriptivo en cursiva arriba del cuerpo. **Evite las líneas verticales** y el uso de bordes en cada celda; use solo líneas horizontales necesarias para separar encabezados y totales.
+*   **Figuras:** Se numeran igual que las tablas (**Figura 1**) con el título en cursiva debajo del número. Solo deben incluirse si aportan un valor sustancial al entendimiento de los resultados.
+*   **Ecuaciones:** Se permite aplicar un **interlineado triple o cuádruple** para que la fórmula sea claramente visible.
+
+### Sistema de Citación y Referencias
+
+APA utiliza el sistema **Autor-Fecha**:
+
+*   **Citas:** Si el trabajo tiene **tres o más autores**, use "**et al.**" desde la primera cita (ej. Sánchez et al., 2020). 
+*   **Referencias:** La lista debe ordenarse alfabéticamente y usar **sangría francesa**. En esta edición, se deben incluir los nombres de hasta **20 autores** antes de usar puntos suspensivos.
+*   **Apéndices:** Son ideales para material "bueno de saber" pero que distraería en el texto principal, como descripciones detalladas de equipos o listas de materiales.
+
+### Check list
+
+Formato General del Documento:
+
+*   [ ] **Tamaño de papel:** ¿Está configurado en tamaño **Carta** (21.59 cm x 27.94 cm)?.
+*   [ ] **Márgenes:** ¿Son de **2.54 cm** (1 pulgada) en los cuatro costados?.
+*   [ ] **Fuentes:** ¿Utilizaste una fuente permitida (ej. **Times New Roman 12 pt**, **Arial 11 pt** o **Calibri 11 pt**) de forma consistente en todo el texto?.
+*   [ ] **Interlineado:** ¿Todo el documento tiene **interlineado doble**, incluyendo el resumen, citas largas y referencias?.
+*   [ ] **Alineación:** ¿El texto está **alineado a la izquierda** con el margen derecho "irregular" (sin justificar)?.
+*   [ ] **Sangría:** ¿La primera línea de cada párrafo tiene una sangría de **1.27 cm**?.
+*   [ ] **Numeración:** ¿Las páginas están numeradas en la **esquina superior derecha**, comenzando con el número 1 en la portada?.
+
+Portada (Versión Estudiante)
+
+*   [ ] **Título:** ¿Es conciso (recomendado **12 palabras**), resume la idea principal e identifica las variables? ¿Está en **negrita**, centrado y en la mitad superior?.
+*   [ ] **Datos:** ¿Incluiste tu nombre, la universidad, el curso, el nombre del profesor y la fecha?.
+*   [ ] **Nota:** Recuerda que en trabajos estudiantiles **no se requiere** el título corto (*running head*) a menos que el profesor lo pida.
+
+Resumen y Texto Principal
+
+*   [ ] **Resumen (Abstract):** ¿Está en una página nueva (página 2), tiene entre **150 y 250 palabras** y la etiqueta "Resumen" está en negrita y centrada?.
+*   [ ] **Palabras clave:** ¿Incluiste términos específicos debajo del resumen para facilitar su búsqueda?.
+*   [ ] **Introducción:** ¿Presentaste los objetivos e hipótesis de forma clara sin usar la etiqueta "Introducción"?.
+*   [ ] **Método:** ¿Describiste cómo se recopilaron y evaluaron los datos para que el estudio sea replicable?.
+*   [ ] **Resultados:** ¿Informaste los hallazgos más relevantes que responden a tus hipótesis?.
+*   [ ] **Discusión:** ¿Interpretaste las implicaciones de tus resultados y mencionaste las limitaciones del estudio?.
+
+Tablas y Figuras
+
+*   [ ] **Numeración y Título:** ¿Cada tabla y figura tiene su número en **negrita** y un título descriptivo en *cursiva* arriba del elemento?.
+*   [ ] **Bordes de Tablas:** ¿Evitaste las líneas verticales y usaste solo las horizontales necesarias (superior, inferior y bajo encabezados)?.
+*   [ ] **Citación:** ¿Mencionaste cada tabla y figura en el texto por su número (ej. "ver Tabla 1")?.
+
+Citas y Referencias
+
+*   [ ] **Citas en el texto:** ¿Utilizaste el sistema **Autor-Fecha**? ¿Usaste "**et al.**" para obras con tres o más autores desde la primera mención?.
+*   [ ] **Lista de Referencias:** ¿Inicia en una página nueva con el título **Referencias** en negrita y centrado?.
+*   [ ] **Formato de Referencias:** ¿Están en orden alfabético y tienen **sangría francesa** de 1.27 cm?.
+*   [ ] **Correspondencia:** ¿Verificaste que cada fuente citada en el texto aparezca en la lista de referencias?.
+
+### Enlaces de interés
+
+- Web APA: https://www.apa.org/
+- Documento de referencia: 
+  + https://normas-apa.org/wp-content/uploads/Guia-Normas-APA-7ma-edicion.pdf  
+  + https://www.javerianacali.edu.co/sites/default/files/2022-06/Manual%20de%20Normas%20APA%207ma%20edicio%CC%81n.pdf
+- Plantillas: https://apastyle.apa.org/style-grammar-guidelines/paper-format/sample-papers
+- Guía específica: https://apastyle.apa.org/Reporting-Quantitative-Research-in-Psychology-Chapter-1-Sample.pdf
+
+
+
 # Referencias {-}
