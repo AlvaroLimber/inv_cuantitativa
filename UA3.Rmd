@@ -125,6 +125,54 @@ Entregable Verificable: Un documento en **formato Word** que contenga:
 3. Borrador del Instrumento Codificado
 :::
 
+## Recolección de Datos
+
+La recolección de datos representa la fase operativa donde se busca evidencia objetiva para testear la viabilidad de las hipótesis. Es un proceso que demanda rigor y una organización sistemática para asegurar que los pasos posteriores sean fluidos.
+
+### Modalidades de Interacción
+
+Existen diferentes formas de capturar la información, cada una con un balance distinto de costo y profundidad:
+
+* **Entrevistas cara a cara:** Ofrecen la mayor flexibilidad, permitiendo al investigador profundizar en las respuestas y observar comportamientos no verbales o el entorno físico del participante.
+* **Cuestionarios autosuministrados:** Son completados por el participante sin intervención directa del investigador. Son ideales para encuestas masivas por ser más rápidos y económicos, además de que suelen promover respuestas más honestas en temas sensibles gracias al anonimato.
+* **Entrevistas telefónicas:** Permiten una recolección rápida de datos en áreas geográficas extensas, aunque el investigador debe ser cuidadoso con el posible sesgo introducido por la falta de contacto visual.
+
+### Tecnologías de Recolección (CAPI, CATI, CAWI)
+El uso de la tecnología permite que la captura de datos sea más precisa y eficiente, facilitando la transición directa a bases de datos digitales. Estas modalidades se conocen técnicamente como:
+
+* **CAPI (*Computer-Assisted Personal Interviewing*):** Entrevistas presenciales donde el encuestador utiliza un dispositivo electrónico (como una tablet o smartphone) para registrar las respuestas en tiempo real.
+* **CATI (*Computer-Assisted Telephone Interviewing*):** Encuestas realizadas por teléfono donde el entrevistador sigue un guion programado en una computadora, lo que asegura la estandarización del proceso.
+* **CAWI (*Computer-Assisted Web Interviewing*):** Cuestionarios administrados a través de plataformas de internet (como SurveyMonkey o Qualtrics), donde el participante accede de forma remota a través de un link enviado por correo o redes sociales.
+
+Aquí tienes los cuidados técnicos esenciales para cada modalidad de recolección, resumidos de forma puntual:
+
+### Cuidados Críticos por Modalidad
+
+*   **Cara a cara:** Controle el **sesgo del entrevistador** asegurando que la vestimenta y el comportamiento sean neutrales para no influir en el participante.
+*   **Autosuministrado:** Las **instrucciones deben ser impecables** y fáciles de seguir, ya que no hay un investigador presente para aclarar dudas en el momento.
+*   **Telefónicas:** Busque un lugar **libre de distracciones** y ruidos ambientales tanto para el encuestador como para el entrevistado.
+*   **CAPI / CATI:** Requieren **entrenamiento técnico previo** con el dispositivo para evitar que el manejo del software entorpezca la fluidez de la captura.
+*   **CAWI (Web):** Es vital garantizar el **consentimiento informado digital** y realizar respaldos electrónicos constantes para evitar la pérdida de datos por fallas de conexión o servidor.
+
+> Nota: Existen herramientas como google forms, survey monkey, cspro, kobotoolbox, etc. Que facilitan la captura para CAPI, CATI, CAWI.
+
+**Recomendación general:** Independientemente de la tecnología, siempre realice una **recolección de datos piloto** para practicar el uso de la herramienta y detectar errores antes del trabajo de campo real.
+
+## La Prueba Piloto (Ensayo General)
+
+La **prueba piloto** es una aplicación del instrumento a una pequeña submuestra (similar a la población objetivo) antes de iniciar la recolección masiva. Su función es actuar como un "filtro de seguridad" para detectar fallas que el equipo de investigación no pudo anticipar.
+
+### Objetivos Clave:
+
+*   **Validez de Contenido:** Permite verificar si los ítems son claros, si el formato es adecuado y si las escalas de respuesta funcionan en la práctica.
+*   **Control de Fatiga:** Ayuda a medir la **duración real** del cuestionario (idealmente entre 10 y 15 minutos) para evitar que los sujetos respondan al azar por cansancio.
+*   **Práctica de Análisis:** Sirve para recolectar datos reales y practicar los pasos de limpieza, codificación y análisis estadístico en programas como JASP o SPSS antes del estudio definitivo.
+*   **Estandarización:** En experimentos, asegura que los materiales y procedimientos puedan administrarse de manera uniforme, sin variaciones entre aplicadores.
+
+Cualquier error detectado en esta fase permite **refinar el instrumento**, garantizando que los datos finales sean de alta calidad y realmente midan los constructos bajo estudio.
+
+> Nota: No existe un tamaño de muestra para la piloto, la muestra debe garantizar variedad y permitir aproximar situaciones extremas en campo (prueba de estres).
+
 ## Recomendación de Calidad y Ética: Revisión Externa
 
 Antes de iniciar la fase de recolección de datos en campo, es fundamental que el protocolo de investigación sea sometido a procesos de validación externa. Estos filtros actúan como una auditoría técnica y moral que garantiza que el estudio no solo sea científicamente riguroso, sino también respetuoso con la integridad de las personas involucradas.
@@ -159,6 +207,35 @@ Los especialistas externos suelen evaluar el instrumento bajo los siguientes len
 ### Integridad Científica y Honestidad
 
 Más allá de los trámites administrativos, estas revisiones externas buscan promover la **integridad científica**. Esto implica asegurar la **honestidad del investigador** al evitar la manipulación de datos o el sesgo por creencias previas, y fomentar la **responsabilidad social**, garantizando que el esfuerzo y el tiempo de los participantes resulten en un conocimiento que contribuya genuinamente al bienestar de la comunidad.
+
+## Gestión y Pre procesamiento
+
+### Transcripción y Vaciado Digital (Data Entry)
+
+*   **Acción:** Es el traslado de las respuestas de los cuestionarios físicos o digitales a un formato tabular (como Excel, CSV o directamente en JASP/SPSS).
+*   **Criterios operativos:**
+    *   **Formato Tabular:** Cada fila debe representar a un único participante y cada columna una variable de la matriz de operacionalización.
+    *   **Identificadores:** Se debe asignar un **ID único** a cada cuestionario para permitir auditorías posteriores y rastrear errores detectados en la limpieza.
+    *   **Doble Entrada:** Práctica común en organismos estadísticos para minimizar errores de digitación; consiste en que dos personas distintas carguen los mismos datos y se comparen las discrepancias.
+
+### Codificación Técnica y Recodificación
+
+*   **Codificación Nominal:** Se deben asignar **dígitos numéricos** unívocos a las categorías (ej. $1 = Femenino, 2 = Masculino$) para ganar precisión y ahorrar tiempo de entrada.
+*   **Recodificación Inversa (Reverse Scoring):** En escalas de varios ítems que miden un mismo constructo, es imperativo invertir los puntajes de los reactivos redactados de forma negativa antes de realizar cualquier suma o promedio (ej. en una escala de 1 a 5, un "1" en un ítem negativo debe transformarse en "5" para ser coherente con el resto).
+
+### Crítica de Datos 
+
+La crítica es la auditoría técnica de los datos cargados para detectar "datos basura".
+
+*   **Detección de Outliers (Valores Atípicos):** Identificar respuestas que no tengan sentido lógico dentro del rango del instrumento (ej. un valor de "7" en una escala Likert que solo llegaba hasta 5).
+*   **Manejo de Datos Perdidos (Missing Data):** Evaluar si la falta de respuesta es aleatoria o sistemática. Se debe decidir si se elimina el caso o se aplica una **imputación** (asignar un valor probable basado en otras respuestas) para no reducir excesivamente el tamaño de la muestra ($n$).
+
+### Chequeo de Consistencia (Validación Interna)
+
+Asegura que la información capturada sea coherente y no presente contradicciones.
+
+*   **Consistencia Lógica:** Cruce de variables relacionadas para detectar errores imposibles (ej. un participante que reporta ser jubilado pero tiene 18 años de edad).
+*   **Fiabilidad de Consistencia Interna:** Para escalas que miden un solo constructo, se calcula el coeficiente **Alfa de Cronbach**. Un valor aceptable (generalmente $> .70$) indica que los ítems están midiendo el fenómeno de manera unificada.
 
 ## Formato APA
 
@@ -254,6 +331,52 @@ Citas y Referencias
 - Plantillas: https://apastyle.apa.org/style-grammar-guidelines/paper-format/sample-papers
 - Guía específica: https://apastyle.apa.org/Reporting-Quantitative-Research-in-Psychology-Chapter-1-Sample.pdf
 
+## Herramientas Estadísticas para la Investigación
 
+La transición del análisis descriptivo al inferencial es el paso donde los datos se convierten en evidencia para responder a las **preguntas de investigación**. Este proceso requiere una comprensión clara de qué podemos afirmar según la naturaleza de nuestros datos y el diseño del estudio.
+
+### Advertencias sobre el Muestreo y la Inferencia
+
+Antes de aplicar cualquier prueba, el investigador debe ser consciente de las limitaciones impuestas por su método de selección de participantes:
+
+*   **Muestreo Probabilístico (Aleatorio):** Es la condición necesaria para la **inferencia estadística**. Solo cuando cada miembro de la población tiene una probabilidad conocida y distinta de cero de ser seleccionado, los resultados pueden generalizarse matemáticamente desde la muestra hacia la población objetivo.
+*   **Muestreo No Probabilístico (Conveniencia o Juicio):** Muy común en la investigación psicológica o educativa. Al no basarse en el azar, carece de fundamento para la generalización masiva. En estos casos, el estudio debe mantenerse en un nivel **descriptivo-exploratorio**, retratando fielmente a los sujetos evaluados sin pretender que sus hallazgos sean **verdades universales**.
+*   **Inferencia vs. Descripción:** Mientras que la descripción se agota en el "qué hay" en los datos recolectados, la inferencia busca aprender sobre "lo que no sabemos" (los parámetros de la población) a partir de lo que tenemos (los estadísticos de la muestra).
+
+### Conceptos Centrales: Hipótesis, Errores y Valor p
+
+La estadística inferencial opera bajo una lógica de toma de decisiones ante la incertidumbre:
+
+1.  **Hipótesis Estadística:**
+    *   **Hipótesis Nula ($H_0$):** Es la afirmación de que no existe un efecto, relación o diferencia (ej. "la terapia no reduce la ansiedad"). Es el punto de partida que la ciencia intenta falsar o rechazar.
+    *   **Hipótesis Alternativa ($H_1$):** Es la predicción del investigador, que afirma la existencia de una relación o diferencia significativa.
+2.  **Los Dos Tipos de Error:**
+    *   **Error Tipo I ($\alpha$):** Ocurre cuando rechazamos la hipótesis nula siendo esta verdadera (un "falso positivo"). El nivel de significancia (usualmente .05) es el riesgo máximo que aceptamos de cometer este error.
+    *   **Error Tipo II ($\beta$):** Ocurre cuando aceptamos (o no rechazamos) la hipótesis nula siendo esta falsa (un "falso negativo"). Su probabilidad disminuye al aumentar el tamaño de la muestra.
+3.  **El Valor *p* (p-value):** Es la probabilidad de obtener los resultados observados (o unos más extremos) asumiendo que la hipótesis nula es cierta. Si el valor *p* es menor que nuestro nivel $\alpha$ (ej. $p < .05$), concluimos que el resultado es **estadísticamente significativo** y rechazamos la $H_0$.
+
+#### Preguntas Descriptivas
+
+Su objetivo es caracterizar variables de manera aislada.
+
+*   **Variables Nominales y Categorías:** Dado que muchas variables en psicología son etiquetas (género, diagnóstico, estado civil), se deben reportar **conteos (frecuencias)** y **porcentajes**. Esto permite ver la distribución proporcional de la muestra.
+*   **Variables de Escala (Intervalo/Razón):** Se utilizan las **Medidas de Tendencia Central** (Media, Mediana) y **Medidas de Variabilidad** (Desviación Estándar, Rango) para describir puntuaciones de tests o tiempos de reacción.
+
+### Preguntas Correlacionales
+
+Buscan identificar si dos variables cambian conjuntamente.
+
+*   **Puntuaciones Continuas:** Se utiliza el **Coeficiente de Correlación de Pearson ($r$)** para medir la fuerza y dirección de una relación lineal.
+*   **Datos Ordinales:** Se prefiere el **Coeficiente de Spearman ($\rho$)** cuando los datos son rangos o no cumplen el supuesto de normalidad.
+
+### 3. Preguntas Relacionales (Diferencias y Asociación)
+
+Buscan determinar si la pertenencia a un grupo afecta a otra variable.
+
+*   **Asociación entre Variables Nominales:** Se utiliza la **Prueba de Independencia Chi-cuadrado ($\chi^2$)**. Esta herramienta evalúa si existe una relación significativa entre dos variables categóricas (ej. si el tipo de diagnóstico está asociado con el género). Compara las frecuencias observadas en cada celda de una tabla de contingencia contra las frecuencias que se esperarían si las variables fueran independientes.
+*   **Comparación de Medias (Grupos sobre Escalas):**
+    *   **Prueba t de Student:** Para comparar las medias de **dos grupos**.
+    *   **ANOVA (Análisis de Varianza):** Para comparar las medias de **tres o más grupos**.
+    *   **Pruebas No Paramétricas:** Se utilizan el test de **Mann-Whitney** o **Wilcoxon** cuando los datos de escala no siguen una distribución normal.
 
 # Referencias {-}
