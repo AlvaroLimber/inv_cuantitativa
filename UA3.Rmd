@@ -355,28 +355,41 @@ La estadística inferencial opera bajo una lógica de toma de decisiones ante la
     *   **Error Tipo II ($\beta$):** Ocurre cuando aceptamos (o no rechazamos) la hipótesis nula siendo esta falsa (un "falso negativo"). Su probabilidad disminuye al aumentar el tamaño de la muestra.
 3.  **El Valor *p* (p-value):** Es la probabilidad de obtener los resultados observados (o unos más extremos) asumiendo que la hipótesis nula es cierta. Si el valor *p* es menor que nuestro nivel $\alpha$ (ej. $p < .05$), concluimos que el resultado es **estadísticamente significativo** y rechazamos la $H_0$.
 
-#### Preguntas Descriptivas
+### Preguntas Descriptivas
 
 Su objetivo es caracterizar variables de manera aislada.
 
 *   **Variables Nominales y Categorías:** Dado que muchas variables en psicología son etiquetas (género, diagnóstico, estado civil), se deben reportar **conteos (frecuencias)** y **porcentajes**. Esto permite ver la distribución proporcional de la muestra.
 *   **Variables de Escala (Intervalo/Razón):** Se utilizan las **Medidas de Tendencia Central** (Media, Mediana) y **Medidas de Variabilidad** (Desviación Estándar, Rango) para describir puntuaciones de tests o tiempos de reacción.
 
+En cuanto a pruebas de hipótesis para estas variables podemos optar por:
+
+- *Variable cualitativa:* Prueba de bondad de ajuste.
+  * $H0:$ La variable sigue una distribución dada
+- *Variable cuantitativa:* Test de medias o proporciones
+  * $H0: \quad \mu=\mu_0$ 
+
 ### Preguntas Correlacionales
 
 Buscan identificar si dos variables cambian conjuntamente.
 
 *   **Puntuaciones Continuas:** Se utiliza el **Coeficiente de Correlación de Pearson ($r$)** para medir la fuerza y dirección de una relación lineal.
+  - $H0:$ Sin correlación
 *   **Datos Ordinales:** Se prefiere el **Coeficiente de Spearman ($\rho$)** cuando los datos son rangos o no cumplen el supuesto de normalidad.
+  - $H0:$ Sin correlación
 
 ### 3. Preguntas Relacionales (Diferencias y Asociación)
 
 Buscan determinar si la pertenencia a un grupo afecta a otra variable.
 
 *   **Asociación entre Variables Nominales:** Se utiliza la **Prueba de Independencia Chi-cuadrado ($\chi^2$)**. Esta herramienta evalúa si existe una relación significativa entre dos variables categóricas (ej. si el tipo de diagnóstico está asociado con el género). Compara las frecuencias observadas en cada celda de una tabla de contingencia contra las frecuencias que se esperarían si las variables fueran independientes.
+  - $H0:$ Independencia
 *   **Comparación de Medias (Grupos sobre Escalas):**
     *   **Prueba t de Student:** Para comparar las medias de **dos grupos**.
+      - $H0:$ Medias iguales
     *   **ANOVA (Análisis de Varianza):** Para comparar las medias de **tres o más grupos**.
+      - $H0:$ Medias iguales
     *   **Pruebas No Paramétricas:** Se utilizan el test de **Mann-Whitney** o **Wilcoxon** cuando los datos de escala no siguen una distribución normal.
+      - $H0:$ Medias iguales
 
 # Referencias {-}

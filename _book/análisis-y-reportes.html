@@ -23,7 +23,7 @@
 <meta name="author" content="MSc. Alvaro Chirino Gutierrez" />
 
 
-<meta name="date" content="2026-05-26" />
+<meta name="date" content="2026-05-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -233,8 +233,9 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="3.8.1" data-path="análisis-y-reportes.html"><a href="análisis-y-reportes.html#advertencias-sobre-el-muestreo-y-la-inferencia"><i class="fa fa-check"></i><b>3.8.1</b> Advertencias sobre el Muestreo y la Inferencia</a></li>
 <li class="chapter" data-level="3.8.2" data-path="análisis-y-reportes.html"><a href="análisis-y-reportes.html#conceptos-centrales-hip%C3%B3tesis-errores-y-valor-p"><i class="fa fa-check"></i><b>3.8.2</b> Conceptos Centrales: Hipótesis, Errores y Valor p</a></li>
-<li class="chapter" data-level="3.8.3" data-path="análisis-y-reportes.html"><a href="análisis-y-reportes.html#preguntas-correlacionales"><i class="fa fa-check"></i><b>3.8.3</b> Preguntas Correlacionales</a></li>
-<li class="chapter" data-level="3.8.4" data-path="análisis-y-reportes.html"><a href="análisis-y-reportes.html#preguntas-relacionales-diferencias-y-asociaci%C3%B3n"><i class="fa fa-check"></i><b>3.8.4</b> 3. Preguntas Relacionales (Diferencias y Asociación)</a></li>
+<li class="chapter" data-level="3.8.3" data-path="análisis-y-reportes.html"><a href="análisis-y-reportes.html#preguntas-descriptivas"><i class="fa fa-check"></i><b>3.8.3</b> Preguntas Descriptivas</a></li>
+<li class="chapter" data-level="3.8.4" data-path="análisis-y-reportes.html"><a href="análisis-y-reportes.html#preguntas-correlacionales"><i class="fa fa-check"></i><b>3.8.4</b> Preguntas Correlacionales</a></li>
+<li class="chapter" data-level="3.8.5" data-path="análisis-y-reportes.html"><a href="análisis-y-reportes.html#preguntas-relacionales-diferencias-y-asociaci%C3%B3n"><i class="fa fa-check"></i><b>3.8.5</b> 3. Preguntas Relacionales (Diferencias y Asociación)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="referencias.html"><a href="referencias.html"><i class="fa fa-check"></i>Referencias</a></li>
@@ -671,33 +672,50 @@ div.csl-indent {
 </ul></li>
 <li><strong>El Valor <em>p</em> (p-value):</strong> Es la probabilidad de obtener los resultados observados (o unos más extremos) asumiendo que la hipótesis nula es cierta. Si el valor <em>p</em> es menor que nuestro nivel <span class="math inline">\(\alpha\)</span> (ej. <span class="math inline">\(p &lt; .05\)</span>), concluimos que el resultado es <strong>estadísticamente significativo</strong> y rechazamos la <span class="math inline">\(H_0\)</span>.</li>
 </ol>
-<div id="preguntas-descriptivas" class="section level4 hasAnchor" number="3.8.2.1">
-<h4><span class="header-section-number">3.8.2.1</span> Preguntas Descriptivas<a href="análisis-y-reportes.html#preguntas-descriptivas" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+</div>
+<div id="preguntas-descriptivas" class="section level3 hasAnchor" number="3.8.3">
+<h3><span class="header-section-number">3.8.3</span> Preguntas Descriptivas<a href="análisis-y-reportes.html#preguntas-descriptivas" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Su objetivo es caracterizar variables de manera aislada.</p>
 <ul>
 <li><strong>Variables Nominales y Categorías:</strong> Dado que muchas variables en psicología son etiquetas (género, diagnóstico, estado civil), se deben reportar <strong>conteos (frecuencias)</strong> y <strong>porcentajes</strong>. Esto permite ver la distribución proporcional de la muestra.</li>
 <li><strong>Variables de Escala (Intervalo/Razón):</strong> Se utilizan las <strong>Medidas de Tendencia Central</strong> (Media, Mediana) y <strong>Medidas de Variabilidad</strong> (Desviación Estándar, Rango) para describir puntuaciones de tests o tiempos de reacción.</li>
 </ul>
+<p>En cuanto a pruebas de hipótesis para estas variables podemos optar por:</p>
+<ul>
+<li><em>Variable cualitativa:</em> Prueba de bondad de ajuste.
+<ul>
+<li><span class="math inline">\(H0:\)</span> La variable sigue una distribución dada</li>
+</ul></li>
+<li><em>Variable cuantitativa:</em> Test de medias o proporciones
+<ul>
+<li><span class="math inline">\(H0: \quad \mu=\mu_0\)</span></li>
+</ul></li>
+</ul>
 </div>
-</div>
-<div id="preguntas-correlacionales" class="section level3 hasAnchor" number="3.8.3">
-<h3><span class="header-section-number">3.8.3</span> Preguntas Correlacionales<a href="análisis-y-reportes.html#preguntas-correlacionales" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="preguntas-correlacionales" class="section level3 hasAnchor" number="3.8.4">
+<h3><span class="header-section-number">3.8.4</span> Preguntas Correlacionales<a href="análisis-y-reportes.html#preguntas-correlacionales" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Buscan identificar si dos variables cambian conjuntamente.</p>
 <ul>
 <li><strong>Puntuaciones Continuas:</strong> Se utiliza el <strong>Coeficiente de Correlación de Pearson (<span class="math inline">\(r\)</span>)</strong> para medir la fuerza y dirección de una relación lineal.</li>
+<li><span class="math inline">\(H0:\)</span> Sin correlación</li>
 <li><strong>Datos Ordinales:</strong> Se prefiere el <strong>Coeficiente de Spearman (<span class="math inline">\(\rho\)</span>)</strong> cuando los datos son rangos o no cumplen el supuesto de normalidad.</li>
+<li><span class="math inline">\(H0:\)</span> Sin correlación</li>
 </ul>
 </div>
-<div id="preguntas-relacionales-diferencias-y-asociación" class="section level3 hasAnchor" number="3.8.4">
-<h3><span class="header-section-number">3.8.4</span> 3. Preguntas Relacionales (Diferencias y Asociación)<a href="análisis-y-reportes.html#preguntas-relacionales-diferencias-y-asociaci%C3%B3n" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="preguntas-relacionales-diferencias-y-asociación" class="section level3 hasAnchor" number="3.8.5">
+<h3><span class="header-section-number">3.8.5</span> 3. Preguntas Relacionales (Diferencias y Asociación)<a href="análisis-y-reportes.html#preguntas-relacionales-diferencias-y-asociaci%C3%B3n" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Buscan determinar si la pertenencia a un grupo afecta a otra variable.</p>
 <ul>
 <li><strong>Asociación entre Variables Nominales:</strong> Se utiliza la <strong>Prueba de Independencia Chi-cuadrado (<span class="math inline">\(\chi^2\)</span>)</strong>. Esta herramienta evalúa si existe una relación significativa entre dos variables categóricas (ej. si el tipo de diagnóstico está asociado con el género). Compara las frecuencias observadas en cada celda de una tabla de contingencia contra las frecuencias que se esperarían si las variables fueran independientes.</li>
+<li><span class="math inline">\(H0:\)</span> Independencia</li>
 <li><strong>Comparación de Medias (Grupos sobre Escalas):</strong>
 <ul>
 <li><strong>Prueba t de Student:</strong> Para comparar las medias de <strong>dos grupos</strong>.</li>
+<li><span class="math inline">\(H0:\)</span> Medias iguales</li>
 <li><strong>ANOVA (Análisis de Varianza):</strong> Para comparar las medias de <strong>tres o más grupos</strong>.</li>
+<li><span class="math inline">\(H0:\)</span> Medias iguales</li>
 <li><strong>Pruebas No Paramétricas:</strong> Se utilizan el test de <strong>Mann-Whitney</strong> o <strong>Wilcoxon</strong> cuando los datos de escala no siguen una distribución normal.</li>
+<li><span class="math inline">\(H0:\)</span> Medias iguales</li>
 </ul></li>
 </ul>
 </div>
