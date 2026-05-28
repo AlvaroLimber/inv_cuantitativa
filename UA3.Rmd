@@ -369,6 +369,13 @@ En cuanto a pruebas de hipótesis para estas variables podemos optar por:
 - *Variable cuantitativa:* Test de medias o proporciones
   * $H0: \quad \mu=\mu_0$ 
 
+Si va a crear puntajes a partir de items de un constructo, recuerde invertir los items inversos. Una formula para ello es:
+
+$$item_{inv}=Max+Min-item$$
+
+
+
+
 ### Preguntas Correlacionales
 
 Buscan identificar si dos variables cambian conjuntamente.
