@@ -366,14 +366,16 @@ En cuanto a pruebas de hipótesis para estas variables podemos optar por:
 
 - *Variable cualitativa:* Prueba de bondad de ajuste.
   * $H0:$ La variable sigue una distribución dada
-- *Variable cuantitativa:* Test de medias o proporciones
+- *Variable cuantitativa:* Test de medias
   * $H0: \quad \mu=\mu_0$ 
 
+::: {.rmdreinforce}
+**Tip**
 Si va a crear puntajes a partir de items de un constructo, recuerde invertir los items inversos. Una formula para ello es:
 
 $$item_{inv}=Max+Min-item$$
 
-
+:::
 
 
 ### Preguntas Correlacionales
@@ -385,7 +387,7 @@ Buscan identificar si dos variables cambian conjuntamente.
 *   **Datos Ordinales:** Se prefiere el **Coeficiente de Spearman ($\rho$)** cuando los datos son rangos o no cumplen el supuesto de normalidad.
   - $H0:$ Sin correlación
 
-### 3. Preguntas Relacionales (Diferencias y Asociación)
+### Preguntas Relacionales (Diferencias y Asociación)
 
 Buscan determinar si la pertenencia a un grupo afecta a otra variable.
 
