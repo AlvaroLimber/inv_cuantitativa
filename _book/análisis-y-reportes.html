@@ -701,27 +701,39 @@ Si va a crear puntajes a partir de items de un constructo, recuerde invertir los
 <h3><span class="header-section-number">3.8.4</span> Preguntas Correlacionales<a href="análisis-y-reportes.html#preguntas-correlacionales" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Buscan identificar si dos variables cambian conjuntamente.</p>
 <ul>
-<li><strong>Puntuaciones Continuas:</strong> Se utiliza el <strong>Coeficiente de Correlación de Pearson (<span class="math inline">\(r\)</span>)</strong> para medir la fuerza y dirección de una relación lineal.</li>
+<li><strong>Puntuaciones Continuas:</strong> Se utiliza el <strong>Coeficiente de Correlación de Pearson (<span class="math inline">\(r\)</span>)</strong> para medir la fuerza y dirección de una relación lineal.
+<ul>
 <li><span class="math inline">\(H0:\)</span> Sin correlación</li>
-<li><strong>Datos Ordinales:</strong> Se prefiere el <strong>Coeficiente de Spearman (<span class="math inline">\(\rho\)</span>)</strong> cuando los datos son rangos o no cumplen el supuesto de normalidad.</li>
+</ul></li>
+<li><strong>Datos Ordinales:</strong> Se prefiere el <strong>Coeficiente de Spearman (<span class="math inline">\(\rho\)</span>)</strong> cuando los datos son rangos o no cumplen el supuesto de normalidad.
+<ul>
 <li><span class="math inline">\(H0:\)</span> Sin correlación</li>
+</ul></li>
 </ul>
 </div>
 <div id="preguntas-relacionales-diferencias-y-asociación" class="section level3 hasAnchor" number="3.8.5">
 <h3><span class="header-section-number">3.8.5</span> Preguntas Relacionales (Diferencias y Asociación)<a href="análisis-y-reportes.html#preguntas-relacionales-diferencias-y-asociaci%C3%B3n" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Buscan determinar si la pertenencia a un grupo afecta a otra variable.</p>
 <ul>
-<li><strong>Asociación entre Variables Nominales:</strong> Se utiliza la <strong>Prueba de Independencia Chi-cuadrado (<span class="math inline">\(\chi^2\)</span>)</strong>. Esta herramienta evalúa si existe una relación significativa entre dos variables categóricas (ej. si el tipo de diagnóstico está asociado con el género). Compara las frecuencias observadas en cada celda de una tabla de contingencia contra las frecuencias que se esperarían si las variables fueran independientes.</li>
+<li><strong>Asociación entre Variables Nominales:</strong> Se utiliza la <strong>Prueba de Independencia Chi-cuadrado (<span class="math inline">\(\chi^2\)</span>)</strong>. Esta herramienta evalúa si existe una relación significativa entre dos variables categóricas (ej. si el tipo de diagnóstico está asociado con el género). Compara las frecuencias observadas en cada celda de una tabla de contingencia contra las frecuencias que se esperarían si las variables fueran independientes.
+<ul>
 <li><span class="math inline">\(H0:\)</span> Independencia</li>
-<li><strong>Comparación de Medias (Grupos sobre Escalas):</strong></li>
+</ul></li>
+<li><strong>Comparación de Medias (Grupos sobre Escalas):</strong>
+<ul>
 <li><strong>Prueba t de Student:</strong> Para comparar las medias de <strong>dos grupos</strong>.
 <ul>
 <li><span class="math inline">\(H0:\)</span> Medias iguales</li>
 </ul></li>
 <li><strong>ANOVA (Análisis de Varianza):</strong> Para comparar las medias de <strong>tres o más grupos</strong>.
-- <span class="math inline">\(H0:\)</span> Medias iguales</li>
+<ul>
+<li><span class="math inline">\(H0:\)</span> Medias iguales</li>
+</ul></li>
 <li><strong>Pruebas No Paramétricas:</strong> Se utilizan el test de <strong>Mann-Whitney</strong> o <strong>Wilcoxon</strong> cuando los datos de escala no siguen una distribución normal.
-- <span class="math inline">\(H0:\)</span> Medias iguales</li>
+<ul>
+<li><span class="math inline">\(H0:\)</span> Medias iguales</li>
+</ul></li>
+</ul></li>
 </ul>
 </div>
 </div>
