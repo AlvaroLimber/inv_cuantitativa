@@ -392,13 +392,13 @@ Buscan identificar si dos variables cambian conjuntamente.
 Buscan determinar si la pertenencia a un grupo afecta a otra variable.
 
 *   **Asociación entre Variables Nominales:** Se utiliza la **Prueba de Independencia Chi-cuadrado ($\chi^2$)**. Esta herramienta evalúa si existe una relación significativa entre dos variables categóricas (ej. si el tipo de diagnóstico está asociado con el género). Compara las frecuencias observadas en cada celda de una tabla de contingencia contra las frecuencias que se esperarían si las variables fueran independientes.
-  - $H0:$ Independencia
+  + $H0:$ Independencia
 *   **Comparación de Medias (Grupos sobre Escalas):**
-    *   **Prueba t de Student:** Para comparar las medias de **dos grupos**.
-      - $H0:$ Medias iguales
-    *   **ANOVA (Análisis de Varianza):** Para comparar las medias de **tres o más grupos**.
-      - $H0:$ Medias iguales
-    *   **Pruebas No Paramétricas:** Se utilizan el test de **Mann-Whitney** o **Wilcoxon** cuando los datos de escala no siguen una distribución normal.
-      - $H0:$ Medias iguales
+  + **Prueba t de Student:** Para comparar las medias de **dos grupos**.
+    - $H0:$ Medias iguales
+  *   **ANOVA (Análisis de Varianza):** Para comparar las medias de **tres o más grupos**.
+    - $H0:$ Medias iguales
+  *   **Pruebas No Paramétricas:** Se utilizan el test de **Mann-Whitney** o **Wilcoxon** cuando los datos de escala no siguen una distribución normal.
+    - $H0:$ Medias iguales
 
 # Referencias {-}
