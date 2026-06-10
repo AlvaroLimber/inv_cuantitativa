@@ -1,0 +1,33 @@
+---
+title: "Recuperatorio: Tercera Unidad de Aprendizaje"
+subtitle: "Investigación Cuantitativa"
+author: "MSc. Alvaro Chirino Gutierrez"
+data: "Junio, 2026"
+output: pdf_document
+---
+# **Material de Trabajo**
+
+* **Base de datos (Excel):** Contiene las respuestas recopiladas de una encuesta.
+* **Cuestionario (PDF):** Documento original con las preguntas realizadas
+
+# **Instrucciones Generales**
+
+A partir de los datos proporcionados, deberá realizar **tres (3) análisis estadísticos diferentes**, eligiendo entre las siguientes herramientas analíticas:
+
+* Prueba de Bondad de Ajuste
+* Prueba de Independencia Chi-cuadrado
+* Diferencia de Medias (Pruebas T)
+* Correlación (Pearson o Spearman)
+
+# **Estructura Requerida para cada Ejercicio**
+
+Para cada una de las tres herramientas estadísticas que elijas, tu respuesta debe incluir de forma obligatoria y ordenada los siguientes tres puntos:
+
+1. **Planteamiento de Hipótesis:** Redacta con precisión la Hipótesis Nula ($H_0$) y la Hipótesis Alternativa ($H_1$) que vas a someter a prueba.
+2. **Tabla de Resultados (JASP):** Inserta la tabla de resultados generada por el software estadístico JASP (puedes copiar y pegar la tabla o usar una captura de pantalla legible).
+3. **Conclusión y Análisis:** Interpreta los resultados obtenidos. Indica explícitamente si rechazas o no la hipótesis nula, el valor *p* ($p\text{-value}$) de referencia, y qué significa este resultado en el contexto del problema y del cuestionario.
+
+# **Criterios de Evaluación**
+
+* **Nota mínima de aprobación:** 60/100 puntos.
+* **Ponderación:** Cada ejercicio completado correctamente tiene un valor de (1/3 de la nota total). Se evaluará la coherencia metodológica en los tres pasos solicitados.
