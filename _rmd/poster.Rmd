@@ -1,0 +1,49 @@
+---
+title: "Guía de Evaluación Final: Póster Estadístico"
+subtitle: "Materia: Investigación Cuantitativa"
+author: "Profesor: Álvaro Chirino Gutierrez"
+data: "Junio, 2026"
+output: pdf_document
+---
+
+- Fecha de entrega: 17 de junio, 23:59
+- Fecha de Defensa: 18 de junio en el horario de clases
+
+## Objetivo del Proyecto
+
+Desarrollar la capacidad de diseñar, ejecutar, analizar e interpretar investigaciones cuantitativas en psicología, aplicando rigurosamente métodos y principios científicos para generar conocimiento confiable y válido. El póster debe sintetizar esta rigurosidad metodológica.
+
+## Instrucciones Generales
+
+* **Grupos:** Equipos de 2 a 5 estudiantes (1 estudiante excepcionalmente).
+* **Entrega:** Archivo final a través del LMS (Moodle) hasta el 17 de junio, 23:59.
+* **Datos:** Utilizar la base de datos propia recolectada durante el semestre. En caso de fuerza mayor, el profesor proveerá un dataset alternativo. Se debe detallar el proceso de muestreo y reflexionar sobre la representatividad.
+
+## Especificaciones Técnicas y de Formato
+
+* **Archivo:** Formato electrónico (pdf), máximo 10 MB, con dimensiones equivalentes a un A1 (841 mm x 594 mm) y márgenes de 3 cm.
+* **Diseño:** Debe ser completamente autónomo (comprensible sin anexos) y garantizar una legibilidad desde 2 metros de distancia.
+* **Estructura Científica:** Progresión lógica estricta: Introducción/Objetivo, Metodología (enfoque), Resultados Principales y Discusión/Conclusiones.
+
+## Contenido Metodológico Requerido
+
+1.  **Planteamiento:** Pregunta de investigación claramente definida.
+2.  **Datos:** Describir los datos empleados, posibles fuentes de variabilidad o error en la recolección y explicar sus limitaciones.
+3.  **Análisis e Interpretación:** Seleccionar gráficos y tablas rigurosos para presentar los resultados clave, acompañados de su título y un comentario analítico. No incluir datos sin procesar.
+4.  **Implicaciones y Limitaciones:** Discutir el significado de los hallazgos, sugerir recomendaciones e identificar explícitamente las limitaciones metodológicas del estudio.
+
+Algunas consideraciones:
+
+- El poster no debe incluir el nombre de los autores
+- El poster debe incluir un título
+- Puede revisar estos ejemplo: https://iase-web.org/islp-poster-competition-2024-2025-prizewinners 
+
+## Rúbrica de Evaluación (100 puntos totales)
+
+| Criterio | Deficiente (0 pts) | Aceptable (10 pts) | Excelente (20 pts) |
+| :--- | :--- | :--- | :--- |
+| **1. Rigor Metodológico y Muestreo** | No hay diseño de investigación claro. Muestra no justificada. | Plantea el método, pero no discute la calidad de los datos o errores. | Excelente justificación del diseño. Discute representatividad, sesgos y limitaciones. |
+| **2. Análisis Cuantitativo y Gráficos** | Gráficos irrelevantes, mal construidos o con análisis estadístico erróneo. | Resultados correctos pero presentación mejorable; faltan títulos o contexto. | Selección impecable de estadísticos. Gráficos rigurosos, comentados y autoexplicativos. |
+| **3. Discusión y Validez del Conocimiento** | Conclusiones no se derivan del estudio empírico. | Conclusiones descriptivas, sin discutir implicaciones en psicología. | Excelente interpretación científica. Analiza implicaciones profundas y hace recomendaciones. |
+| **4. Estructura, Síntesis y Formato** | Satura el espacio con texto/datos brutos. No respeta dimensiones. | Buen diseño general, pero la progresión lógica no es del todo fluida. | Progresión impecable. Atractivo, autónomo, respeta tipografía (legible a 2m) y tamaño. |
+| **5. Defensa y Presentación Oral** | No logra justificar las decisiones metodológicas o analíticas tomadas. | Conoce su investigación, pero la defensa carece de vocabulario técnico preciso. | Defensa brillante y crítica. Responde a cuestionamientos con solidez científica y metodológica. |
