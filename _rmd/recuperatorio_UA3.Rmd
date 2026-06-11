@@ -12,12 +12,14 @@ output: pdf_document
 
 # **Instrucciones Generales**
 
-A partir de los datos proporcionados, deberá realizar **tres (3) análisis estadísticos diferentes**, eligiendo entre las siguientes herramientas analíticas:
+A partir de los datos proporcionados, deberá realizar **tres (3) análisis estadísticos diferentes**, eligiendo entre las siguientes herramientas:
 
 * Prueba de Bondad de Ajuste
 * Prueba de Independencia Chi-cuadrado
 * Diferencia de Medias (Pruebas T)
 * Correlación (Pearson o Spearman)
+
+Se debe enviar un solo archivo en word o pdf que incluya el uso de las tres (3) herramientas con base a los datos adjuntos. 
 
 # **Estructura Requerida para cada Ejercicio**
 

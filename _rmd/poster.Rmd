@@ -7,7 +7,7 @@ output: pdf_document
 ---
 
 - Fecha de entrega: 17 de junio, 23:59
-- Fecha de Defensa: 18 de junio en el horario de clases
+- Fecha de Defensa: 18 y 23 de junio en el horario de clases según sorteo. 10 minutos: 5 de exposición y 5 de preguntas.
 
 ## Objetivo del Proyecto
 
@@ -37,6 +37,11 @@ Algunas consideraciones:
 - El poster no debe incluir el nombre de los autores
 - El poster debe incluir un título
 - Puede revisar estos ejemplo: https://iase-web.org/islp-poster-competition-2024-2025-prizewinners 
+
+La evaluación final tendrá dos componentes:
+
+- Evaluación grupal con base a rúbrica (70%)
+- Examen oral de 2 preguntas individuales sobre conceptos de la materia aplicados a su poster (30%)
 
 ## Rúbrica de Evaluación (100 puntos totales)
 
